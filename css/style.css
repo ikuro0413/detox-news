@@ -1,114 +1,154 @@
-/* 睡眠力ラボ 共通スタイル — 診断ページのトーンを踏襲 */
+/* DetoxNews 共通スタイル — digitaldetox.jp のトンマナを参考（白基調×ゴシック×黄マーカー×黒帯） */
 :root{
-  --bg:#0b0e14; --bg2:#111725; --card:#161d2b; --line:#26304a;
-  --ink:#e9e6dc; --sub:#9aa3b5; --accent:#c8b273; --accent2:#7fa6c4;
-  --bad:#c98a7a; --good:#8bbf9f;
+  --ink:#262626; --ink2:#333232; --sub:#7a7a7a;
+  --bg:#ffffff; --bg-gray:#f4f4f4; --line:#dcdcdc;
+  --accent:#fb8902; --marker:#ffe600;
+  --pill-night:#fb8902; --pill-rhythm:#4a90c4; --pill-type:#6ab04c; --pill-brain:#8e5bb8;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
   background:var(--bg);color:var(--ink);
-  font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
-  line-height:1.9;letter-spacing:.04em;font-size:16px;
+  font-family:"游ゴシック","Yu Gothic Medium","游ゴシック体",YuGothic,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+  line-height:2;letter-spacing:.06em;font-size:15.5px;
 }
-a{color:var(--accent2);text-decoration:none}
-a:hover{opacity:.85}
+a{color:var(--ink);text-decoration:none}
+a:hover{opacity:.75}
 img{max-width:100%}
 
 /* ヘッダー */
 .site-header{
-  border-bottom:1px solid var(--line);background:var(--bg2);
-  padding:14px 20px;display:flex;align-items:center;justify-content:space-between;
+  background:#fff;border-bottom:1px solid var(--line);
+  padding:18px 24px;display:flex;align-items:center;justify-content:space-between;
   position:sticky;top:0;z-index:10;
 }
-.site-logo{font-size:19px;letter-spacing:.14em;color:var(--ink);font-weight:600}
-.site-logo .lab{color:var(--accent);font-size:14px;margin-left:2px}
+.site-logo{font-size:22px;font-weight:700;letter-spacing:.08em;color:var(--ink)}
+.site-logo .accent{color:var(--accent)}
+.site-logo .sub{display:block;font-size:10px;font-weight:400;letter-spacing:.3em;color:var(--sub)}
 .header-cta{
-  background:var(--accent);color:#0b1410;font-weight:600;font-size:13px;
-  padding:8px 16px;border-radius:8px;letter-spacing:.06em;
+  border:1px solid var(--ink);border-radius:999px;background:#fff;
+  color:var(--ink);font-size:13px;font-weight:700;padding:9px 20px;letter-spacing:.06em;
 }
-.header-cta:hover{opacity:.9}
+.header-cta:hover{background:var(--ink);color:#fff;opacity:1}
 
-.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+/* パンくず */
+.breadcrumb{
+  background:var(--bg-gray);color:var(--sub);font-size:12px;
+  padding:10px 24px;letter-spacing:.08em;
+}
+.breadcrumb a{color:var(--sub);text-decoration:underline}
 
-/* ヒーロー */
-.hero{padding:64px 0 48px;text-align:center;background:linear-gradient(180deg,var(--bg2),var(--bg))}
-.hero h1{font-size:26px;letter-spacing:.1em;line-height:1.7;font-weight:600}
-.hero h1 .gold{color:var(--accent)}
-.hero p.lead{color:var(--sub);margin-top:18px;font-size:15px}
-.hero .stars{color:var(--accent);letter-spacing:.5em;font-size:12px;margin-bottom:18px}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
 
-/* セクション */
-section{padding:44px 0}
+/* ヒーロー（トップ） */
+.hero{padding:64px 0 48px;text-align:center}
+.hero h1{font-size:30px;font-weight:700;letter-spacing:.1em;line-height:1.8;color:var(--ink2)}
+.hero h1 .mk{background:linear-gradient(transparent 62%,var(--marker) 62%)}
+.hero p.lead{color:var(--sub);margin-top:16px;font-size:14px;letter-spacing:.08em}
+
+/* セクション見出し: 黄マーカー下線型 */
 h2.sec{
-  font-size:20px;letter-spacing:.12em;margin-bottom:26px;
-  padding-left:14px;border-left:3px solid var(--accent);font-weight:600;
+  display:inline-block;font-size:21px;font-weight:700;letter-spacing:.12em;color:var(--ink2);
+  background:linear-gradient(transparent 68%,var(--marker) 68%);
+  padding:0 6px 2px;margin-bottom:28px;
+}
+section{padding:44px 0}
+section.gray{
+  background:var(--bg-gray);
+  clip-path:polygon(0 3%,100% 0,100% 97%,0 100%);
+  padding:72px 0;
 }
 
 /* 記事カード */
-.card-list{display:grid;gap:16px}
+.card-list{display:grid;gap:18px}
 .card{
-  background:var(--card);border:1px solid var(--line);border-radius:12px;
-  padding:22px 24px;display:block;color:var(--ink);transition:border-color .15s;
+  background:#fff;border:1px solid var(--line);
+  padding:24px 26px;display:block;color:var(--ink);transition:box-shadow .15s;
 }
-.card:hover{border-color:var(--accent);opacity:1}
-.card .tag{font-size:11px;color:var(--accent);letter-spacing:.1em;margin-bottom:6px;display:block}
-.card h3{font-size:16.5px;line-height:1.7;font-weight:600}
-.card p{color:var(--sub);font-size:13.5px;margin-top:8px}
+.card:hover{box-shadow:0 4px 14px rgba(0,0,0,.08);opacity:1}
+.pill{
+  display:inline-block;color:#fff;font-size:11px;font-weight:700;letter-spacing:.1em;
+  padding:3px 12px;border-radius:999px;margin-bottom:10px;
+}
+.pill.night{background:var(--pill-night)}
+.pill.rhythm{background:var(--pill-rhythm)}
+.pill.type{background:var(--pill-type)}
+.pill.brain{background:var(--pill-brain)}
+.pill.ai{background:#2b7a78}
+.pill.soon{background:#b5b5b5}
+
+/* 記事内画像 */
+.article-hero{margin:26px 0}
+.article-hero img{display:block;width:100%;border:1px solid var(--line)}
+figure.illust{margin:26px 0}
+figure.illust img{display:block;width:100%;border:1px solid var(--line)}
+figure.illust figcaption{color:var(--sub);font-size:12px;margin-top:8px;text-align:center;letter-spacing:.08em}
+.hero-visual{max-width:860px;margin:0 auto 8px;padding:0 24px}
+.hero-visual img{display:block;width:100%}
+.card h3{font-size:16.5px;line-height:1.8;font-weight:700;color:var(--ink2)}
+.card p{color:var(--sub);font-size:13px;margin-top:8px;line-height:1.8}
 .card.soon{opacity:.55;pointer-events:none}
 
 /* 9領域グリッド */
-.dom-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.dom-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .dom{
-  background:var(--card);border:1px solid var(--line);border-radius:10px;
-  padding:16px 12px;text-align:center;font-size:13px;line-height:1.6;color:var(--ink);
+  background:#fff;border:1px solid var(--line);
+  padding:18px 12px;text-align:center;font-size:13px;line-height:1.7;font-weight:700;color:var(--ink2);
 }
-.dom .num{display:block;color:var(--accent);font-size:11px;letter-spacing:.15em;margin-bottom:4px}
-@media(max-width:560px){.dom-grid{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:21px}}
+.dom .num{display:block;color:var(--accent);font-size:11px;letter-spacing:.2em;font-weight:700;margin-bottom:4px}
+@media(max-width:560px){.dom-grid{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:22px}}
 
-/* 診断CTAブロック */
+/* 診断CTA: 淡色横長バナー型 */
 .cta-block{
-  background:linear-gradient(160deg,#141b2c,#0f1522);border:1px solid var(--accent);
-  border-radius:14px;padding:34px 28px;text-align:center;margin:8px 0;
+  background:#e3e9f2;padding:36px 30px;text-align:center;margin:8px 0;
 }
-.cta-block .small{color:var(--sub);font-size:13px;letter-spacing:.08em}
-.cta-block h3{font-size:19px;margin:10px 0 6px;letter-spacing:.08em;font-weight:600}
-.cta-block p{color:var(--sub);font-size:13.5px;margin-bottom:20px}
+.cta-block .small{color:var(--ink2);font-size:13px;font-weight:700;letter-spacing:.1em}
+.cta-block h3{font-size:20px;font-weight:700;margin:10px 0 8px;letter-spacing:.1em;color:var(--ink2)}
+.cta-block p{color:var(--ink);font-size:13.5px;margin-bottom:22px}
 .cta-btn{
-  display:inline-block;background:var(--accent);color:#0b1410;font-weight:700;
-  font-size:15px;padding:14px 40px;border-radius:10px;letter-spacing:.08em;
+  display:inline-block;background:var(--ink);color:#fff;font-weight:700;
+  font-size:14.5px;padding:14px 44px;border-radius:6px;letter-spacing:.1em;
 }
-.cta-btn:hover{opacity:.9}
+.cta-btn::after{content:"　▶";font-size:10px}
+.cta-btn:hover{background:#000;opacity:1}
 .cta-note{color:var(--sub);font-size:11.5px;margin-top:12px}
 
 /* 記事本文 */
 .article-head{padding:48px 0 8px}
-.article-head .tag{color:var(--accent);font-size:12px;letter-spacing:.12em}
-.article-head h1{font-size:23px;line-height:1.75;margin-top:10px;font-weight:600}
+.article-head h1{font-size:24px;line-height:1.9;font-weight:700;margin-top:12px;color:var(--ink2)}
 .article-head .meta{color:var(--sub);font-size:12.5px;margin-top:12px}
 article{padding-bottom:20px}
 article h2{
-  font-size:18.5px;margin:44px 0 18px;padding:10px 14px;
-  background:var(--card);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;
-  letter-spacing:.06em;font-weight:600;line-height:1.6;
+  display:table;font-size:19px;font-weight:700;letter-spacing:.08em;line-height:1.7;
+  background:var(--ink);color:#fff;padding:8px 18px;margin:48px 0 22px;
 }
-article h3{font-size:16px;margin:30px 0 12px;color:var(--accent);font-weight:600}
-article p{margin-bottom:18px}
-article ul,article ol{margin:0 0 18px 24px}
+article h3{
+  display:inline-block;font-size:16.5px;font-weight:700;margin:32px 0 14px;color:var(--ink2);
+  background:linear-gradient(transparent 68%,var(--marker) 68%);padding:0 4px 2px;
+}
+article p{margin-bottom:20px}
+article ul,article ol{margin:0 0 20px 26px}
 article li{margin-bottom:8px}
-article b{color:var(--accent)}
+article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-weight:700;padding:0 2px}
+
+/* 囲みボックス（細枠＋角ライン風） */
 .point{
-  background:var(--card);border:1px solid var(--line);border-radius:10px;
-  padding:18px 20px;margin:22px 0;font-size:14.5px;
+  position:relative;border:1px solid var(--line);
+  padding:22px 24px;margin:26px 0;font-size:14.5px;background:#fff;line-height:1.9;
 }
-.point .pt{color:var(--accent);font-size:12px;letter-spacing:.15em;display:block;margin-bottom:6px}
+.point::before{
+  content:"";position:absolute;top:-1px;left:24px;right:24px;height:1px;background:#fff;
+}
+.point .pt{
+  position:absolute;top:-12px;left:36px;background:#fff;padding:0 10px;
+  color:var(--ink2);font-size:12px;font-weight:700;letter-spacing:.2em;
+}
 
 /* フッター */
 .site-footer{
-  border-top:1px solid var(--line);background:var(--bg2);
-  padding:32px 20px;text-align:center;color:var(--sub);font-size:12px;margin-top:40px;
+  background:var(--ink);color:#fff;
+  padding:36px 24px;text-align:center;font-size:12px;letter-spacing:.08em;margin-top:56px;
 }
-.site-footer .links{margin-bottom:12px}
-.site-footer .links a{margin:0 10px;color:var(--sub)}
-.breadcrumb{color:var(--sub);font-size:12px;padding-top:20px}
-.breadcrumb a{color:var(--sub)}
+.site-footer .links{margin-bottom:14px}
+.site-footer .links a{margin:0 12px;color:#fff;text-decoration:underline}
+.site-footer .copy{color:#aaa}
