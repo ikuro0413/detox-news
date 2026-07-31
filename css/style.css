@@ -75,6 +75,13 @@ section.gray{
 .pill.type{background:var(--pill-type)}
 .pill.brain{background:var(--pill-brain)}
 .pill.ai{background:#2b7a78}
+.pill.science{background:#3d5a80}
+.pill.goods{background:#c0563a}
+
+/* 参考リンク */
+.refs{border-top:1px solid var(--line);margin-top:32px;padding-top:14px;font-size:12.5px;color:var(--sub)}
+.refs .t{font-weight:700;letter-spacing:.1em;margin-bottom:6px}
+.refs a{color:var(--sub);text-decoration:underline;word-break:break-all}
 .pill.soon{background:#b5b5b5}
 
 /* 記事内画像 */
@@ -96,7 +103,15 @@ figure.illust figcaption{color:var(--sub);font-size:12px;margin-top:8px;text-ali
   padding:18px 12px;text-align:center;font-size:13px;line-height:1.7;font-weight:700;color:var(--ink2);
 }
 .dom .num{display:block;color:var(--accent);font-size:11px;letter-spacing:.2em;font-weight:700;margin-bottom:4px}
-@media(max-width:560px){.dom-grid{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:22px}}
+/* モバイル改行制御: .br-sp=スマホのみ改行 / .br-pc=PCのみ改行 */
+.br-sp{display:none}
+@media(max-width:560px){
+  .dom-grid{grid-template-columns:repeat(2,1fr)}
+  .hero h1{font-size:21px;letter-spacing:.05em;line-height:1.9}
+  .hero p.lead{font-size:13px;letter-spacing:.04em}
+  .br-sp{display:inline}
+  .br-pc{display:none}
+}
 
 /* 診断CTA: 淡色横長バナー型 */
 .cta-block{
