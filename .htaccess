@@ -1,0 +1,5 @@
+# デプロイツール（FTP-Deploy-Action）が同期管理に使う状態ファイルを公開しない。
+# 中身はファイル名とハッシュの一覧で、機密ではないがサイト構成が丸見えになるため塞ぐ。
+<Files ".ftp-deploy-sync-state.json">
+  Require all denied
+</Files>
