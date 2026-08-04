@@ -172,3 +172,21 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
 .site-footer .links{margin-bottom:14px}
 .site-footer .links a{margin:0 12px;color:#fff;text-decoration:underline}
 .site-footer .copy{color:#aaa}
+
+/* カテゴリナビ */
+.cat-nav{background:#fff;border-bottom:1px solid var(--line);overflow-x:auto;-webkit-overflow-scrolling:touch}
+.cat-nav-in{display:flex;gap:4px;max-width:860px;margin:0 auto;padding:8px 16px;white-space:nowrap}
+.cat-nav a{font-size:12px;color:var(--ink2);padding:4px 12px;border-radius:999px;letter-spacing:.06em;flex:0 0 auto}
+.cat-nav a:hover{background:var(--bg-gray);opacity:1}
+.cat-nav a.on{background:var(--ink);color:#fff}
+
+/* カード日付 */
+.card-date{color:var(--sub);font-size:11.5px;letter-spacing:.08em;margin-left:10px}
+
+/* 月別アーカイブ */
+.arch-month{margin-bottom:14px}
+.arch-list{list-style:none;margin:0 0 8px;padding:0}
+.arch-list li{border-bottom:1px solid var(--line);padding:14px 2px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.arch-list .d{color:var(--sub);font-size:12px;letter-spacing:.08em;flex:0 0 auto}
+.arch-list .pill{margin-bottom:0}
+.arch-list a{font-weight:700;font-size:14.5px;line-height:1.8}
