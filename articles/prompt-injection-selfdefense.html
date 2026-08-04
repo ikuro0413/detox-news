@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LDNYH8ZKGD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LDNYH8ZKGD');
+</script>
+<title>AIに勝手に動かれないために — 個人が今日からできる7つの自衛策｜DetoxNews</title>
+<meta name="description" content="プロンプトインジェクションから身を守るのに専門知識は要らない。AIに与える権限を絞る、確認プロセスを外さない、機密情報を近づけない——個人が今日から実践できる7つの自衛策を、優先度つきで解説します。">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="../index.html" class="site-logo">Detox<span class="accent">News</span><span class="sub">DIGITAL WELLNESS ＆ SLEEP</span></a>
+  <a class="header-cta" href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">無料で睡眠力を診断</a>
+</header>
+
+<div class="breadcrumb"><a href="../index.html">DetoxNews</a>　＞　AIとの付き合い方</div>
+
+<main class="wrap">
+
+<div class="article-head">
+  <span class="pill ai">AIとの付き合い方</span>
+  <h1>AIに勝手に動かれないために — 個人が今日からできる7つの自衛策</h1>
+  <div class="meta">DetoxNews編集部　/　2026年8月時点の情報</div>
+</div>
+
+<div class="article-hero">
+  <img src="../img/pi-defense.jpg" alt="人間が手をかざしてバリアを張り、外から飛んでくる不審な命令の矢印を関所で止めて、奥のAIロボットを守っているイラスト">
+</div>
+
+<article>
+
+<p><a href="prompt-injection-basics.html">仕組み</a>と<a href="prompt-injection-cases.html">手口</a>を見てきました。最後は、いちばん知りたいところ。<b>自分は何をすればいいのか</b>です。</p>
+
+<p>先に結論を言います。プロンプトインジェクションは作る側でも完全には防げていない問題ですが、<b>被害の大きさは利用者側の設定と習慣で大きく変わります</b>。攻撃を100%止めることはできなくても、当たっても痛くない状態は作れる。ここでは専門知識のいらない7つを、優先度の高い順に並べました。</p>
+
+<div class="point">
+  <span class="pt">POINT</span>
+  守りの発想は「攻撃を防ぐ」より「権限を絞る」。AIにできることが少なければ、偽の命令に従っても実害は小さい。上の3つだけでも被害の大半は防げる。
+</div>
+
+<h2>① AIに与える権限を、必要な分だけにする【最重要】</h2>
+
+<p>これが全体の8割です。<b>プロンプトインジェクションの被害は、AIに与えた権限の範囲を超えません。</b>読んで答えるだけのAIは、偽の命令に従っても文章を返すだけ。しかしメール送信・ファイル削除・決済の権限を持つAIは、その命令を実行に移せてしまう。</p>
+
+<p>「便利だから」と何でも連携させる前に、<b>本当にその権限が必要かを一度止まって考える</b>。使わない連携は切る。とくに<b>お金・メール送信・ファイル削除</b>に触れる権限は、与える相手を厳しく選ぶ。ここを絞るだけで、最悪の被害はほぼ消えます。</p>
+
+<h2>② 「確認なしの自動実行」を安易に許可しない【最重要】</h2>
+
+<p>AIが操作の前に「これを実行していいですか？」と聞いてくる確認プロセスは、面倒に感じても<b>最後の安全装置</b>です。攻撃者が真っ先に外そうとするのがここだ、というのは<a href="prompt-injection-cases.html">手口の記事</a>で見たとおりです。</p>
+
+<p>「毎回確認されるのが煩わしい」と全自動モードにした瞬間、その安全装置は無効になります。<b>取り返しのつく操作（下書きの作成など）は自動でよくても、取り返しのつかない操作（送信・送金・削除）は必ず人間が最終ボタンを押す</b>。この線引きを、自分のルールとして持っておきます。</p>
+
+<h2>③ 機密情報を、AIの作業場に置かない【最重要】</h2>
+
+<p>盗まれて困るものが、そもそもAIの手の届く場所になければ、盗みようがありません。</p>
+
+<ul>
+<li>パスワードやAPIキーを、AIが読めるファイルやチャットに<b>べた書きしない</b></li>
+<li>クレジットカード番号・マイナンバー・口座情報を、AIとのやり取りに<b>貼らない</b></li>
+<li>「このファイルを整理して」と渡すフォルダに、無関係な機密ファイルを<b>混ぜておかない</b></li>
+</ul>
+
+<p>AIに手伝ってもらう作業場と、大事なものをしまう金庫を、物理的に分ける発想です。</p>
+
+<h2>④ 出どころの怪しいものを、AIに読ませない</h2>
+
+<p>間接プロンプトインジェクションは、AIが読んだものから始まります。ということは、<b>読ませるものを選べば入口を塞げます</b>。</p>
+
+<p>見知らぬ相手からのメール、怪しいWebページ、出所の不明なファイルや画像を、安易にAIへ「要約して」「読んで」と渡さない。とくに<b>「このページの指示どおりに操作して」といった、AIに主導権を渡す使い方</b>は、信頼できる相手のものだけに絞ります。人間なら開かない添付ファイルは、AIにも開かせない。</p>
+
+<h2>⑤ AIの「報告」を鵜呑みにしない</h2>
+
+<p>AIは「攻撃を検出しました」と<b>ありもしない話をでっち上げる</b>ことがあります（<a href="prompt-injection-cases.html">前記事</a>参照）。逆に、危険な操作を「問題ありません」と請け合うこともあります。</p>
+
+<p>AIの自己申告は、事実確認の代わりにはなりません。<b>大事な操作の前後では、AIの言葉ではなく実際の結果を自分の目で確かめる</b>。送信履歴、ファイルの状態、変更点。この一手間が、AIの思い込みも攻撃も同時に受け止めます。</p>
+
+<h2>⑥ 実行結果が見えるようにしておく</h2>
+
+<p>AIが何をしたか後から追えるようにしておくと、被害に早く気づけます。送信したメールは送信済みフォルダに残す、操作ログを残す設定にする、といった「足あとが残る」状態にしておく。</p>
+
+<p>万一おかしな操作をされても、<b>気づくのが早ければ被害は小さくて済みます</b>。カード会社への連絡、パスワード変更、送信の取り消し——初動の速さがすべてです。</p>
+
+<h2>⑦ 提供元の更新を、面倒がらず適用する</h2>
+
+<p>AIツールの提供側も、防御を日々強化しています。自動化した攻撃テストと学習を組み合わせて穴を塞ぐ取り組みが、各社で続いています。その成果は<b>アップデートの形で届きます</b>。</p>
+
+<p>「完全には防げない」問題だからこそ、少しでも守りの厚いバージョンを使う意味があります。更新通知を後回しにしない。これは手間ゼロでできる、地味に効く一手です。</p>
+
+<h2>まとめ：怖がるためではなく、使い続けるために</h2>
+
+<p>7つを一度に完璧にやる必要はありません。<b>上の3つ——権限を絞る・自動実行を許さない・機密を近づけない——だけで、被害の大部分は防げます</b>。残りは、余力があれば足していく習慣です。</p>
+
+<p>プロンプトインジェクションは、AIが便利になった代償として生まれたリスクです。裏を返せば、リスクを理解して線を引ける人は、AIの便利さを<b>安心して使い倒せる</b>ということでもあります。怖がって遠ざけるのでも、無警戒に任せきるのでもなく、その間に立つ。それが、これからのAIとの付き合い方の基本になります。</p>
+
+<div class="refs">
+  <div class="t">参考</div>
+  <a href="https://atmarkit.itmedia.co.jp/ait/articles/2604/05/news007.html" target="_blank" rel="noopener">＠IT: ChatGPTやClaudeが知らぬ間に操られる「間接的プロンプトインジェクション」の脅威</a><br>
+  <a href="https://www.itmedia.co.jp/news/articles/2512/23/news067.html" target="_blank" rel="noopener">ITmedia NEWS: 「ChatGPT Atlas」のインジェクション対策について説明 「完全に解決されることはまずない」</a><br>
+  <a href="https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news041.html" target="_blank" rel="noopener">＠IT: Claude暴走、企業に侵入 AnthropicとOpenAIの事例から学ぶ3つの教訓</a>
+</div>
+
+</article>
+
+<section>
+  <div class="cta-block">
+    <span class="small">＼ 自分のデジタル習慣のクセを知る ／</span>
+    <h3>現代を生きる"睡眠力"診断</h3>
+    <p>9つの行動領域から、あなたのデジタル習慣のクセをAIが分析。<br>1〜3分で終わります。</p>
+    <a class="cta-btn" href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">無料で診断してみる</a>
+    <div class="cta-note">登録不要・スマホでそのまま受けられます</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="sec">あわせて読む</h2>
+  <div class="card-list">
+    <a class="card" href="prompt-injection-basics.html">
+      <span class="pill ai">AIとの付き合い方</span>
+      <h3>プロンプトインジェクションとは何か — AIが「他人の指示」で勝手に動く仕組みを、たとえ話で理解する</h3>
+    </a>
+    <a class="card" href="prompt-injection-cases.html">
+      <span class="pill ai">AIとの付き合い方</span>
+      <h3>「決済情報を読んで送金しろ」——AIに仕込まれる命令の実例と、狙われる5つのもの</h3>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="links">
+    <a href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">睡眠力診断</a>
+    <a href="../about.html">運営者情報</a>
+  </div>
+  <div class="copy">© TOKI — DetoxNews</div>
+</footer>
+
+</body>
+</html>
