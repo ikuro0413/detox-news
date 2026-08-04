@@ -1,0 +1,42 @@
+# DetoxNews を Xサーバーの本番へ FTP で同期する。
+# prod-assets ブランチに push すると走る。手動実行も可。
+#
+# 【重要】public_html の直下には診断サイトのドキュメントルート
+# shindan.rentalloungeomiya.com/ が同居している。ここを絶対に触らせないため
+# exclude に入れてある。外すと診断サイトごと消える危険があるので外さないこと。
+
+name: Deploy to Xserver
+
+on:
+  push:
+    branches: [prod-assets]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-xserver
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: FTP deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.XSERVER_FTP_HOST }}
+          username: ${{ secrets.XSERVER_FTP_USER }}
+          password: ${{ secrets.XSERVER_FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ./
+          server-dir: /rentalloungeomiya.com/public_html/
+          # 差分同期。初回は .ftp-deploy-sync-state.json が無いので全ファイルを上げる
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/node_modules/**
+            **/*.md
+            shindan.rentalloungeomiya.com/**
