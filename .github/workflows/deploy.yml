@@ -31,7 +31,9 @@ jobs:
           protocol: ftps
           port: 21
           local-dir: ./
-          server-dir: /rentalloungeomiya.com/public_html/
+          # deploy@rentalloungeomiya.com は接続先が public_html に固定されているので
+          # ログイン地点がそのまま公開ディレクトリになる
+          server-dir: ./
           # 差分同期。初回は .ftp-deploy-sync-state.json が無いので全ファイルを上げる
           exclude: |
             **/.git*
