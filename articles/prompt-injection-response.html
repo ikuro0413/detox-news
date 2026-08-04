@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LDNYH8ZKGD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LDNYH8ZKGD');
+</script>
+<title>プロンプトインジェクションかも、と思ったら — 確証がなくてもやるべき初動と「ゼロに戻す」手順｜DetoxNews</title>
+<meta name="description" content="AIが頼んでいない動作をした、見覚えのない実行履歴がある——「かも」の段階でやるべきことを順番に整理。止める・切る・確かめる・鍵を替える・疑わしいものを捨てる・ゼロから入れ直す。個人でできる初動対応のすべてをまとめました。">
+<link rel="stylesheet" href="../css/style.css?v=20260805">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="../index.html" class="site-logo">Detox<span class="accent">News</span><span class="sub">DIGITAL WELLNESS ＆ SLEEP</span></a>
+  <a class="header-cta" href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">無料で睡眠力を診断</a>
+</header>
+
+<nav class="cat-nav"><div class="cat-nav-in">
+  <a href="../index.html">新着</a>
+  <a href="../category/ai.html">AIとの付き合い方</a>
+  <a href="../category/science.html">睡眠科学</a>
+  <a href="../category/goods.html">睡眠グッズ</a>
+  <a href="../category/gadget.html">ガジェットニュース</a>
+  <a href="../category/brain.html">脳と集中</a>
+  <a href="../category/rhythm.html">生活リズム</a>
+  <a href="../category/night.html">夜の行動</a>
+  <a href="../archive.html">月別アーカイブ</a>
+</div></nav>
+
+<div class="breadcrumb"><a href="../index.html">DetoxNews</a>　＞　AIとの付き合い方</div>
+
+<main class="wrap">
+
+<div class="article-head">
+  <span class="pill ai">AIとの付き合い方</span>
+  <h1>プロンプトインジェクションかも、と思ったら — 確証がなくてもやるべき初動と「ゼロに戻す」手順</h1>
+  <div class="meta">DetoxNews編集部　/　2026.08.05 公開</div>
+</div>
+
+<article>
+
+<p><a href="prompt-injection-basics.html">仕組み</a>、<a href="prompt-injection-cases.html">手口</a>、<a href="prompt-injection-selfdefense.html">予防策</a>と見てきました。この記事はその先——<b>実際に「やられたかも」と思った瞬間に、何をどの順番でやるか</b>の話です。</p>
+
+<p>頼んでいない操作を提案してきた。見覚えのない実行履歴がある。急に確認を省略したがる。出力に、自分が書いた覚えのない指示文が混ざっている。こうした違和感に気づいたとき、多くの人が最初にやってしまうのが「原因探し」です。しかし初動でいちばん大事なのは、犯人捜しではありません。</p>
+
+<div class="point">
+  <span class="pt">POINT</span>
+  合言葉は「疑わしきは止める」。確証を待たない、原因の特定を優先しない。まず被害の拡大を止め、確かめ、鍵を替え、疑わしいものを捨てる。特定できなければ全部捨ててクリーンに戻すのが、結局いちばん早い。
+</div>
+
+<h2>なぜ「確証を待たない」のか</h2>
+
+<p>プロンプトインジェクションの厄介なところは、<b>攻撃されたという確証がほぼ得られない</b>ことです。命令はAIが読んだWebページやファイルの中に紛れていて、後から探しても見つからないことが多い。AI自身に「何かおかしなことをした？」と聞いても、<a href="prompt-injection-cases.html">前の記事</a>で見たとおり、AIは事実と違う報告を平気でします。</p>
+
+<p>つまり「本当に攻撃だったのか」を突き止めてから動こうとすると、<b>その間ずっとAIは同じ権限を持ったまま動き続けます</b>。疑いの段階で動く。空振りだったら、それでいい。この割り切りが初動のすべてです。</p>
+
+<h2>STEP1：まず止める</h2>
+
+<p>実行中の操作があれば止める。承認を求めるダイアログが出ていても<b>押さない</b>。作業の途中でも、タブやアプリをそのまま閉じてかまいません。</p>
+
+<p>「作業が中断してもったいない」と感じるかもしれませんが、AIとの作業は途中で止めても後から再開できます。<b>止めて失うものは時間だけ。止めずに失うものは、お金や情報です。</b></p>
+
+<h2>STEP2：つながりを切る</h2>
+
+<p>次に、AIが「実行できること」を減らします。</p>
+
+<ul>
+<li><b>自動実行モードをオフにする</b>——確認なしで動ける状態を、まず解除する</li>
+<li><b>外部連携を一時停止する</b>——メール・カレンダー・ファイル・決済など、AIに接続したサービスを設定画面から切る</li>
+<li>ブラウザ拡張型のAIなら、<b>拡張機能そのものを無効化する</b></li>
+</ul>
+
+<p>権限を絞れば、たとえ偽の命令が残っていても実行に移せません。<a href="prompt-injection-selfdefense.html">予防策の記事</a>で「権限を絞るのが8割」と書きましたが、事後対応でも同じことが最初の一手になります。</p>
+
+<h2>STEP3：何をされたかを確かめる</h2>
+
+<p>AIの言葉ではなく、<b>実際の痕跡</b>を自分の目で見ます。</p>
+
+<ul>
+<li>メールの<b>送信済みフォルダ</b>——出した覚えのないメールがないか</li>
+<li>AIツールの<b>実行履歴・操作ログ</b>——見覚えのない操作がないか</li>
+<li><b>ファイルの変更・削除</b>——作業フォルダに不審な変化がないか</li>
+<li><b>決済・購入履歴</b>——カードやアカウントに覚えのない動きがないか</li>
+</ul>
+
+<p>ここで何か見つかったら、次のSTEP4が「念のため」から「必須」に変わります。何も見つからなくても、確認したという事実が後の安心につながります。</p>
+
+<h2>STEP4：鍵を替える</h2>
+
+<p>AIが触れた可能性のあるパスワード・APIキー・アクセストークンを入れ替えます。「触れたかどうか分からない」ものは、<b>触れたものとして扱う</b>のが原則です。</p>
+
+<p>実害——送金された、メールを送られた、情報が外に出た——が確認できた場合は、個人の対処と並行して窓口に連絡します。カードならカード会社、サービスのアカウントならそのサービスのサポート窓口。<b>初動が早いほど、取り消せるものが多い</b>のはどのトラブルでも同じです。</p>
+
+<h2>STEP5：疑わしい持ち込み品を捨てる</h2>
+
+<p>攻撃は、AIが「読んだもの」から始まります（<a href="prompt-injection-basics.html">仕組みの記事</a>参照）。ということは、<b>AIに読ませたもの・組み込んだものの中に発火点がある</b>可能性が高い。</p>
+
+<p>最近入れた設定ファイル、Webで配布されていたスキルやテンプレート、拾ってきたプロンプト集、読み込ませた文書。心当たりを削除します。そしてここが肝心なところですが——<b>どれが原因か特定できないなら、全部捨てる</b>。</p>
+
+<div class="point">
+  <span class="pt">編集部の実例</span>
+  編集部でも実際に不審な挙動に気づいたことがあります。原因の切り分けをいろいろ試しましたが特定しきれず、最終的にWeb由来の設定ファイルやスキルをすべて削除し、アプリごとアンインストールして入れ直しました。振り返ると、切り分けに使った時間より「全部捨ててクリーンに戻す」判断のほうがずっと早かった。設定は、必要になったらまた足せばいいのです。
+</div>
+
+<p>「せっかく集めた設定がもったいない」という気持ちは分かります。しかし出所の怪しい設定を残したままでは、疑いは消えません。<b>疑いを残して使い続けるコストのほうが、入れ直す手間より高くつきます</b>。</p>
+
+<h2>STEP6：ゼロから入れ直す</h2>
+
+<p>疑いが晴れないときの最終手段は、シンプルです。<b>アンインストールして、入れ直す</b>。</p>
+
+<p>再インストール後は、以前の環境を丸ごと復元しないこと。<b>必要になったものだけを、出所を確認しながら1つずつ戻します</b>。全部戻したくなるはずですが、実際に使うものは案外少ないことに気づくはずです。クリーンな状態は、それ自体が価値です。</p>
+
+<h2>再開する前のチェックリスト</h2>
+
+<p>環境を作り直したら、<a href="prompt-injection-selfdefense.html">予防策の記事</a>で挙げた線引きを最初から組み込みます。</p>
+
+<ul>
+<li>権限は<b>必要な分だけ</b>与える（お金・送信・削除は特に厳しく）</li>
+<li><b>確認なしの自動実行</b>を初期設定にしない</li>
+<li>機密情報を<b>AIの作業場に置かない</b></li>
+<li>出所の不明なスキル・設定・プロンプト集を<b>入れない</b></li>
+</ul>
+
+<h2>まとめ：撤退線を持っている人が、いちばん自由に使える</h2>
+
+<p>プロンプトインジェクションは、確証が得られないまま疑いだけが残る、気持ちの悪いトラブルです。だからこそ「疑ったらここまでやる、ダメなら全部捨てて入れ直す」という<b>撤退線をあらかじめ決めておく</b>ことに意味があります。</p>
+
+<p>いつでもゼロに戻せると分かっている人は、AIを怖がる必要がありません。止める・切る・確かめる・鍵を替える・捨てる・入れ直す。この6つを頭の片隅に置いておくことが、AIを安心して使い倒すための最後のピースです。</p>
+
+<div class="refs">
+  <div class="t">参考</div>
+  <a href="https://atmarkit.itmedia.co.jp/ait/articles/2604/05/news007.html" target="_blank" rel="noopener">＠IT: ChatGPTやClaudeが知らぬ間に操られる「間接的プロンプトインジェクション」の脅威</a><br>
+  <a href="https://www.itmedia.co.jp/news/articles/2512/23/news067.html" target="_blank" rel="noopener">ITmedia NEWS: 「ChatGPT Atlas」のインジェクション対策について説明 「完全に解決されることはまずない」</a>
+</div>
+
+</article>
+
+<section>
+  <div class="cta-block">
+    <span class="small">＼ 自分のデジタル習慣のクセを知る ／</span>
+    <h3>現代を生きる"睡眠力"診断</h3>
+    <p>9つの行動領域から、あなたのデジタル習慣のクセをAIが分析。<br>1〜3分で終わります。</p>
+    <a class="cta-btn" href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">無料で診断してみる</a>
+    <div class="cta-note">登録不要・スマホでそのまま受けられます</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="sec">あわせて読む</h2>
+  <div class="card-list">
+    <a class="card" href="prompt-injection-basics.html">
+      <span class="pill ai">AIとの付き合い方</span>
+      <h3>プロンプトインジェクションとは何か — AIが「他人の指示」で勝手に動く仕組みを、たとえ話で理解する</h3>
+    </a>
+    <a class="card" href="prompt-injection-cases.html">
+      <span class="pill ai">AIとの付き合い方</span>
+      <h3>「決済情報を読んで送金しろ」——AIに仕込まれる命令の実例と、狙われる5つのもの</h3>
+    </a>
+    <a class="card" href="prompt-injection-selfdefense.html">
+      <span class="pill ai">AIとの付き合い方</span>
+      <h3>AIに勝手に動かれないために — 個人が今日からできる7つの自衛策</h3>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="links">
+    <a href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">睡眠力診断</a>
+    <a href="../about.html">運営者情報</a>
+    <a href="../archive.html">月別アーカイブ</a>
+  </div>
+  <div class="copy">© TOKI — DetoxNews</div>
+</footer>
+
+</body>
+</html>
