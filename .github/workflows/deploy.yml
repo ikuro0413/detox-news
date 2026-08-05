@@ -1,9 +1,11 @@
-# DetoxNews を Xサーバーの本番へ FTP で同期する。
+# DetoxNews と睡眠力診断（shindan）を Xサーバーの本番へ FTP で同期する。
 # prod-assets ブランチに push すると走る。手動実行も可。
 #
-# 【重要】public_html の直下には診断サイトのドキュメントルート
-# shindan.rentalloungeomiya.com/ が同居している。ここを絶対に触らせないため
-# exclude に入れてある。外すと診断サイトごと消える危険があるので外さないこと。
+# 【重要】public_html 直下の shindan.rentalloungeomiya.com/ は診断サイトの
+# ドキュメントルート。このリポジトリの同名フォルダから同期している。
+# マスターは ikuro0413/night-sovereignty-check（更新時はそちらのHEADをここへコピーする）。
+# ローカルの shindan.rentalloungeomiya.com/ フォルダを削除して push すると
+# 差分同期がサーバー側の診断サイトも削除するので、絶対に消さないこと。
 
 name: Deploy to Xserver
 
@@ -41,4 +43,3 @@ jobs:
             **/.github/**
             **/node_modules/**
             **/*.md
-            shindan.rentalloungeomiya.com/**
