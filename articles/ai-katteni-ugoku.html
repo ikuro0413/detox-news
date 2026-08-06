@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LDNYH8ZKGD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LDNYH8ZKGD');
+</script>
+<title>AIが勝手に動くのはなぜか — 原因は5つに整理できる。確認する順番と止め方の全体マップ｜DetoxNews</title>
+<meta name="description" content="AIが勝手に動く・勝手に起動する・頼んでいない操作をする——その原因は5つに整理できます。誤起動、自動実行の仕様、権限の渡しすぎ、プロンプトインジェクション、バックグラウンドでの学習。どれに当てはまるかを確認する順番と、それぞれの止め方をまとめた全体マップです。">
+<link rel="stylesheet" href="../css/style.css?v=20260805">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="../index.html" class="site-logo">Detox<span class="accent">News</span><span class="sub">DIGITAL WELLNESS ＆ SLEEP</span></a>
+  <a class="header-cta" href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">無料で睡眠力を診断</a>
+</header>
+
+<nav class="cat-nav"><div class="cat-nav-in">
+  <a href="../index.html">新着</a>
+  <a href="../category/ai.html">AIとの付き合い方</a>
+  <a href="../category/science.html">睡眠科学</a>
+  <a href="../category/goods.html">睡眠グッズ</a>
+  <a href="../category/gadget.html">ガジェットニュース</a>
+  <a href="../category/brain.html">脳と集中</a>
+  <a href="../category/rhythm.html">生活リズム</a>
+  <a href="../category/night.html">夜の行動</a>
+  <a href="../archive.html">月別アーカイブ</a>
+</div></nav>
+
+<div class="breadcrumb"><a href="../index.html">DetoxNews</a>　＞　AIとの付き合い方</div>
+
+<main class="wrap">
+
+<div class="article-head">
+  <span class="pill ai">AIとの付き合い方</span>
+  <h1>AIが勝手に動くのはなぜか — 原因は5つに整理できる。確認する順番と止め方の全体マップ</h1>
+  <div class="meta">DetoxNews編集部　/　2026.08.06 公開</div>
+</div>
+
+<div class="article-hero">
+  <img src="../img/ai-katteni-ugoku.jpg" alt="人が離れている間に、机の上のAIアシスタントが自分でスイッチやレバーを操作している様子を描いたイラスト">
+</div>
+
+<article>
+
+<p>呼んでいないのにAIが起動した。頼んでいない操作が実行されていた。会話した覚えのない履歴が残っている——。</p>
+
+<p>「AIが勝手に動く」。この不気味な感覚に心当たりのある人が、ここ1〜2年で急に増えました。スマホのアシスタントが突然話し出す人もいれば、AIエージェントが承認していないはずの操作を実行していた人もいて、状況はさまざまです。</p>
+
+<p>ただ、原因から見ていくと、この現象は<b>ほぼ5つのパターンに整理できます</b>。そして大半は、故障でも乗っ取りでもなく、<b>設定と仕様で説明がつきます</b>。この記事では5つの原因を全体マップとして示し、どれに当てはまるかを確認する順番と、それぞれの止め方をまとめます。</p>
+
+<div class="point">
+  <span class="pt">POINT</span>
+  「AIが勝手に動く」の原因は、(1)誤起動、(2)自動実行の仕様、(3)権限の渡しすぎ、(4)プロンプトインジェクション、(5)バックグラウンド動作への不安、の5つに整理できる。まず「何が・いつ・どこまで動いたか」を確認してから、上から順に切り分けるのが最短。
+</div>
+
+<h2>まず確認したい3つのこと</h2>
+
+<p>原因の切り分けに入る前に、状況を3点だけ押さえておきます。ここが曖昧なままだと、どのパターンか判断できません。</p>
+
+<ul>
+<li><b>何が動いたか</b> — 起動しただけか、話し出したか、メール送信・購入・ファイル操作など「実行」まで進んだか</li>
+<li><b>いつ動いたか</b> — 自分がスマホやPCを触っていたときか、離れていたときか、決まった時間か</li>
+<li><b>実害はあるか</b> — 勝手な送信・決済・削除があったなら、切り分けよりも先に対処が必要です（この場合は<a href="prompt-injection-response.html">初動の手順をまとめた記事</a>へ）</li>
+</ul>
+
+<h2>原因1：誤起動 — 呼んでいないのに起動する</h2>
+
+<p>最も多く、最も実害が小さいパターンです。スマホやスピーカーのAIアシスタントが、呼んでいないのに起動して話し出す。テレビの音声や日常会話を呼びかけの言葉（ウェイクワード）と聞き間違える、ポケットの中でボタンが長押しされる、といった物理的な誤作動が正体です。</p>
+
+<p>不気味に感じやすい現象ですが、仕組みは単純で、設定で確実に止められます。夜中に寝室で突然話し出すケースもここに入ります。原因別の止め方は<a href="ai-assistant-kidou.html">スマホのAIアシスタントが勝手に起動する・勝手に話し出すときの対処記事</a>で詳しく扱っています。</p>
+
+<h2>原因2：自動実行の仕様 — 「確認せずに進める」設定になっている</h2>
+
+<p>最近のAIは、質問に答えるだけでなく、<b>調べる・作る・操作するといった一連の作業を自分で進める「エージェント」機能</b>を持つものが増えました。この機能には多くの場合、「1ステップごとに確認を求めるか、確認なしで最後まで進めるか」を選ぶ設定があります。</p>
+
+<p>ここで一度「確認なし」を選ぶと、AIは仕様どおり、黙って作業を進めます。<b>利用者から見ると「勝手に動いた」ように見えますが、AIから見ると「許可された範囲で動いた」だけ</b>——このすれ違いが、勝手に動く体験のかなりの部分を占めています。過去の自分がした許可を、今の自分が忘れているのです。</p>
+
+<p>どこまで自動を許し、どこから確認を挟むべきか。線引きの考え方は<a href="ai-auto-exec.html">自動実行モードの線引きガイド</a>にまとめました。</p>
+
+<h2>原因3：権限の渡しすぎ — 動ける範囲が広すぎる</h2>
+
+<p>原因2と地続きですが、こちらは「動き方」ではなく「動ける範囲」の問題です。メール、カレンダー、クラウドのファイル、SNS——便利さを求めて連携を増やすほど、AIが触れる範囲は広がります。そして連携は一度許可すると、<b>解除するまで有効なまま残り続けます</b>。</p>
+
+<p>いつか試しに繋いだ連携が生きていて、思わぬ場面でAIがそこに触った。これも「勝手に動いた」と感じる典型例です。連携とアクセス権を棚卸しする手順は<a href="ai-agent-permission.html">権限の棚卸しチェックリスト</a>で解説しています。</p>
+
+<h2>原因4：プロンプトインジェクション — 外部の命令に従っている</h2>
+
+<p>ここまでの3つと違い、これは<b>攻撃</b>です。AIが読み込んだWebページやメールの中に第三者が命令を仕込んでおき、AIがそれを持ち主の指示と勘違いして実行してしまう——プロンプトインジェクションと呼ばれる手口で、実害の報告が相次いでいます。</p>
+
+<p>見分けの目安は、<b>「AIに何かを読ませた直後に、頼んでいない動きをしたか」</b>。要約・翻訳・調査などでWebページ、メール、共有ドキュメントを読ませた流れで不審な動きが出たなら、このパターンを疑います。仕組みは<a href="prompt-injection-basics.html">プロンプトインジェクションの解説記事</a>で、対策は<a href="prompt-injection-selfdefense.html">7つの自衛策</a>で詳しく扱っています。</p>
+
+<h2>原因5：「勝手に学習している」不安 — バックグラウンドの動作</h2>
+
+<p>最後は、目に見える誤動作ではなく、<b>「自分の知らないところでAIが何かしているのではないか」という不安</b>です。会話が学習に使われている気がする、話した覚えのないことをAIが知っていた、といった感覚がここに入ります。</p>
+
+<p>これは「学習」という言葉に複数の意味が混ざっていることが原因で、実体はメモリー機能や履歴の保存であることがほとんどです。仕組みの整理と設定の見直し方は<a href="ai-katteni-gakushu.html">「AIが勝手に学習している」は本当か</a>で解説しています。</p>
+
+<h2>確認する順番 — 上から順に切り分ける</h2>
+
+<p>5つのどれに当てはまるかは、次の順に確認すると迷いません。</p>
+
+<ul>
+<li><b>① 起動しただけなら</b> → 誤起動（原因1）。ウェイクワードとボタン設定を見直す</li>
+<li><b>② 実行まで進んでいたら</b> → 自動実行の設定を確認（原因2）。「確認なし」になっていないか</li>
+<li><b>③ 触った覚えのないサービスに触れていたら</b> → 連携・権限を棚卸し（原因3）</li>
+<li><b>④ 何かを「読ませた」直後だったら</b> → プロンプトインジェクションを疑う（原因4）。実害があれば<a href="prompt-injection-response.html">初動手順</a>へ</li>
+<li><b>⑤ 動作ではなくデータが不安なら</b> → メモリー・履歴・学習設定を確認（原因5）</li>
+</ul>
+
+<div class="point">
+  <span class="pt">POINT</span>
+  切り分けの軸は「どこまで動いたか」と「直前に何をさせたか」の2つ。起動だけなら誤起動、実行までなら設定と権限、読ませた直後なら攻撃を疑う。
+</div>
+
+<h2>「気のせいか」で流さないほうがいい理由</h2>
+
+<p>誤起動のような無害なパターンが大半とはいえ、「AIが勝手に動く」体験を放置しないほうがいい理由がひとつあります。<b>AIに渡す権限は、これからの数年で増える一方だから</b>です。</p>
+
+<p>答えるだけのAIが勝手に動いても、実害はほぼありません。しかしメールを送れるAI、決済できるAI、ファイルを消せるAIが「勝手に動く」状態は、放置していい話ではなくなります。いま自分の環境で何が起きているのかを一度きちんと切り分けておくことは、これからAIに手足を渡していく前の、いちばん基本の点検です。</p>
+
+<p>「なんとなく不気味だから使わない」でも、「便利だから全部許す」でもなく、<b>仕組みを知って、線を自分で引く</b>。この記事がその出発点になれば幸いです。</p>
+
+</article>
+
+<section>
+  <div class="cta-block">
+    <span class="small">＼ AIとの距離、見直してみる ／</span>
+    <h3>現代を生きる"睡眠力"診断</h3>
+    <p>9つの行動領域から、あなたのデジタル習慣のクセをAIが分析。<br>1〜3分で終わります。</p>
+    <a class="cta-btn" href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">無料で診断してみる</a>
+    <div class="cta-note">登録不要・スマホでそのまま受けられます</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="sec">あわせて読む</h2>
+  <div class="card-list">
+    <a class="card" href="ai-assistant-kidou.html">
+      <span class="pill ai">AIとの付き合い方</span>
+      <h3>スマホのAIアシスタントが勝手に起動する・勝手に話し出す — よくある5つの原因と止め方</h3>
+    </a>
+    <a class="card" href="ai-agent-permission.html">
+      <span class="pill ai">AIとの付き合い方</span>
+      <h3>AIが勝手に動けない仕組みをつくる — 渡した「権限」を棚卸しする7つのチェックリスト</h3>
+    </a>
+  </div>
+</section>
+
+<!-- POPULAR-ARTICLES-START -->
+<section>
+  <h2 class="sec">人気記事</h2>
+  <div class="card-list">
+    <a class="card" href="/articles/ai-friction-debate.html">
+      <span class="pill ai">AIとの付き合い方</span><span class="card-date">2026.08.05</span>
+      <h3>「人類はAIに飼われるのか」をAI同士に本音で議論させた — 激論の果てに残った、手放してはいけないもの</h3>
+      <p>脅威はAIの反逆ではなく「快適さと引き換えの静かな主権返上」。生き残る鍵は、実存の摩擦をあえて選び直すこと。</p>
+    </a>
+    <a class="card" href="/articles/revenge-yofukashi.html">
+      <span class="pill night">夜の行動</span><span class="card-date">2026.07.31</span>
+      <h3>リベンジ夜更かしがやめられない本当の理由 — 「夜にしか自分の時間がない」人が今夜からできること</h3>
+      <p>疲れているのに寝ない。それは意志の弱さではなく、一日の構造の問題です。</p>
+    </a>
+    <a class="card" href="/articles/smartphone-brain.html">
+      <span class="pill brain">脳と集中</span><span class="card-date">2026.07.31</span>
+      <h3>スマホは「見ていない時間」も集中力を奪う — 脳の「ブレインドレイン」現象と、今日からできる対策</h3>
+      <p>電源を切っていても、視界にあるだけで脳は消耗している。集中に効くのは意志ではなく物理的な距離。</p>
+    </a>
+  </div>
+</section>
+<!-- POPULAR-ARTICLES-END -->
+</main>
+
+<footer class="site-footer">
+  <div class="links">
+    <a href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">睡眠力診断</a>
+    <a href="../about.html">運営者情報</a>
+    <a href="../archive.html">月別アーカイブ</a>
+  </div>
+  <div class="copy">© TOKI — DetoxNews</div>
+</footer>
+
+</body>
+</html>
