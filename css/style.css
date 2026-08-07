@@ -190,3 +190,10 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
 .arch-list .d{color:var(--sub);font-size:12px;letter-spacing:.08em;flex:0 0 auto}
 .arch-list .pill{margin-bottom:0}
 .arch-list a{font-weight:700;font-size:14.5px;line-height:1.8}
+
+/* 新着ページャー */
+.pager{display:flex;justify-content:center;align-items:center;gap:8px;margin:26px 0 6px;flex-wrap:wrap}
+.pager a,.pager .cur{min-width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:8px;font-size:13px;padding:0 10px}
+.pager .cur{background:var(--ink);color:#fff;border-color:var(--ink)}
+.pager a:hover{background:var(--bg-gray);opacity:1}
+.pager .pn{border:none;letter-spacing:.04em}
