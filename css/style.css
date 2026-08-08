@@ -224,3 +224,10 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
 .aff-btn{display:inline-block;background:#bf0000;color:#fff;font-size:12.5px;font-weight:700;padding:7px 16px;border-radius:999px;letter-spacing:.04em}
 .aff-btn:hover{opacity:.85}
 @media (max-width:480px){.aff-card{align-items:flex-start}.aff-card .aff-img img{width:88px;height:88px}}
+
+/* 記事タイトルの主題＋副題 */
+.article-head h1 .tsub{display:block;font-size:16px;font-weight:700;line-height:1.8;margin-top:10px;color:var(--ink)}
+@media (max-width:640px){
+  .article-head h1{font-size:19px;line-height:1.8;letter-spacing:.02em}
+  .article-head h1 .tsub{font-size:13.5px;margin-top:8px}
+}
