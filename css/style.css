@@ -268,6 +268,7 @@ html[data-theme="dark"] .aff-card .aff-img img{filter:brightness(.85)}
 html[data-theme="dark"] .card:hover{box-shadow:0 4px 14px rgba(0,0,0,.5)}
 html[data-theme="dark"] .cta-btn:hover{background:var(--ink2)}
 
+html[data-theme="dark"] article h2{background:#262a31;color:var(--ink);border-left:4px solid var(--accent)}
 html[data-theme="dark"] .site-footer{background:#0f1013;color:var(--ink)}
 html[data-theme="dark"] .site-footer .links a{color:var(--ink)}
 html[data-theme="dark"] .site-footer .copy{color:var(--sub)}
