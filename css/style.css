@@ -3,6 +3,7 @@
   --ink:#262626; --ink2:#333232; --sub:#7a7a7a;
   --bg:#ffffff; --bg-gray:#f4f4f4; --line:#dcdcdc;
   --accent:#fb8902; --marker:#ffe600;
+  --card:#ffffff; --on-ink:#ffffff; --cta-bg:#e3e9f2;
   --pill-night:#fb8902; --pill-rhythm:#4a90c4; --pill-type:#6ab04c; --pill-brain:#8e5bb8;
 }
 *{margin:0;padding:0;box-sizing:border-box}
@@ -18,7 +19,7 @@ img{max-width:100%}
 
 /* ヘッダー */
 .site-header{
-  background:#fff;border-bottom:1px solid var(--line);
+  background:var(--card);border-bottom:1px solid var(--line);
   padding:18px 24px;display:flex;align-items:center;justify-content:space-between;
   position:sticky;top:0;z-index:10;
 }
@@ -26,10 +27,10 @@ img{max-width:100%}
 .site-logo .accent{color:var(--accent)}
 .site-logo .sub{display:block;font-size:10px;font-weight:400;letter-spacing:.3em;color:var(--sub)}
 .header-cta{
-  border:1px solid var(--ink);border-radius:999px;background:#fff;
+  border:1px solid var(--ink);border-radius:999px;background:var(--card);
   color:var(--ink);font-size:13px;font-weight:700;padding:9px 20px;letter-spacing:.06em;
 }
-.header-cta:hover{background:var(--ink);color:#fff;opacity:1}
+.header-cta:hover{background:var(--ink);color:var(--on-ink);opacity:1}
 
 /* パンくず */
 .breadcrumb{
@@ -62,7 +63,7 @@ section.gray{
 /* 記事カード */
 .card-list{display:grid;gap:18px}
 .card{
-  background:#fff;border:1px solid var(--line);
+  background:var(--card);border:1px solid var(--line);
   padding:24px 26px;display:block;color:var(--ink);transition:box-shadow .15s;
 }
 .card:hover{box-shadow:0 4px 14px rgba(0,0,0,.08);opacity:1}
@@ -100,7 +101,7 @@ figure.illust figcaption{color:var(--sub);font-size:12px;margin-top:8px;text-ali
 /* 9領域グリッド */
 .dom-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .dom{
-  background:#fff;border:1px solid var(--line);
+  background:var(--card);border:1px solid var(--line);
   padding:18px 12px;text-align:center;font-size:13px;line-height:1.7;font-weight:700;color:var(--ink2);
 }
 .dom .num{display:block;color:var(--accent);font-size:11px;letter-spacing:.2em;font-weight:700;margin-bottom:4px}
@@ -120,13 +121,13 @@ figure.illust figcaption{color:var(--sub);font-size:12px;margin-top:8px;text-ali
 
 /* 診断CTA: 淡色横長バナー型 */
 .cta-block{
-  background:#e3e9f2;padding:36px 30px;text-align:center;margin:8px 0;
+  background:var(--cta-bg);padding:36px 30px;text-align:center;margin:8px 0;
 }
 .cta-block .small{color:var(--ink2);font-size:13px;font-weight:700;letter-spacing:.1em}
 .cta-block h3{font-size:20px;font-weight:700;margin:10px 0 8px;letter-spacing:.1em;color:var(--ink2)}
 .cta-block p{color:var(--ink);font-size:13.5px;margin-bottom:22px}
 .cta-btn{
-  display:inline-block;background:var(--ink);color:#fff;font-weight:700;
+  display:inline-block;background:var(--ink);color:var(--on-ink);font-weight:700;
   font-size:14.5px;padding:14px 44px;border-radius:6px;letter-spacing:.1em;
 }
 .cta-btn::after{content:"　▶";font-size:10px}
@@ -140,7 +141,7 @@ figure.illust figcaption{color:var(--sub);font-size:12px;margin-top:8px;text-ali
 article{padding-bottom:20px}
 article h2{
   display:table;font-size:19px;font-weight:700;letter-spacing:.08em;line-height:1.7;
-  background:var(--ink);color:#fff;padding:8px 18px;margin:48px 0 22px;
+  background:var(--ink);color:var(--on-ink);padding:8px 18px;margin:48px 0 22px;
 }
 article h3{
   display:inline-block;font-size:16.5px;font-weight:700;margin:32px 0 14px;color:var(--ink2);
@@ -154,31 +155,31 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
 /* 囲みボックス（細枠＋角ライン風） */
 .point{
   position:relative;border:1px solid var(--line);
-  padding:22px 24px;margin:26px 0;font-size:14.5px;background:#fff;line-height:1.9;
+  padding:22px 24px;margin:26px 0;font-size:14.5px;background:var(--card);line-height:1.9;
 }
 .point::before{
-  content:"";position:absolute;top:-1px;left:24px;right:24px;height:1px;background:#fff;
+  content:"";position:absolute;top:-1px;left:24px;right:24px;height:1px;background:var(--card);
 }
 .point .pt{
-  position:absolute;top:-12px;left:36px;background:#fff;padding:0 10px;
+  position:absolute;top:-12px;left:36px;background:var(--card);padding:0 10px;
   color:var(--ink2);font-size:12px;font-weight:700;letter-spacing:.2em;
 }
 
 /* フッター */
 .site-footer{
-  background:var(--ink);color:#fff;
+  background:var(--ink);color:var(--on-ink);
   padding:36px 24px;text-align:center;font-size:12px;letter-spacing:.08em;margin-top:56px;
 }
 .site-footer .links{margin-bottom:14px}
-.site-footer .links a{margin:0 12px;color:#fff;text-decoration:underline}
+.site-footer .links a{margin:0 12px;color:var(--on-ink);text-decoration:underline}
 .site-footer .copy{color:#aaa}
 
 /* カテゴリナビ */
-.cat-nav{background:#fff;border-bottom:1px solid var(--line);overflow-x:auto;-webkit-overflow-scrolling:touch}
+.cat-nav{background:var(--card);border-bottom:1px solid var(--line);overflow-x:auto;-webkit-overflow-scrolling:touch}
 .cat-nav-in{display:flex;gap:4px;max-width:860px;margin:0 auto;padding:8px 16px;white-space:nowrap}
 .cat-nav a{font-size:12px;color:var(--ink2);padding:4px 12px;border-radius:999px;letter-spacing:.06em;flex:0 0 auto}
 .cat-nav a:hover{background:var(--bg-gray);opacity:1}
-.cat-nav a.on{background:var(--ink);color:#fff}
+.cat-nav a.on{background:var(--ink);color:var(--on-ink)}
 
 /* カード日付 */
 .card-date{color:var(--sub);font-size:11.5px;letter-spacing:.08em;margin-left:10px}
@@ -194,7 +195,7 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
 /* 新着ページャー */
 .pager{display:flex;justify-content:center;align-items:center;gap:8px;margin:26px 0 6px;flex-wrap:wrap}
 .pager a,.pager .cur{min-width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:8px;font-size:13px;padding:0 10px}
-.pager .cur{background:var(--ink);color:#fff;border-color:var(--ink)}
+.pager .cur{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
 .pager a:hover{background:var(--bg-gray);opacity:1}
 .pager .pn{border:none;letter-spacing:.04em}
 
@@ -206,7 +207,7 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
 @media (max-width:640px){
   .cmp-table thead{display:none}
   .cmp-table,.cmp-table tbody,.cmp-table tr,.cmp-table td{display:block;width:100%}
-  .cmp-table tr{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:12px;background:#fff;box-sizing:border-box}
+  .cmp-table tr{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:12px;background:var(--card);box-sizing:border-box}
   .cmp-table td{border-bottom:none;padding:3px 0;display:flex;gap:10px;box-sizing:border-box}
   .cmp-table td::before{content:attr(data-label);flex:0 0 5em;color:var(--sub);font-size:12px;padding-top:2px}
   .cmp-table td:first-child{font-size:15px;padding-bottom:8px;border-bottom:1px solid var(--line);margin-bottom:6px}
@@ -215,7 +216,7 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
 
 /* アフィリエイト商品カード */
 .aff-note{color:var(--sub);font-size:11.5px;margin-top:6px}
-.aff-card{display:flex;gap:16px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:14px 0;background:#fff}
+.aff-card{display:flex;gap:16px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:14px 0;background:var(--card)}
 .aff-card .aff-img{flex:0 0 auto}
 .aff-card .aff-img img{width:120px;height:120px;object-fit:contain;border-radius:6px;display:block}
 .aff-body{min-width:0}
@@ -233,7 +234,7 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
 }
 
 /* よくある質問 */
-details.faq{border:1px solid var(--line);border-radius:10px;margin:10px 0;background:#fff}
+details.faq{border:1px solid var(--line);border-radius:10px;margin:10px 0;background:var(--card)}
 details.faq summary{padding:13px 16px;font-weight:700;font-size:14px;line-height:1.7;cursor:pointer;list-style:none;position:relative;padding-right:38px}
 details.faq summary::-webkit-details-marker{display:none}
 details.faq summary::after{content:"＋";position:absolute;right:14px;top:50%;transform:translateY(-50%);color:var(--sub)}
@@ -242,10 +243,31 @@ details.faq .a{padding:0 16px 14px;font-size:14px;line-height:2;color:var(--ink)
 
 /* 特集ガイド */
 .guide-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-.guide{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px 22px 26px;position:relative}
+.guide{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px 26px;position:relative}
 .guide:hover{opacity:1;border-color:var(--ink)}
 .guide .g-label{display:inline-block;font-size:11px;color:var(--sub);letter-spacing:.08em;border:1px solid var(--line);border-radius:999px;padding:2px 10px;margin-bottom:10px}
 .guide h3{font-size:15.5px;font-weight:700;line-height:1.7;margin-bottom:6px;color:var(--ink2)}
 .guide p{font-size:12.5px;line-height:1.9;color:var(--ink)}
 .guide::after{content:"→";position:absolute;right:18px;bottom:12px;color:var(--sub)}
 @media (max-width:640px){.guide-list{grid-template-columns:1fr}}
+
+/* ダークモード */
+.header-right{display:flex;align-items:center}
+.theme-toggle{background:none;border:1px solid var(--line);border-radius:999px;padding:8px 14px;cursor:pointer;font-size:12px;font-weight:700;letter-spacing:.06em;line-height:1;color:var(--ink);margin-right:10px;flex:0 0 auto;font-family:inherit;white-space:nowrap}
+.theme-toggle:hover{border-color:var(--ink)}
+@media(max-width:560px){.theme-toggle{padding:7px 9px;font-size:10.5px;letter-spacing:.02em;margin-right:6px}}
+html[data-theme="dark"]{
+  --ink:#e2e0dc; --ink2:#d4d2ce; --sub:#96948e;
+  --bg:#141519; --bg-gray:#0f1013; --line:#34363c;
+  --card:#1d1f24; --on-ink:#141519; --marker:#7a6a00; --cta-bg:#20262f;
+}
+html[data-theme="dark"] .article-hero img,
+html[data-theme="dark"] figure.illust img,
+html[data-theme="dark"] .hero-visual img{filter:brightness(.7);border-radius:8px}
+html[data-theme="dark"] .aff-card .aff-img img{filter:brightness(.85)}
+html[data-theme="dark"] .card:hover{box-shadow:0 4px 14px rgba(0,0,0,.5)}
+html[data-theme="dark"] .cta-btn:hover{background:var(--ink2)}
+
+html[data-theme="dark"] .site-footer{background:#0f1013;color:var(--ink)}
+html[data-theme="dark"] .site-footer .links a{color:var(--ink)}
+html[data-theme="dark"] .site-footer .copy{color:var(--sub)}
