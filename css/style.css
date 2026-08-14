@@ -272,3 +272,19 @@ html[data-theme="dark"] article h2{background:#262a31;color:var(--ink);border-le
 html[data-theme="dark"] .site-footer{background:#0f1013;color:var(--ink)}
 html[data-theme="dark"] .site-footer .links a{color:var(--ink)}
 html[data-theme="dark"] .site-footer .copy{color:var(--sub)}
+/* スマホ: 見出しマーカーを折り返し行ごとに引く（蛍光ペン方式） */
+@media (max-width:640px){
+  article h3{
+    display:inline;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break:clone;
+  }
+  article h3 + *{margin-top:12px}
+  h2.sec{
+    display:inline;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break:clone;
+  }
+  h2.sec + *{margin-top:22px}
+  article b{-webkit-box-decoration-break:clone;box-decoration-break:clone}
+}
