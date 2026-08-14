@@ -10,3 +10,24 @@
     Header set Cache-Control "no-cache, must-revalidate"
   </FilesMatch>
 </IfModule>
+
+# URLの正規化。http / https / www ありなしの4通りがすべて200を返していて、
+# Search Console上で http://…/articles/dopagaki.html が https版と別URLとして
+# 集計されていた（表示回数の二重計上・評価の分散）ため301で寄せる。
+#
+# 注意: このファイルは public_html 直下に置かれ、配下の
+# shindan.rentalloungeomiya.com（診断サイト）にも継承される。
+# よってホスト名は %{HTTP_HOST} で保持し、https強制だけを共通で掛ける。
+# www→非wwwの寄せはメディア側のホストに限定する。
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # 1) http → https（ホスト名はそのまま維持）
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+  # 2) www.rentalloungeomiya.com → rentalloungeomiya.com
+  RewriteCond %{HTTP_HOST} ^www\.rentalloungeomiya\.com$ [NC]
+  RewriteRule ^ https://rentalloungeomiya.com%{REQUEST_URI} [R=301,L]
+</IfModule>
