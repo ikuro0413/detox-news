@@ -304,12 +304,8 @@ html[data-theme="dark"] .site-footer .copy{color:var(--sub)}
 .answer ul{margin:10px 0 0;padding-left:1.2em}
 .answer li{margin:4px 0}
 
-/* 人気記事カードの順位ピル（1位=金・2位=銀・3位=銅・4位以降=グレー） */
+/* 人気記事カードの順位表示（背景なしのテキストのみ） */
 .card-rank{
-  display:inline-block;color:#fff;font-size:11px;font-weight:700;
-  padding:2px 9px;margin-right:6px;letter-spacing:.1em;border-radius:2px;
+  display:inline-block;color:var(--accent);font-size:12px;font-weight:700;
+  margin-right:6px;letter-spacing:.1em;
 }
-.card-rank.r1{background:#c9a227}
-.card-rank.r2{background:#9aa2ab}
-.card-rank.r3{background:#b0764f}
-.card-rank.r4,.card-rank.r5{background:var(--sub)}
