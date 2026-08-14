@@ -6,15 +6,16 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全57本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全63本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
 
 ## AIとの付き合い方
 
+- [AIアシスタントが勝手に入っていた — 消し方・無効化の手順と、消せないときの現実的な対処](https://rentalloungeomiya.com/articles/ai-assistant-off.html): 正体はアップデートによる自動追加。完全削除できなくても、起動経路・通知・無効化の3段階で実質止められる。
 - [AIが勝手に動くのはなぜか — 原因は5つに整理できる。確認する順番と止め方の全体マップ](https://rentalloungeomiya.com/articles/ai-katteni-ugoku.html): 誤起動・自動実行の仕様・権限の渡しすぎ・プロンプトインジェクション・学習への不安。上から順に切り分ければ迷わない。
-- [スマホのAIアシスタントが勝手に起動する・勝手に話し出す — よくある5つの原因と止め方](https://rentalloungeomiya.com/articles/ai-assistant-kidou.html): 夜中に突然話し出す正体は、ほぼウェイクワードの誤検知。5つの原因すべて設定画面で止められる。
+- [AIアシスタントが勝手に起動する・勝手に入っていた — よくある5つの原因と止め方](https://rentalloungeomiya.com/articles/ai-assistant-kidou.html): 夜中に突然話し出す正体は、ほぼウェイクワードの誤検知。5つの原因すべて設定画面で止められる。
 - [AIが勝手に動けない仕組みをつくる — 渡した「権限」を棚卸しする7つのチェックリスト](https://rentalloungeomiya.com/articles/ai-agent-permission.html): 勝手に動ける範囲は、能力ではなく権限で決まる。一覧化と不可逆操作の確認必須化だけでも効く。
 - [AIの「自動実行モード」はどこまで許していいか — 便利さと勝手に動くリスクの線引きガイド](https://rentalloungeomiya.com/articles/ai-auto-exec.html): 読み取りは許す、書き込みは確認する、取り消せないものは自動にしない。承認疲れと暴走を同時に減らす。
 - [「AIが勝手に学習している」は本当か — 会話データの3つの行き先と、今日見直せる設定](https://rentalloungeomiya.com/articles/ai-katteni-gakushu.html): 「学習」には3つの意味が混ざっている。覚えていた正体はメモリー機能で、見る・消す・止めるができる。
@@ -40,15 +41,18 @@
 
 ## 睡眠グッズ
 
+- [バクネとワークマンの違いを徹底比較 — 上下3,800円と2万円台、5倍の価格差はどこにあるのか](https://rentalloungeomiya.com/articles/bakune-workman-hikaku.html): 効能の届出はどちらも同じ一般医療機器。差が出るのは素材・着心地・シリーズ幅。試すならワークマン、続けるならBAKUNE。
+- [リカバリーウェアは意味ない？ — 効果を感じない3つの理由と、買う前に知るべき「期待の置き場所」](https://rentalloungeomiya.com/articles/recovery-wear-iminai.html): 「意味ない」の多くは期待のズレ。届出効能の枠、着用時間の総量、疲労の原因の見極め——3つの視点で仕分ける。
 - [バクネ（BAKUNE）は効果ある？ — 早稲田大の実証データと口コミ、ワークマンとの違い](https://rentalloungeomiya.com/articles/bakune-koka.html): 届出された効能は4つ、早稲田大の研究では睡眠時間は変わらない。等身大の効果と、約7倍の価格差の中身を整理。
 - [「家庭用遠赤外線血行促進用衣」とは — リカバリーウェアが「医療機器」を名乗れる理由と、その正しい読み方](https://rentalloungeomiya.com/articles/katei-ensekigaisen-i.html): 2022年新設の一般医療機器（クラスI）が市場急拡大の仕掛け。ただし届出＝効果の証明ではない。買う前の読み方。
-- [【2026年版】リカバリーウェア7ブランド比較 — 3,800円〜2万円台、どれを買うべきか](https://rentalloungeomiya.com/articles/recovery-wear-hikaku.html): 価格差は最大8倍、でも仕組みと効能の土俵はほぼ共通。差がつくのは素材・着心地・シリーズの幅。予算と使い方別のおすすめまで整理。
+- [リカバリーウェア比較 — ワークマン・ニトリ・BAKUNE・VENEX、値段が8倍違う理由](https://rentalloungeomiya.com/articles/recovery-wear-hikaku.html): 価格差は最大8倍、でも仕組みと効能の土俵はほぼ共通。差がつくのは素材・着心地・シリーズの幅。予算と使い方別のおすすめまで整理。
 - [BAKUNEの原理 — 「着るだけで血行促進」の裏側を、体の熱→繊維→遠赤外線の順に分解する](https://rentalloungeomiya.com/articles/bakune-genri.html): 熱源は自分の体。捨てていた輻射熱を繊維が遠赤外線として返す「熱のリサイクル」が原理の中核。
-- [BAKUNEはなぜ「着るだけで疲れが取れる」と言えるのか — リカバリーウェアの仕組みと、買う前に知っておきたいこと](https://rentalloungeomiya.com/articles/bakune-recovery-wear.html): 一般医療機器の届出が意味すること。期待していい範囲と、買う前のチェックリスト。
+- [BAKUNE（バクネ）とは — 一般医療機器としての仕組みと、買う前に知っておきたいこと](https://rentalloungeomiya.com/articles/bakune-recovery-wear.html): 一般医療機器の届出が意味すること。期待していい範囲と、買う前のチェックリスト。
 - [スマートリングで睡眠は良くなるのか — スリープテックの現在地と、数値との正しい付き合い方](https://rentalloungeomiya.com/articles/sleep-tech-tracker.html): 測れるもの・測れないもの。スコアに振り回される「オルソソムニア」に注意。
 
 ## ガジェットニュース
 
+- [Oura Ringのサブスクは必要か — メンバーシップ無しで使える機能、3年総額、払いたくない人の代替案](https://rentalloungeomiya.com/articles/oura-ring-subsc.html): 月5.99ドルのメンバーシップは実質必須。3年総額約9万円を払う価値がある人と、月額無料のRingConn/SOXAIで足りる人の線引き。
 - [スマホをやめられるアプリ4選 — 「魚が育つ」「木を植える」はなぜ効くのか、本末転倒にならない使い方](https://rentalloungeomiya.com/articles/sumaho-yameru-app.html): 魚が育つ・Forest・標準機能まで4つを比較。効く理由は損失回避の心理。「育ちが気になって開く」の防ぎ方も。
 - [リカバリーウェアが流行っているのは日本だけ？ — 世界のスリープテック地図と「着る日本・測る海外」](https://rentalloungeomiya.com/articles/recovery-wear-kaigai.html): 答えはほぼイエス。海外の主戦場はセンサーで「測る」、日本は繊維で「着る」。約3.5兆円市場の地図と、日本だけ着る系が育った4つの理由。
 - [スマホの前に「電話」を — 子ども用Wi-Fi固定電話「Tin Can」が海外の親に選ばれる理由](https://rentalloungeomiya.com/articles/tin-can-phone.html): 通話しかできない、承認した相手としか話せない。その「できなさ」が、スマホを急がない選択肢になる。
@@ -59,17 +63,19 @@
 
 ## 脳と集中
 
+- [ドパ廃とは — 意味と使い方、ドパガキとの違い。「ドパい」「ドパる」まで派生語を全部整理する](https://rentalloungeomiya.com/articles/dopahai.html): ドパ廃＝ドーパミン中毒の廃人。ドパガキの大人版・重症版。派生語の一覧と、自虐で終わらせない抜け出し方。
 - [ドーパミンデトックスは効果ある？意味ない？ — 提唱者の真意と、科学的根拠の現在地](https://rentalloungeomiya.com/articles/dopamine-detox-kouka.html): 「脳のリセット」に根拠はない。でも体験談が絶えない理由もある。批判と効果の正体を、研究の現在地から仕分けする。
 - [スマホなし旅行のすすめ — 不便さが観光に変わる理由と、失敗しない準備リスト](https://rentalloungeomiya.com/articles/sumaho-nashi-ryoko.html): 地図もレビューもない旅は、なぜ満足度が上がるのか。半日散歩から一泊までの段階別のやり方と持ち物を整理。
 - [アテンション・デトックスとは — Z世代に広がる「見られ疲れ」対策と、今夜からできる始め方](https://rentalloungeomiya.com/articles/attention-detox.html): SNS疲れの正体は比較・承認欲求・トレンド追いの3つ。注目から離れる新習慣と、効果が最大になる「夜の始め方」を解説。
-- [ドーパミンデトックスのやり方 — 科学的に「効く部分」と「誤解」を分けて、現実的な手順に落とす](https://rentalloungeomiya.com/articles/dopamine-detox.html): 理屈は半分間違いだが行動としては効く。脳のリセットではなく刺激制御。夜1時間から始める3段階プラン。
-- [ドパガキとは — 「ドーパミン中毒のガキ」を自称する世代と、笑えない大人たち](https://rentalloungeomiya.com/articles/dopagaki.html): ショート動画の刺激に慣れて集中が続かない自分を自虐するZ世代スラング。仕組みは年齢を選ばない、全員の話。
+- [ドーパミンデトックスのやり方 — ドーパミン断食は何をするのか、効く部分と誤解を分ける](https://rentalloungeomiya.com/articles/dopamine-detox.html): 理屈は半分間違いだが行動としては効く。脳のリセットではなく刺激制御。夜1時間から始める3段階プラン。
+- [ドパガキとは — 意味と由来、「ドパ廃」との違い、大人にも刺さる理由](https://rentalloungeomiya.com/articles/dopagaki.html): ショート動画の刺激に慣れて集中が続かない自分を自虐するZ世代スラング。仕組みは年齢を選ばない、全員の話。
 - [昼寝は何分がベスト？ — 15〜20分と言われる理由と、寝すぎて逆にだるくなる境界線](https://rentalloungeomiya.com/articles/hirune-nanpun.html): 正解は15〜20分・15時まで・横にならない。30分超は睡眠慣性でだるくなり、夕方の昼寝は夜の眠りを壊す。
 - [夏の午後、頭が回らないのは気のせいではない — 深くなる「午後の谷」の正体と立て直し方](https://rentalloungeomiya.com/articles/natsu-gogo-nemuke.html): 昼食のせいではない。前夜の質・軽い脱水・屋内の暗さが谷を深くしている。
 - [スマホは「見ていない時間」も集中力を奪う — 脳の「ブレインドレイン」現象と、今日からできる対策](https://rentalloungeomiya.com/articles/smartphone-brain.html): 電源を切っていても、視界にあるだけで脳は消耗している。集中に効くのは意志ではなく物理的な距離。
 
 ## 生活リズム
 
+- [秋バテとは — 9月にだるい・眠いのはなぜか。夏の借金・寒暖差・日照の減少から立て直す](https://rentalloungeomiya.com/articles/akibate-darui.html): 涼しくなったのにだるいのは、夏に溜めた自律神経の借金＋寒暖差＋光の減少。朝の光・湯船・時刻の固定で立て直す。
 - [休み明けがだるくて眠いのはなぜ？ — 連休明けの「擬似時差ぼけ」を最短で直す手順](https://rentalloungeomiya.com/articles/yasumiake-darui.html): だるさの正体は気合い不足ではなく体内時計のズレ。休み最終日と初日にやることを時系列で整理した。
 - [夏休み明けに子どもの生活リズムを戻す — 昼夜逆転は「夜」ではなく「朝」から直す](https://rentalloungeomiya.com/articles/natsuyasumiake-kodomo.html): 「早く寝なさい」から入ると失敗する。起床→朝の光→日中の活動の一方通行で、始業1週間前から戻す手順。
 - [ソーシャルジェットラグとは — 飛行機に乗っていないのに時差ぼけになる「社会的時差ぼけ」の仕組み](https://rentalloungeomiya.com/articles/social-jetlag.html): 平日と休日の睡眠のズレは、毎週の時差旅行と同じ。月曜のだるさの正体で、起床時刻を揃えれば消せる。
@@ -79,13 +85,13 @@
 ## 夜の行動
 
 - [寝る前のスマホがやめられない — ブルーライトより深刻な本当の問題と、意志に頼らない対策5つ](https://rentalloungeomiya.com/articles/nerumae-sumaho.html): ブルーライトは主犯ではない。終わりのない設計と「布団=スマホ」の学習が本丸。対策は意志ではなく距離で打つ。
-- [寝れないときはどうすればいい？ — 「布団で頑張らない」が正解である理由と、眠気を呼び戻す手順](https://rentalloungeomiya.com/articles/nerenai-toki.html): 20分眠れなければ布団を出るが正解。布団の中で頑張るほど「布団=眠れない場所」の学習が進んでしまう。
-- [リベンジ夜更かしのやめ方 — 意志に頼らず2週間で戻す、順番のある実践プラン](https://rentalloungeomiya.com/articles/revenge-yofukashi-yamekata.html): 「早く寝る」から始めるから失敗する。夜の満足→終わりの儀式→15分ずつ前倒し、の順番で組む。
+- [布団に入っても眠れないときはどうすればいい？ — 「布団で頑張らない」が正解である理由と手順](https://rentalloungeomiya.com/articles/nerenai-toki.html): 20分眠れなければ布団を出るが正解。布団の中で頑張るほど「布団=眠れない場所」の学習が進んでしまう。
+- [リベンジ夜更かしのやめ方 — 「やめたいのにやめられない」を意志に頼らず2週間で解く実践プラン](https://rentalloungeomiya.com/articles/revenge-yofukashi-yamekata.html): 「早く寝る」から始めるから失敗する。夜の満足→終わりの儀式→15分ずつ前倒し、の順番で組む。
 - [リベンジ夜更かしの心理学 — 「疲れているのに寝ない」を研究はどう説明しているか](https://rentalloungeomiya.com/articles/revenge-yofukashi-shinri.html): 研究名は「就寝先延ばし」。自制心の枯渇・先延ばし・夜型のズレ、3つの説明で対策の入口が変わる。
 - [リベンジ夜更かしとスマホ — 「終わりのない設計」が夜を延ばす仕組みと、物理で断ち切る方法](https://rentalloungeomiya.com/articles/revenge-yofukashi-sumaho.html): 無限スクロール・自動再生・可変報酬。終わらせない設計に意志で勝ち続けるのは、構造的に無理がある。
 - [子育て中のリベンジ夜更かし — 「子どもが寝てからが自分の時間」をやめられない親のための現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-kosodate.html): 削るのではなく、密度を上げて短くする。寝落ち復活の設計・夜番朝番制・15分の前倒しの3本柱。
 - [「報復性夜更かし」とは — 中国発の言葉が言い当てた、疲れているのに眠らない心理](https://rentalloungeomiya.com/articles/houfukusei-yofukashi.html): 中国発「報復性熬夜」が由来。眠らないのは意志の弱さではなく、昼を奪われたことへの抵抗。
-- [リベンジ夜更かしがやめられない本当の理由 — 「夜にしか自分の時間がない」人が今夜からできること](https://rentalloungeomiya.com/articles/revenge-yofukashi.html): 疲れているのに寝ない。それは意志の弱さではなく、一日の構造の問題です。
+- [リベンジ夜更かしとは — やめられない本当の理由と、対策の起点になる考え方](https://rentalloungeomiya.com/articles/revenge-yofukashi.html): 疲れているのに寝ない。それは意志の弱さではなく、一日の構造の問題です。
 
 ## タイプ解説
 
