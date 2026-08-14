@@ -3,3 +3,10 @@
 <Files ".ftp-deploy-sync-state.json">
   Require all denied
 </Files>
+
+# HTMLはキャッシュさせない（スマホで古いページが残るのを防ぐ）。CSS/JS/画像は ?v= で制御
+<IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
