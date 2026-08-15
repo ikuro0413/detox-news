@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全64本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全65本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -52,6 +52,7 @@
 
 ## ガジェットニュース
 
+- [箱型タイムロックボックス4製品を細かく比較 — 容量・タイマー上限・素材・モードで選ぶ最適解](https://rentalloungeomiya.com/articles/time-lock-box-hikaku.html): 定番iDiskk・最大30日の小型・家族向け13L折りたたみ・破壊耐性の金属製365日。4軸のスペック比較で用途別の最適解を出す。
 - [タイムロッキングコンテナ比較 — 箱型・ケース型・南京錠型、どれを選ぶべきか。緊急解除の有無が分かれ目](https://rentalloungeomiya.com/articles/time-locking-container.html): スマホやお菓子を時間指定で物理封印する箱。3タイプの違いと人気3製品、挫折しない使い方、アプリとの使い分けまで。
 - [Oura Ringのサブスクは必要か — メンバーシップ無しで使える機能、3年総額、払いたくない人の代替案](https://rentalloungeomiya.com/articles/oura-ring-subsc.html): 月5.99ドルのメンバーシップは実質必須。3年総額約9万円を払う価値がある人と、月額無料のRingConn/SOXAIで足りる人の線引き。
 - [スマホをやめられるアプリ4選 — 「魚が育つ」「木を植える」はなぜ効くのか、本末転倒にならない使い方](https://rentalloungeomiya.com/articles/sumaho-yameru-app.html): 魚が育つ・Forest・標準機能まで4つを比較。効く理由は損失回避の心理。「育ちが気になって開く」の防ぎ方も。
