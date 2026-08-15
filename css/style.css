@@ -297,6 +297,8 @@ html[data-theme="dark"] .site-footer .copy{color:var(--sub)}
   }
   h2.sec + *{margin-top:22px}
   article b{-webkit-box-decoration-break:clone;box-decoration-break:clone}
+  /* .cmp-table はスマホでカード型になるので、素のtable由来のゼブラを消す */
+  article table.cmp-table tr:nth-child(even) td{background:transparent}
 }
 /* 冒頭の結論ブロック（answer-first）。検索結果や生成AIに要点だけ抜かれても
    記事の答えが成立するよう、本文の先頭に置く。 */
