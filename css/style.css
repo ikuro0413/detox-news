@@ -309,3 +309,16 @@ html[data-theme="dark"] .site-footer .copy{color:var(--sub)}
   display:inline-block;color:var(--accent);font-size:12px;font-weight:700;
   margin-right:6px;letter-spacing:.1em;
 }
+
+/* 記事内の素の<table>（比較表）。PCは罫線表、スマホは横スクロールで崩さない */
+article table{border-collapse:collapse;width:100%;margin:18px 0;font-size:13.5px;line-height:1.8}
+article table th,article table td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+article table th{background:var(--bg-gray)}
+@media (max-width:640px){
+  article table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  article table th,article table td{min-width:8.5em}
+  article table th:first-child,article table td:first-child{
+    position:sticky;left:0;background:var(--card);box-shadow:1px 0 0 var(--line);min-width:6em;
+  }
+  article table th:first-child{background:var(--bg-gray)}
+}
