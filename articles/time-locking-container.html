@@ -32,6 +32,23 @@
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
 document.addEventListener('DOMContentLoaded',lbl);})();</script>
+<script id="aff-track">(function(){
+document.addEventListener('click',function(e){
+var t=e.target;if(!t||!t.closest)return;
+var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"]');if(!a)return;
+var card=a.closest('.aff-card');if(!card)return;
+var nm=card.querySelector('.aff-name');
+var all=[].slice.call(document.querySelectorAll('.aff-card'));
+var u=decodeURIComponent(a.getAttribute('href')||''),k=u.indexOf('item.rakuten.co.jp/'),sku='';
+if(k>-1){sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
+if(typeof gtag==='function'){gtag('event','affiliate_click',{
+item_name:(nm?nm.textContent:'').trim().slice(0,90),
+item_id:sku,
+aff_category:card.getAttribute('data-aff-cat')||'unset',
+card_position:all.indexOf(card)+1,
+click_area:a.className.indexOf('aff-btn')>-1?'button':'image',
+article_path:location.pathname});}
+},true);})();</script>
 </head>
 <body>
 
@@ -103,18 +120,18 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <h3>① 箱型の定番 — iDiskk タイムロックボックス</h3>
 <p>レビュー数が多く、テレビの情報番組でも取り上げられた定番の箱型です。USB充電式で、スマホなら複数台、お菓子やゲーム機のコントローラーも入る容量。<b>「家族のスマホを夕食の間だけまとめて封印する」といった使い方ができる</b>のは箱型だけです。箱型は製品差が大きいジャンルなので、容量・タイマー上限・素材まで踏み込んだ<a href="time-lock-box-hikaku.html">箱型4製品の詳細比較</a>も用意しました。</p>
 
-<div class="aff-card"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdocodemo%2Fidiskk-locker%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdocodemo%2Fidiskk-locker%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/docodemo/cabinet/07216302/idiskk-locker/imgrc0119126950.jpg?_ex=300x300" alt="iDiskk タイムロックボックス" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">iDiskk タイムロックボックス（充電式・テレビ紹介）</div><div class="aff-price">4,699円（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdocodemo%2Fidiskk-locker%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdocodemo%2Fidiskk-locker%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="box"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdocodemo%2Fidiskk-locker%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdocodemo%2Fidiskk-locker%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/docodemo/cabinet/07216302/idiskk-locker/imgrc0119126950.jpg?_ex=300x300" alt="iDiskk タイムロックボックス" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">iDiskk タイムロックボックス（充電式・テレビ紹介）</div><div class="aff-price">4,699円（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdocodemo%2Fidiskk-locker%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdocodemo%2Fidiskk-locker%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
 <div class="aff-note">※商品リンクはアフィリエイト広告（楽天）です</div>
 
 <h3>② ケース型の入門 — スマホおあずけくん</h3>
 <p>スマホ1台がちょうど収まるケース型で、レビュー件数は今回比較した中で最多。<b>2,980円という価格と省スペースさで、「まず試す」の心理的ハードルがいちばん低い</b>製品です。名前のとおり「おあずけ」の絵面になるので、家族の目がある場所に置くと続けやすい。</p>
 
-<div class="aff-card"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceecology%2F2025053001%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceecology%2F2025053001%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/peaceecology/cabinet/biiino/item/main-image/20251224123908_1.jpg?_ex=300x300" alt="スマホおあずけくん タイマー式スマホロックケース" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">スマホおあずけくん（タイマー式スマホロックケース）</div><div class="aff-price">2,980円（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceecology%2F2025053001%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceecology%2F2025053001%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="box"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceecology%2F2025053001%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceecology%2F2025053001%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/peaceecology/cabinet/biiino/item/main-image/20251224123908_1.jpg?_ex=300x300" alt="スマホおあずけくん タイマー式スマホロックケース" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">スマホおあずけくん（タイマー式スマホロックケース）</div><div class="aff-price">2,980円（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceecology%2F2025053001%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceecology%2F2025053001%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
 
 <h3>③ 南京錠型の応用 — Edulock タイムロッキング南京錠</h3>
 <p>箱ではなく<b>「時限式の南京錠」</b>という発想の製品で、東京大学出身者が受験生向けに企画したもの。ゲーム機を入れた引き出し、お菓子の袋、ケーブルをまとめた巾着など、<b>手持ちの入れ物がそのまま封印箱になる</b>のが強みです。箱型より小さく持ち運べるので、職場や自習室でも使えます。</p>
 
-<div class="aff-card"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faalto%2F221210_01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Faalto%2F221210_01%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/aalto/cabinet/11664053/11997130/1-pc-black.jpg?_ex=300x300" alt="Edulock タイムロッキング南京錠" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">Edulock タイムロッキング南京錠（東大出身者企画）</div><div class="aff-price">3,680円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faalto%2F221210_01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Faalto%2F221210_01%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="box"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faalto%2F221210_01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Faalto%2F221210_01%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/aalto/cabinet/11664053/11997130/1-pc-black.jpg?_ex=300x300" alt="Edulock タイムロッキング南京錠" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">Edulock タイムロッキング南京錠（東大出身者企画）</div><div class="aff-price">3,680円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faalto%2F221210_01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Faalto%2F221210_01%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
 
 <h2>買う前のチェックポイント4つ</h2>
 

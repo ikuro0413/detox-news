@@ -32,6 +32,23 @@
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
 document.addEventListener('DOMContentLoaded',lbl);})();</script>
+<script id="aff-track">(function(){
+document.addEventListener('click',function(e){
+var t=e.target;if(!t||!t.closest)return;
+var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"]');if(!a)return;
+var card=a.closest('.aff-card');if(!card)return;
+var nm=card.querySelector('.aff-name');
+var all=[].slice.call(document.querySelectorAll('.aff-card'));
+var u=decodeURIComponent(a.getAttribute('href')||''),k=u.indexOf('item.rakuten.co.jp/'),sku='';
+if(k>-1){sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
+if(typeof gtag==='function'){gtag('event','affiliate_click',{
+item_name:(nm?nm.textContent:'').trim().slice(0,90),
+item_id:sku,
+aff_category:card.getAttribute('data-aff-cat')||'unset',
+card_position:all.indexOf(card)+1,
+click_area:a.className.indexOf('aff-btn')>-1?'button':'image',
+article_path:location.pathname});}
+},true);})();</script>
 </head>
 <body>
 
@@ -148,6 +165,26 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
   <a href="https://dic.pixiv.net/a/%E3%83%89%E3%83%91%E3%82%AC%E3%82%AD" target="_blank" rel="noopener">ピクシブ百科事典: ドパガキ</a><br>
   <a href="https://www.cfa.go.jp/policies/youth-kankyou/internet_research/results-etc/r06" target="_blank" rel="noopener">こども家庭庁: 令和6年度 青少年のインターネット利用環境実態調査</a>
 </div>
+
+<h2>意志でどうにもならないなら、物理で塞ぐという手もある</h2>
+
+<p>ドパ廃を抜け出す方法として語られるのは、たいてい「スマホを別の部屋に置く」「通知を切る」といった環境調整です。ただ、これらはどれも<b>その瞬間に自分で決める</b>必要があります。決められないから廃人化しているわけで、意志を前提にした対策は空回りしがちです。</p>
+
+<p>もう少し身も蓋もない方向として、<b>手や目を物理的に塞いでしまう</b>というやり方があります。スマホを遠ざけるのではなく、スクロールという動作そのものを成立させなくするアプローチです。</p>
+
+<ul>
+<li><b>手を塞ぐ</b> — 就寝用の手袋やハンドパックをはめる。ハンドケアという別の目的があるぶん、我慢している感覚になりにくい</li>
+<li><b>目を塞ぐ</b> — 温感タイプのアイマスク。使い捨てと、電子レンジで繰り返し使えるタイプがある</li>
+</ul>
+
+<p>いずれも「スマホを禁止する道具」ではなく、<b>別の心地よさで手や目が埋まった結果、触れなくなる</b>という順番です。我慢を強いるやり方が続かないことは、ドパ廃という言葉が広まっていること自体が証明しています。</p>
+
+<div class="aff-card" data-aff-cat="hand-pack"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/tbgm/cabinet/mbimg/sh06/xe-3354.jpg?_ex=300x300" alt="KOCOSTAR ハンドブーケマスク（使い捨てハンドパック・5種セット）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">KOCOSTAR ハンドブーケマスク（使い捨てハンドパック・5種セット）</div><div class="aff-price">1,650円（税込・送料無料・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-note">※商品リンクはアフィリエイト広告（楽天）です</div>
+<div class="aff-card" data-aff-cat="eye-disposable"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/kenkocom/cabinet/959/406959.jpg?_ex=300x300" alt="【花王】めぐりズム 蒸気でホットアイマスク（12枚入×3箱）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【花王】めぐりズム 蒸気でホットアイマスク（12枚入×3箱）</div><div class="aff-price">4,412円（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="eye-reusable"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/981/4901548603981.jpg?_ex=300x300" alt="【小林製薬】あずきのチカラ 目もと用（レンジで繰り返し使える）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【小林製薬】あずきのチカラ 目もと用（レンジで繰り返し使える）</div><div class="aff-price">1,054円（税込・送料770円別・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+
+<p>なお、これらは依存そのものを解消する道具ではありません。あくまで「触れる状態を物理的に減らす」だけの話です。就寝時刻そのものが後ろにずれている場合は、そちらを先に動かすほうが早いこともあります。</p>
 
 <section class="faq-sec">
 <h2>よくある質問</h2>

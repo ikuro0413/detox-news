@@ -32,6 +32,23 @@
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
 document.addEventListener('DOMContentLoaded',lbl);})();</script>
+<script id="aff-track">(function(){
+document.addEventListener('click',function(e){
+var t=e.target;if(!t||!t.closest)return;
+var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"]');if(!a)return;
+var card=a.closest('.aff-card');if(!card)return;
+var nm=card.querySelector('.aff-name');
+var all=[].slice.call(document.querySelectorAll('.aff-card'));
+var u=decodeURIComponent(a.getAttribute('href')||''),k=u.indexOf('item.rakuten.co.jp/'),sku='';
+if(k>-1){sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
+if(typeof gtag==='function'){gtag('event','affiliate_click',{
+item_name:(nm?nm.textContent:'').trim().slice(0,90),
+item_id:sku,
+aff_category:card.getAttribute('data-aff-cat')||'unset',
+card_position:all.indexOf(card)+1,
+click_area:a.className.indexOf('aff-btn')>-1?'button':'image',
+article_path:location.pathname});}
+},true);})();</script>
 </head>
 <body>
 
@@ -119,7 +136,7 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 
 <p>迷ったら、<b>「毎晩着続けられる方」があなたにとっての正解</b>です。効能の枠が同じである以上、勝負を分けるのは着用時間の総量だからです。BAKUNEの効果検証データや口コミの読み方は<a href="bakune-koka.html">バクネは効果ある？の記事</a>に、過度な期待をしないための前提は<a href="bakune-recovery-wear.html">BAKUNEとは何かの記事</a>にまとめています。</p>
 
-<div class="aff-card"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/tential/cabinet/13316722/imgrc0134701397.jpg?_ex=300x300" alt="【TENTIAL公式】リカバリーウェア BAKUNE Dry 上下セット（長袖・長ズボン）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【TENTIAL公式】リカバリーウェア BAKUNE Dry 上下セット（長袖・長ズボン）</div><div class="aff-price">12,430円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="wear"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/tential/cabinet/13316722/imgrc0134701397.jpg?_ex=300x300" alt="【TENTIAL公式】リカバリーウェア BAKUNE Dry 上下セット（長袖・長ズボン）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【TENTIAL公式】リカバリーウェア BAKUNE Dry 上下セット（長袖・長ズボン）</div><div class="aff-price">12,430円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
 <div class="aff-note">※商品リンクはアフィリエイト広告（楽天）です。ワークマンは楽天に公式出店がないため、店舗または公式オンラインストアでの購入をおすすめします</div>
 
 <div class="point">

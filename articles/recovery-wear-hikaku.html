@@ -32,6 +32,23 @@
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
 document.addEventListener('DOMContentLoaded',lbl);})();</script>
+<script id="aff-track">(function(){
+document.addEventListener('click',function(e){
+var t=e.target;if(!t||!t.closest)return;
+var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"]');if(!a)return;
+var card=a.closest('.aff-card');if(!card)return;
+var nm=card.querySelector('.aff-name');
+var all=[].slice.call(document.querySelectorAll('.aff-card'));
+var u=decodeURIComponent(a.getAttribute('href')||''),k=u.indexOf('item.rakuten.co.jp/'),sku='';
+if(k>-1){sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
+if(typeof gtag==='function'){gtag('event','affiliate_click',{
+item_name:(nm?nm.textContent:'').trim().slice(0,90),
+item_id:sku,
+aff_category:card.getAttribute('data-aff-cat')||'unset',
+card_position:all.indexOf(card)+1,
+click_area:a.className.indexOf('aff-btn')>-1?'button':'image',
+article_path:location.pathname});}
+},true);})();</script>
 </head>
 <body>
 
@@ -129,7 +146,7 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 
 <p>「毎晩着るものだから、着たくなる気持ちよさに投資する」という考え方の製品で、寝間着としての完成度・デザイン性を重視する人に向きます。仕組みと期待値の詳細は<a href="bakune-recovery-wear.html">BAKUNEの解説記事</a>と<a href="bakune-genri.html">原理の記事</a>でどうぞ。</p>
 
-<div class="aff-card"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/tential/cabinet/13316722/imgrc0134701397.jpg?_ex=300x300" alt="【TENTIAL公式】リカバリーウェア BAKUNE Dry 上下セット（長袖・長ズボン）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【TENTIAL公式】リカバリーウェア BAKUNE Dry 上下セット（長袖・長ズボン）</div><div class="aff-price">12,430円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="wear"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/tential/cabinet/13316722/imgrc0134701397.jpg?_ex=300x300" alt="【TENTIAL公式】リカバリーウェア BAKUNE Dry 上下セット（長袖・長ズボン）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【TENTIAL公式】リカバリーウェア BAKUNE Dry 上下セット（長袖・長ズボン）</div><div class="aff-price">12,430円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftential%2Fbakune-drylong-m-set_25ss%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
 <div class="aff-note">※商品リンクはアフィリエイト広告（楽天）です</div>
 
 <h2>VENEX — 休養一筋の老舗</h2>
@@ -138,7 +155,7 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 
 <p>派手さより着心地と実績で選ばれてきたブランドで、比較記事やレビューでは「長く使うリピーターが多い」と評されることが多い定番です。</p>
 
-<div class="aff-card"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvenex-j%2F6705%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvenex-j%2F6705%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/venex-j/cabinet/08813271/13307480/67056737_260501.jpg?_ex=300x300" alt="【VENEX公式】リカバリーウェア リフレッシュ（Tシャツ/パンツ 上下・単品）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【VENEX公式】リカバリーウェア リフレッシュ（Tシャツ/パンツ 上下・単品）</div><div class="aff-price">9,900円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvenex-j%2F6705%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvenex-j%2F6705%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="wear"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvenex-j%2F6705%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvenex-j%2F6705%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/venex-j/cabinet/08813271/13307480/67056737_260501.jpg?_ex=300x300" alt="【VENEX公式】リカバリーウェア リフレッシュ（Tシャツ/パンツ 上下・単品）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【VENEX公式】リカバリーウェア リフレッシュ（Tシャツ/パンツ 上下・単品）</div><div class="aff-price">9,900円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvenex-j%2F6705%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvenex-j%2F6705%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
 
 <h2>新興・低価格勢の位置づけ</h2>
 
@@ -148,9 +165,9 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <li><b>SIXPAD</b> — 運動後のリカバリー文脈。トレーニング習慣がある人には親和性が高い</li>
 </ul>
 
-<div class="aff-card"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fred-jpn%2F1766620101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fred-jpn%2F1766620101%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/red-jpn/cabinet/item/thumb/1766620101_00.jpg?_ex=300x300" alt="【ReD公式】リカバリーウェア ReD ぐっすりパジャマ 上下セット" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【ReD公式】リカバリーウェア ReD ぐっすりパジャマ 上下セット</div><div class="aff-price">6,600円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fred-jpn%2F1766620101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fred-jpn%2F1766620101%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
-<div class="aff-card"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1741420101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1741420101%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/mtgec-beauty/cabinet/05449264/wear/10538149/imgrc0130306674.jpg?_ex=300x300" alt="【MTG公式】SIXPAD リカバリーウェア スリープ トップ" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【MTG公式】SIXPAD リカバリーウェア スリープ トップ</div><div class="aff-price">11,000円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1741420101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1741420101%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
-<div class="aff-card"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F2115100116358s%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F2115100116358s%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/5100116/2115100116358s01.jpg?_ex=300x300" alt="【ニトリ公式】着るだけで疲労回復リカバリーウェア 半袖Tシャツ（Nミラク）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【ニトリ公式】着るだけで疲労回復リカバリーウェア 半袖Tシャツ（Nミラク）</div><div class="aff-price">1,790円（税込・送料別・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F2115100116358s%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F2115100116358s%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="wear"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fred-jpn%2F1766620101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fred-jpn%2F1766620101%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/red-jpn/cabinet/item/thumb/1766620101_00.jpg?_ex=300x300" alt="【ReD公式】リカバリーウェア ReD ぐっすりパジャマ 上下セット" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【ReD公式】リカバリーウェア ReD ぐっすりパジャマ 上下セット</div><div class="aff-price">6,600円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fred-jpn%2F1766620101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fred-jpn%2F1766620101%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="wear"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1741420101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1741420101%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/mtgec-beauty/cabinet/05449264/wear/10538149/imgrc0130306674.jpg?_ex=300x300" alt="【MTG公式】SIXPAD リカバリーウェア スリープ トップ" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【MTG公式】SIXPAD リカバリーウェア スリープ トップ</div><div class="aff-price">11,000円〜（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1741420101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1741420101%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="wear"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F2115100116358s%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F2115100116358s%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/nitori/cabinet/5100116/2115100116358s01.jpg?_ex=300x300" alt="【ニトリ公式】着るだけで疲労回復リカバリーウェア 半袖Tシャツ（Nミラク）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【ニトリ公式】着るだけで疲労回復リカバリーウェア 半袖Tシャツ（Nミラク）</div><div class="aff-price">1,790円（税込・送料別・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F2115100116358s%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnitori%2F2115100116358s%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
 
 <h2>リライブシャツ — 「動きのサポート」で有名な変わり種</h2>
 
@@ -158,7 +175,7 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 
 <p>ただしラインナップには、セラミックを練り込んだ生地で遠赤外線を輻射する<b>一般医療機器届出モデル「リライブシャツコア」（13,200円）</b>があり、こちらはBAKUNEなどと同じ「家庭用遠赤外線血行促進用衣」の土俵に乗っています。注意したいのは、<b>通常のリライブシャツは医療機器の届出対象ではない</b>こと（過去に届出していたモデルが定義の見直しで対象外になった経緯もあります）。リカバリー目的で選ぶなら、「コア」など医療機器届出の記載があるモデルかどうかを確認してから買うのが正解です。</p>
 
-<div class="aff-card"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Freliveshirt%2Ftaca-2608%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Freliveshirt%2Ftaca-2608%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/reliveshirt/cabinet/taca-2608/taca-2608_thm2.jpg?_ex=300x300" alt="【公式】リライブシャツコア（一般医療機器）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【リライブ公式】リライブシャツコア（一般医療機器・男女兼用）</div><div class="aff-price">13,200円（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Freliveshirt%2Ftaca-2608%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Freliveshirt%2Ftaca-2608%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="wear"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Freliveshirt%2Ftaca-2608%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Freliveshirt%2Ftaca-2608%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/reliveshirt/cabinet/taca-2608/taca-2608_thm2.jpg?_ex=300x300" alt="【公式】リライブシャツコア（一般医療機器）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【リライブ公式】リライブシャツコア（一般医療機器・男女兼用）</div><div class="aff-price">13,200円（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Freliveshirt%2Ftaca-2608%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Freliveshirt%2Ftaca-2608%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
 
 <h2>結論：使い方別のおすすめ</h2>
 
@@ -168,6 +185,26 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 </div>
 
 <p>最後に、当サイトとしての注意をひとつ。リカバリーウェアの効能は、どのブランドでも「血行促進による疲労・こりの緩和まで」で、<b>「睡眠そのものが深くなる」は届出の効能に含まれていません</b>。また一般医療機器の届出は国が効果を審査したという意味ではありません。就寝時刻の乱れやスマホ習慣といった土台が崩れたままでは、何万円のウェアも力を発揮しきれない——グッズは土台の上の上乗せ、という順番だけは忘れずに。</p>
+
+<h2>ウェアが届かない場所 — 手先はどうするか</h2>
+
+<p>ここまで見てきたリカバリーウェアは、上下ともに<b>胴と四肢を覆う設計</b>です。裏を返すと、生地が届かない場所はカバーされません。「上下セットを着ても、朝いちばん冷たいのは手先だった」という声は、レビューでも比較記事でもよく見かけます。</p>
+
+<p>これは製品の欠陥ではなく、単純に<b>被覆面積の問題</b>です。ウェアの守備範囲の外側をどうするかは、別のカテゴリで考える必要があります。手元まわりの選択肢は、大きく2種類に分かれます。</p>
+
+<ul>
+<li><b>繰り返し使う布タイプ</b> — シルクや綿の「おやすみ手袋」。1,000〜2,000円台で、洗って何度も使う</li>
+<li><b>使い捨てのパックタイプ</b> — 美容液を含ませたシートを手にはめる。1回使い切りで、1回あたり数百円</li>
+</ul>
+
+<p>どちらも寝ている間に手を覆う点は同じですが、<b>買い切りか消耗品か</b>でコストの構造がまったく違います。長く続くのはどちらなのか、当サイトでも検証中です。</p>
+
+<div class="aff-card" data-aff-cat="hand-glove"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftfr-shop%2Frf-16%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftfr-shop%2Frf-16%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/tfr-shop/cabinet/thum/13061725/imgrc0142163077.jpg?_ex=300x300" alt="【テイジン公式】Raffinan おやすみ手袋（夜用・指先スマホ操作可）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【テイジン公式】Raffinan おやすみ手袋（夜用・指先スマホ操作可）</div><div class="aff-price">2,200円（税込・送料無料・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftfr-shop%2Frf-16%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftfr-shop%2Frf-16%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-note">※商品リンクはアフィリエイト広告（楽天）です</div>
+<div class="aff-card" data-aff-cat="hand-glove"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmilasic%2F1899%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmilasic%2F1899%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/milasic/cabinet/ir13/1899_01_l_r_f.jpg?_ex=300x300" alt="【MILASIC公式】日本製 おやすみ手袋（シルク混・タッチパネル対応）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【MILASIC公式】日本製 おやすみ手袋（シルク混・タッチパネル対応）</div><div class="aff-price">1,680円〜（税込・送料無料・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmilasic%2F1899%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmilasic%2F1899%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="hand-pack"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/tbgm/cabinet/mbimg/sh06/xe-3354.jpg?_ex=300x300" alt="KOCOSTAR ハンドブーケマスク（使い捨てハンドパック・5種セット）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">KOCOSTAR ハンドブーケマスク（使い捨てハンドパック・5種セット）</div><div class="aff-price">1,650円（税込・送料無料・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+
+<p>ひとつ気づいたことを書いておきます。手袋タイプの多くは「指先だけ出せる」「タッチパネル対応」を売りにしています。手荒れ対策としては理にかなった仕様ですが、<b>寝る前にスマホを触ってしまうのをやめたい人にとっては、その親切さが裏目に出る</b>こともあります。何のために手を覆うのかで、選ぶべき仕様は変わります。</p>
 
 <div class="refs">
   <div class="t">参考</div>
