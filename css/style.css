@@ -226,7 +226,7 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
 .aff-btn:hover{opacity:.85}
 .aff-btn+.aff-btn{margin-left:8px}
 .aff-btn-amazon{background:#ff9900;color:#111}
-@media (max-width:480px){.aff-btn{margin-bottom:6px}.aff-btn+.aff-btn{margin-left:0}}
+@media (max-width:480px){.aff-btn{padding:7px 11px;font-size:12px;margin-bottom:6px}.aff-btn+.aff-btn{margin-left:6px}}
 @media (max-width:480px){.aff-card{align-items:flex-start}.aff-card .aff-img img{width:88px;height:88px}}
 
 /* 記事タイトルの主題＋副題 */
