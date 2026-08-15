@@ -42,8 +42,8 @@ var all=[].slice.call(document.querySelectorAll('.aff-card'));
 var u=decodeURIComponent(a.getAttribute('href')||''),k=u.indexOf('item.rakuten.co.jp/'),sku='';
 if(k>-1){sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
 if(typeof gtag==='function'){gtag('event','affiliate_click',{
-item_name:(nm?nm.textContent:'').trim().slice(0,90),
-item_id:sku,
+aff_item_name:(nm?nm.textContent:'').trim().slice(0,90),
+aff_item_id:sku,
 aff_category:card.getAttribute('data-aff-cat')||'unset',
 card_position:all.indexOf(card)+1,
 click_area:a.className.indexOf('aff-btn')>-1?'button':'image',
