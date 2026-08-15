@@ -310,10 +310,12 @@ html[data-theme="dark"] .site-footer .copy{color:var(--sub)}
   margin-right:6px;letter-spacing:.1em;
 }
 
-/* 記事内の素の<table>（比較表）。PCは罫線表、スマホは横スクロールで崩さない */
-article table{border-collapse:collapse;width:100%;margin:18px 0;font-size:13.5px;line-height:1.8}
-article table th,article table td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
-article table th{background:var(--bg-gray)}
+/* 記事内の素の<table>（比較表）。PCは横罫線＋ゼブラの読みやすい表、スマホは横スクロール */
+article table{border-collapse:collapse;width:100%;margin:20px 0;font-size:14px;line-height:1.8}
+article table th,article table td{border:none;border-bottom:1px solid var(--line);padding:10px 14px;text-align:left;vertical-align:top}
+article table tr:first-child th{border-bottom:2px solid var(--ink);background:var(--bg-gray)}
+article table tr:nth-child(even) td{background:var(--bg-gray)}
+article table td:first-child,article table th:first-child{white-space:nowrap}
 @media (max-width:640px){
   article table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
   article table th,article table td{min-width:8.5em}
