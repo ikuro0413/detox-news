@@ -13,7 +13,7 @@
 </script>
 <title>ドパ廃とは — 意味と使い方、ドパガキとの違い。「ドパい」「ドパる」まで派生語を全部整理する｜DetoxNews</title>
 <meta name="description" content="ドパ廃＝「ドーパミン中毒の廃人」。ドパガキの大人版・重症版を指すZ世代スラングです。ドパガキとの違い、「ドパい」「ドパる」「ドパ舌」「ドパ中」など派生語の意味と使い方を一覧で整理し、自虐で終わらせずに抜け出す方向まで解説します。">
-<link rel="stylesheet" href="../css/style.css?v=20260815b">
+<link rel="stylesheet" href="../css/style.css?v=20260816a">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
@@ -35,15 +35,18 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <script id="aff-track">(function(){
 document.addEventListener('click',function(e){
 var t=e.target;if(!t||!t.closest)return;
-var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"]');if(!a)return;
+var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"], .aff-card a[href*="amazon.co.jp"]');if(!a)return;
 var card=a.closest('.aff-card');if(!card)return;
 var nm=card.querySelector('.aff-name');
 var all=[].slice.call(document.querySelectorAll('.aff-card'));
-var u=decodeURIComponent(a.getAttribute('href')||''),k=u.indexOf('item.rakuten.co.jp/'),sku='';
-if(k>-1){sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
+var u=decodeURIComponent(a.getAttribute('href')||'');
+var net=u.indexOf('amazon.co.jp')>-1?'amazon':'rakuten',sku='';
+if(net==='amazon'){var d=u.indexOf('/dp/');if(d>-1)sku=u.slice(d+4).split('?')[0].split('/')[0];}
+else{var k=u.indexOf('item.rakuten.co.jp/');if(k>-1)sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
 if(typeof gtag==='function'){gtag('event','affiliate_click',{
 aff_item_name:(nm?nm.textContent:'').trim().slice(0,90),
 aff_item_id:sku,
+aff_network:net,
 aff_category:card.getAttribute('data-aff-cat')||'unset',
 card_position:all.indexOf(card)+1,
 click_area:a.className.indexOf('aff-btn')>-1?'button':'image',
@@ -179,10 +182,10 @@ article_path:location.pathname});}
 
 <p>いずれも「スマホを禁止する道具」ではなく、<b>別の心地よさで手や目が埋まった結果、触れなくなる</b>という順番です。我慢を強いるやり方が続かないことは、ドパ廃という言葉が広まっていること自体が証明しています。</p>
 
-<div class="aff-card" data-aff-cat="hand-pack"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/tbgm/cabinet/mbimg/sh06/xe-3354.jpg?_ex=300x300" alt="KOCOSTAR ハンドブーケマスク（使い捨てハンドパック・5種セット）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">KOCOSTAR ハンドブーケマスク（使い捨てハンドパック・5種セット）</div><div class="aff-price">1,650円（税込・送料無料・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
-<div class="aff-note">※商品リンクはアフィリエイト広告（楽天）です</div>
-<div class="aff-card" data-aff-cat="eye-disposable"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/kenkocom/cabinet/959/406959.jpg?_ex=300x300" alt="【花王】めぐりズム 蒸気でホットアイマスク（12枚入×3箱）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【花王】めぐりズム 蒸気でホットアイマスク（12枚入×3箱）</div><div class="aff-price">4,412円（税込・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
-<div class="aff-card" data-aff-cat="eye-reusable"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/981/4901548603981.jpg?_ex=300x300" alt="【小林製薬】あずきのチカラ 目もと用（レンジで繰り返し使える）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【小林製薬】あずきのチカラ 目もと用（レンジで繰り返し使える）</div><div class="aff-price">1,054円（税込・送料770円別・執筆時点）</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a></div></div>
+<div class="aff-card" data-aff-cat="hand-pack"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/tbgm/cabinet/mbimg/sh06/xe-3354.jpg?_ex=300x300" alt="KOCOSTAR ハンドブーケマスク（使い捨てハンドパック・5種セット）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">KOCOSTAR ハンドブーケマスク（使い捨てハンドパック・5種セット）</div><div class="aff-price">楽天 1,650円（5種セット）／ Amazon 1,310円（5枚・ピンク）※税込・執筆時点</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftbgm%2Fxe-3354%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a><a class="aff-btn aff-btn-amazon" href="https://www.amazon.co.jp/dp/B0GTYHWZMX/?tag=detoxnews-22&linkCode=ll1&language=ja_JP" target="_blank" rel="noopener sponsored">Amazonで見る</a></div></div>
+<div class="aff-note">※商品リンクはアフィリエイト広告（楽天・Amazon）です。Amazonのアソシエイトとして、DetoxNewsは適格販売により収入を得ています。</div>
+<div class="aff-card" data-aff-cat="eye-disposable"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/kenkocom/cabinet/959/406959.jpg?_ex=300x300" alt="【花王】めぐりズム 蒸気でホットアイマスク（12枚入×3箱）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【花王】めぐりズム 蒸気でホットアイマスク（12枚入×3箱）</div><div class="aff-price">楽天 4,412円（12枚×3箱）／ Amazon 1,313円（12枚・森林浴の香り）※税込・執筆時点</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F406959%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a><a class="aff-btn aff-btn-amazon" href="https://www.amazon.co.jp/dp/B08G47Y8GC/?tag=detoxnews-22&linkCode=ll1&language=ja_JP" target="_blank" rel="noopener sponsored">Amazonで見る</a></div></div>
+<div class="aff-card" data-aff-cat="eye-reusable"><a class="aff-img" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F" target="_blank" rel="noopener sponsored"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/981/4901548603981.jpg?_ex=300x300" alt="【小林製薬】あずきのチカラ 目もと用（レンジで繰り返し使える）" loading="lazy" width="120" height="120"></a><div class="aff-body"><div class="aff-name">【小林製薬】あずきのチカラ 目もと用（レンジで繰り返し使える）</div><div class="aff-price">楽天 1,054円（送料770円別）／ Amazon 1,971円（送料込）※税込・執筆時点</div><a class="aff-btn" href="https://hb.afl.rakuten.co.jp/ichiba/566bfe61.1d80e212.566bfe62.3ab798c0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901548603981%2F" target="_blank" rel="noopener sponsored">楽天市場で見る</a><a class="aff-btn aff-btn-amazon" href="https://www.amazon.co.jp/dp/B0GVDNBSBP/?tag=detoxnews-22&linkCode=ll1&language=ja_JP" target="_blank" rel="noopener sponsored">Amazonで見る</a></div></div>
 
 <p>なお、これらは依存そのものを解消する道具ではありません。あくまで「触れる状態を物理的に減らす」だけの話です。就寝時刻そのものが後ろにずれている場合は、そちらを先に動かすほうが早いこともあります。</p>
 

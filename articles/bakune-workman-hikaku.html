@@ -13,7 +13,7 @@
 </script>
 <title>バクネとワークマンの違いを徹底比較 — 上下3,800円と2万円台、5倍の価格差はどこにあるのか｜DetoxNews</title>
 <meta name="description" content="BAKUNE（バクネ）とワークマンのメディヒールは、どちらも「家庭用遠赤外線血行促進用衣」の一般医療機器で、うたえる効能は同じです。それでも価格は約5倍違う。素材の作り込み・シリーズ展開・買い方の違いを1対1で比較し、どちらを選ぶべきかを使い方別に整理します。">
-<link rel="stylesheet" href="../css/style.css?v=20260815b">
+<link rel="stylesheet" href="../css/style.css?v=20260816a">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
@@ -35,15 +35,18 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <script id="aff-track">(function(){
 document.addEventListener('click',function(e){
 var t=e.target;if(!t||!t.closest)return;
-var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"]');if(!a)return;
+var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"], .aff-card a[href*="amazon.co.jp"]');if(!a)return;
 var card=a.closest('.aff-card');if(!card)return;
 var nm=card.querySelector('.aff-name');
 var all=[].slice.call(document.querySelectorAll('.aff-card'));
-var u=decodeURIComponent(a.getAttribute('href')||''),k=u.indexOf('item.rakuten.co.jp/'),sku='';
-if(k>-1){sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
+var u=decodeURIComponent(a.getAttribute('href')||'');
+var net=u.indexOf('amazon.co.jp')>-1?'amazon':'rakuten',sku='';
+if(net==='amazon'){var d=u.indexOf('/dp/');if(d>-1)sku=u.slice(d+4).split('?')[0].split('/')[0];}
+else{var k=u.indexOf('item.rakuten.co.jp/');if(k>-1)sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
 if(typeof gtag==='function'){gtag('event','affiliate_click',{
 aff_item_name:(nm?nm.textContent:'').trim().slice(0,90),
 aff_item_id:sku,
+aff_network:net,
 aff_category:card.getAttribute('data-aff-cat')||'unset',
 card_position:all.indexOf(card)+1,
 click_area:a.className.indexOf('aff-btn')>-1?'button':'image',

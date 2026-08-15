@@ -13,7 +13,7 @@
 </script>
 <title>バクネ（BAKUNE）は効果ある？ — 早稲田大の実証データと口コミ、ワークマンとの違い｜DetoxNews</title>
 <meta name="description" content="バクネ（BAKUNE）は「血行促進・疲労軽減」などの効能を届け出た一般医療機器のリカバリーウェア。早稲田大学との共同研究では睡眠時間は変わらない一方、入眠時の深部体温低下を助ける変化が確認されています。口コミの傾向、価格・洗濯・サイズの仕様、ワークマンとの違い、効果を感じにくい人の条件まで整理しました。">
-<link rel="stylesheet" href="../css/style.css?v=20260815b">
+<link rel="stylesheet" href="../css/style.css?v=20260816a">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
@@ -35,15 +35,18 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <script id="aff-track">(function(){
 document.addEventListener('click',function(e){
 var t=e.target;if(!t||!t.closest)return;
-var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"]');if(!a)return;
+var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"], .aff-card a[href*="amazon.co.jp"]');if(!a)return;
 var card=a.closest('.aff-card');if(!card)return;
 var nm=card.querySelector('.aff-name');
 var all=[].slice.call(document.querySelectorAll('.aff-card'));
-var u=decodeURIComponent(a.getAttribute('href')||''),k=u.indexOf('item.rakuten.co.jp/'),sku='';
-if(k>-1){sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
+var u=decodeURIComponent(a.getAttribute('href')||'');
+var net=u.indexOf('amazon.co.jp')>-1?'amazon':'rakuten',sku='';
+if(net==='amazon'){var d=u.indexOf('/dp/');if(d>-1)sku=u.slice(d+4).split('?')[0].split('/')[0];}
+else{var k=u.indexOf('item.rakuten.co.jp/');if(k>-1)sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
 if(typeof gtag==='function'){gtag('event','affiliate_click',{
 aff_item_name:(nm?nm.textContent:'').trim().slice(0,90),
 aff_item_id:sku,
+aff_network:net,
 aff_category:card.getAttribute('data-aff-cat')||'unset',
 card_position:all.indexOf(card)+1,
 click_area:a.className.indexOf('aff-btn')>-1?'button':'image',
