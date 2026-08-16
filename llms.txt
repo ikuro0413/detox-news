@@ -56,7 +56,7 @@
 - [タイムロッキングコンテナ箱型を徹底比較 — 楽天で買える全系統から最適解を出す](https://rentalloungeomiya.com/articles/time-lock-box-hikaku.html): 検索結果30件超を系統で束ねると実質約10系統。注目8系統の詳説と全体マップで、価格3,998円の薄型から金属製365日まで用途別の最適解を出す。
 - [タイムロッキングコンテナ比較 — 箱型・ケース型・南京錠型、どれを選ぶべきか。緊急解除の有無が分かれ目](https://rentalloungeomiya.com/articles/time-locking-container.html): スマホやお菓子を時間指定で物理封印する箱。3タイプの違いと人気3製品、挫折しない使い方、アプリとの使い分けまで。
 - [Oura Ringのサブスクは必要か — メンバーシップ無しで使える機能、3年総額、払いたくない人の代替案](https://rentalloungeomiya.com/articles/oura-ring-subsc.html): 月5.99ドルのメンバーシップは実質必須。3年総額約9万円を払う価値がある人と、月額無料のRingConn/SOXAIで足りる人の線引き。
-- [スマホをやめられるアプリ4選 — 「魚が育つ」「木を植える」はなぜ効くのか、本末転倒にならない使い方](https://rentalloungeomiya.com/articles/sumaho-yameru-app.html): 魚が育つ・Forest・標準機能まで4つを比較。効く理由は損失回避の心理。「育ちが気になって開く」の防ぎ方も。
+- [スマホをやめられるアプリ4選 — 「スマホをやめれば魚が育つ」「Forest」はなぜ効くのか、本末転倒にならない使い方](https://rentalloungeomiya.com/articles/sumaho-yameru-app.html): 魚が育つ・Forest・標準機能まで4つを比較。効く理由は損失回避の心理。「育ちが気になって開く」の防ぎ方も。
 - [リカバリーウェアが流行っているのは日本だけ？ — 世界のスリープテック地図と「着る日本・測る海外」](https://rentalloungeomiya.com/articles/recovery-wear-kaigai.html): 答えはほぼイエス。海外の主戦場はセンサーで「測る」、日本は繊維で「着る」。約3.5兆円市場の地図と、日本だけ着る系が育った4つの理由。
 - [スマホの前に「電話」を — 子ども用Wi-Fi固定電話「Tin Can」が海外の親に選ばれる理由](https://rentalloungeomiya.com/articles/tin-can-phone.html): 通話しかできない、承認した相手としか話せない。その「できなさ」が、スマホを急がない選択肢になる。
 - [紙のタスクカード「Analog」 — アプリより不便なのに5万人が使う理由と、夜の頭を軽くする効果](https://rentalloungeomiya.com/articles/ugmonk-analog.html): 1日1枚、書ける数に限りがある。書く摩擦が優先順位を強制し、寝る前の頭から未完了タスクを追い出す。
