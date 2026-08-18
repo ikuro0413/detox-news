@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全69本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全70本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -52,6 +52,7 @@
 
 ## ガジェットニュース
 
+- [RingConn Gen 3とSOXAI RING 2、どっちを買うべきか — サブスク無料の2機種、2万円差で変わるのは3つだけ](https://rentalloungeomiya.com/articles/ringconn-soxai-hikaku.html): どちらも月額無料・チタン外装・最大14日バッテリー。2万円の差で実際に増えるのは睡眠時無呼吸の自動アセスメント・振動通知・充電ケースの3点。寸法やサイズ規格、日本語サポートまで1対1で比較する。
 - [「スマホをやめれば魚が育つ」はAndroidで使える？ — 同名アプリが2つある理由と料金・設定のつまずきどころ](https://rentalloungeomiya.com/articles/sakana-ga-sodatsu.html): Android版は配信なし（iPhone専用）。App Storeに新旧2つ並ぶ理由、無料でどこまで使えるか、スクリーンタイム許可でつまずいたときの確認手順、Android向け代替アプリまで、ストアの実掲載情報で整理する。
 - [タイムロッキングコンテナ箱型を徹底比較 — Amazonで買える全系統から最適解を出す](https://rentalloungeomiya.com/articles/time-lock-box-amazon.html): 切り抜きケース型・完全密封型・金属製365日・13L大容量まで6系統。容量／タイマー上限／電源方式／緊急解除／レビュー件数の5軸で比較する。
 - [タイムロッキングコンテナ箱型を徹底比較 — 楽天で買える全系統から最適解を出す](https://rentalloungeomiya.com/articles/time-lock-box-hikaku.html): 検索結果30件超を系統で束ねると実質約10系統。注目8系統の詳説と全体マップで、価格3,998円の薄型から金属製365日まで用途別の最適解を出す。
