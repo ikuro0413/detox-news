@@ -6,13 +6,14 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全73本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全75本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
 
 ## AIとの付き合い方
 
+- [スマホのマイクが勝手にオンになる？ — 緑やオレンジの点の意味、使ったアプリの確かめ方、止め方](https://rentalloungeomiya.com/articles/mic-katteni-hannou.html): 画面の点は「どこかのアプリがマイクかカメラを使っている」というOSの通知で、故障でも盗聴でもない。どのアプリが使ったかを履歴で確かめる手順と、勝手に反応しないようにする設定をAndroid・iPhone両方で整理する。
 - [AIアシスタントが勝手に入っていた — 消し方・無効化の手順と、消せないときの現実的な対処](https://rentalloungeomiya.com/articles/ai-assistant-off.html): 正体はアップデートによる自動追加。完全削除できなくても、起動経路・通知・無効化の3段階で実質止められる。
 - [AIが勝手に動くのはなぜか — 原因は5つに整理できる。確認する順番と止め方の全体マップ](https://rentalloungeomiya.com/articles/ai-katteni-ugoku.html): 誤起動・自動実行の仕様・権限の渡しすぎ・プロンプトインジェクション・学習への不安。上から順に切り分ければ迷わない。
 - [AIアシスタントが勝手に起動する・勝手に入っていた — よくある5つの原因と止め方](https://rentalloungeomiya.com/articles/ai-assistant-kidou.html): 夜中に突然話し出す正体は、ほぼウェイクワードの誤検知。5つの原因すべて設定画面で止められる。
@@ -53,6 +54,7 @@
 
 ## ガジェットニュース
 
+- [RingConn Gen 3とOura Ring 5、どっちを買うべきか — 本体6,000円差が、3年総額では約3.8万円差に開く](https://rentalloungeomiya.com/articles/ringconn-oura-hikaku.html): 本体価格では勝負がつかない2機種の分かれ目はサブスク。3年で約6.0万円と約9.8万円。分析の深さに払うか、振動アラーム・無呼吸アセスメント・充電ケースを買い切りで取るか、1対1で比較する。
 - [SOXAI RING 2とOura Ring 5、どっちを買うべきか — 本体2.6万円差と月額で、3年総額は約2.4倍になる](https://rentalloungeomiya.com/articles/soxai-oura-hikaku.html): 比べる軸は本体価格ではなく3年総額。買い切り39,980円と、65,800円＋月5.99ドル。1ドル150円換算で約4.0万円と約9.8万円、差はおよそ5.8万円になる。分析の深さ・日本語サポート・やめるコストまで1対1で比較する。
 - [RingConn Gen 3とSOXAI RING 2、どっちを買うべきか — サブスク無料の2機種、2万円差で変わるのは3つだけ](https://rentalloungeomiya.com/articles/ringconn-soxai-hikaku.html): どちらも月額無料・チタン外装・最大14日バッテリー。2万円の差で実際に増えるのは睡眠時無呼吸の自動アセスメント・振動通知・充電ケースの3点。寸法やサイズ規格、日本語サポートまで1対1で比較する。
 - [「スマホをやめれば魚が育つ」はAndroidで使える？ — 同名アプリが2つある理由と料金・設定のつまずきどころ](https://rentalloungeomiya.com/articles/sakana-ga-sodatsu.html): Android版は配信なし（iPhone専用）。App Storeに新旧2つ並ぶ理由、無料でどこまで使えるか、スクリーンタイム許可でつまずいたときの確認手順、Android向け代替アプリまで、ストアの実掲載情報で整理する。
