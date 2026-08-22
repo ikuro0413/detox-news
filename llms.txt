@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全79本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全80本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -72,9 +72,10 @@
 
 ## 脳と集中
 
+- [ドパるとは — 意味と使い方・例文。「ドパい」「ドパ舌」など派生語ファミリーも整理](https://rentalloungeomiya.com/articles/doparu.html): 「気づいたら2時間ショート動画見てた。完全にドパってる」——SNSでこんな言い回しを見かけて、意味を確かめに来た人がこの記事の読者だと思います。先に言うと、あなたの推測はほぼ合っています。
 - [全国学力テストが示した「SNS・動画時間と学力」 — 利用時間が長い子ほど学力が低い傾向。93万人調査で一貫](https://rentalloungeomiya.com/articles/gakuryoku-chousa-sumaho.html): 2026年4月23日、小学6年生と中学3年生のほぼ全員を対象にした全国学力・学習状況調査が実施されました。参加したのは小6が約93万人、中3が約86万人。
 - [大人のドパガキ — 「ガキ」じゃない年齢で心当たりがある人へ。夜だけ症状が出る理由と現実解](https://rentalloungeomiya.com/articles/dopagaki-otona.html): 日付が変わっている。明日は7時に起きないといけない。指はもう10分前から同じ動きだけを繰り返していて、画面に何が流れているのかもよく覚えていない。それでも止まらない。
-- [ドパ廃とは — 意味と使い方、ドパガキとの違い。「ドパい」「ドパる」まで派生語を全部整理する](https://rentalloungeomiya.com/articles/dopahai.html): 「おれドパガキ通り越してドパ廃だわ」。TikTokやX（旧Twitter)で、こんな自虐が伸びています。ドパガキ（ドーパミン中毒のガキ）の流行に続いて広がり始めたのが、このドパ廃です。
+- [ドパ廃とは — 意味と使い方、ドパガキとの違い。自虐で終わらせない抜け出し方の入口まで](https://rentalloungeomiya.com/articles/dopahai.html): 「おれドパガキ通り越してドパ廃だわ」。TikTokやX（旧Twitter)で、こんな自虐が伸びています。ドパガキ（ドーパミン中毒のガキ）の流行に続いて広がり始めたのが、このドパ廃です。
 - [ドーパミンデトックスは効果ある？意味ない？ — 提唱者の真意と、科学的根拠の現在地](https://rentalloungeomiya.com/articles/dopamine-detox-kouka.html): 「ドーパミンデトックスで人生が変わった」という体験談と、「あれは似非科学」という専門家の批判。検索すると両方が出てきて、結局どっちなんだ？となるのがこのテーマです。結論を先に言うと、どちらも半分正しい。
 - [スマホなし旅行のすすめ — 不便さが観光に変わる理由と、失敗しない準備リスト](https://rentalloungeomiya.com/articles/sumaho-nashi-ryoko.html): 地図アプリなし、レビューなし、乗換案内なし。スマホを家や駅のロッカーに置いて出かける「スマホなし旅行」が、Z世代を中心に静かに広がっています。アテンション・デトックスの実践としては最も思い切った形です。
 - [アテンション・デトックスとは — Z世代に広がる「見られ疲れ」対策と、今夜からできる始め方](https://rentalloungeomiya.com/articles/attention-detox.html): SNSを一番使いこなしているはずのZ世代が、いま自分からSNSと距離を取り始めています。テレビの情報番組でも特集されるようになったこの動き、キーワードは「アテンション・デトックス」。
