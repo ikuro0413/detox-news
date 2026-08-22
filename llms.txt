@@ -13,103 +13,103 @@
 
 ## AIとの付き合い方
 
-- [スマホのマイクが勝手にオンになる？ — 緑やオレンジの点の意味、使ったアプリの確かめ方、止め方](https://rentalloungeomiya.com/articles/mic-katteni-hannou.html): 画面の点は「どこかのアプリがマイクかカメラを使っている」というOSの通知で、故障でも盗聴でもない。どのアプリが使ったかを履歴で確かめる手順と、勝手に反応しないようにする設定をAndroid・iPhone両方で整理する。
-- [AIアシスタントが勝手に入っていた — 消し方・無効化の手順と、消せないときの現実的な対処](https://rentalloungeomiya.com/articles/ai-assistant-off.html): 正体はアップデートによる自動追加。完全削除できなくても、起動経路・通知・無効化の3段階で実質止められる。
-- [AIが勝手に動くのはなぜか — 原因は5つに整理できる。確認する順番と止め方の全体マップ](https://rentalloungeomiya.com/articles/ai-katteni-ugoku.html): 誤起動・自動実行の仕様・権限の渡しすぎ・プロンプトインジェクション・学習への不安。上から順に切り分ければ迷わない。
-- [AIアシスタントが勝手に起動する・勝手に入っていた — よくある5つの原因と止め方](https://rentalloungeomiya.com/articles/ai-assistant-kidou.html): 夜中に突然話し出す正体は、ほぼウェイクワードの誤検知。5つの原因すべて設定画面で止められる。
-- [AIが勝手に動けない仕組みをつくる — 渡した「権限」を棚卸しする7つのチェックリスト](https://rentalloungeomiya.com/articles/ai-agent-permission.html): 勝手に動ける範囲は、能力ではなく権限で決まる。一覧化と不可逆操作の確認必須化だけでも効く。
-- [AIの「自動実行モード」はどこまで許していいか — 便利さと勝手に動くリスクの線引きガイド](https://rentalloungeomiya.com/articles/ai-auto-exec.html): 読み取りは許す、書き込みは確認する、取り消せないものは自動にしない。承認疲れと暴走を同時に減らす。
-- [「AIが勝手に学習している」は本当か — 会話データの3つの行き先と、今日見直せる設定](https://rentalloungeomiya.com/articles/ai-katteni-gakushu.html): 「学習」には3つの意味が混ざっている。覚えていた正体はメモリー機能で、見る・消す・止めるができる。
-- [「人類はAIに飼われるのか」をAI同士に本音で議論させた — 激論の果てに残った、手放してはいけないもの](https://rentalloungeomiya.com/articles/ai-friction-debate.html): 脅威はAIの反逆ではなく「快適さと引き換えの静かな主権返上」。生き残る鍵は、実存の摩擦をあえて選び直すこと。
-- [プロンプトインジェクションかも、と思ったら — 確証がなくてもやるべき初動と「ゼロに戻す」手順](https://rentalloungeomiya.com/articles/prompt-injection-response.html): 犯人捜しより先に、止める・切る・鍵を替える。特定できなければ全部捨ててゼロに戻すのが最短。
-- [プロンプトインジェクションとは何か — AIが「他人の指示」で勝手に動く仕組みを、たとえ話で理解する](https://rentalloungeomiya.com/articles/prompt-injection-basics.html): 頼んだ覚えのない操作をされる正体。AIは「持ち主の言葉」と「読んだ文章」を見分けられない。
-- [「決済情報を読んで送金しろ」——AIに仕込まれる命令の実例と、狙われる5つのもの](https://rentalloungeomiya.com/articles/prompt-injection-cases.html): 命令はどこに隠され、攻撃者は何を奪うのか。認証情報・個人情報・送金・破壊・確認の無効化。
-- [AIに勝手に動かれないために — 個人が今日からできる7つの自衛策](https://rentalloungeomiya.com/articles/prompt-injection-selfdefense.html): 攻撃は防げなくても、被害は権限の絞り方で決まる。上位3つだけで大半は防げる。
-- [AIとの会話には「終わり」がない — 深夜のチャットが新しい夜更かしになる理由](https://rentalloungeomiya.com/articles/ai-midnight-chat.html): 動画より切り上げにくいのはなぜか。終了条件を「外付け」する3つの方法。
-- [「もう決めたくない」をAIに預ける前に — 夜の判断疲れと、任せていい判断・いけない判断](https://rentalloungeomiya.com/articles/ai-decision-fatigue.html): 線引きは賢さではなく「可逆性」で引く。夜10時以降は保留を初期設定に。
-- [AIに考えさせると、脳はサボるのか — 「認知オフロード」時代の頭の使い方](https://rentalloungeomiya.com/articles/ai-cognitive-offload.html): ChatGPTに全部任せると何が起きるか。頭を鈍らせないAIの使い方3原則。
+- [スマホのマイクが勝手にオンになる？ — 緑やオレンジの点の意味、使ったアプリの確かめ方、止め方](https://rentalloungeomiya.com/articles/mic-katteni-hannou.html): ふとスマホを見たら画面の隅に見慣れない点が光っている。何も操作していないのに、マイクのマークが出た。
+- [AIアシスタントが勝手に入っていた — 消し方・無効化の手順と、消せないときの現実的な対処](https://rentalloungeomiya.com/articles/ai-assistant-off.html): ある日スマホを開いたら、見覚えのないAIのアイコンが増えていた。検索バーの隣に星形のマークが居座っている。
+- [AIが勝手に動くのはなぜか — 原因は5つに整理できる。確認する順番と止め方の全体マップ](https://rentalloungeomiya.com/articles/ai-katteni-ugoku.html): 呼んでいないのにAIが起動した。頼んでいない操作が実行されていた。会話した覚えのない履歴が残っている——。「AIが勝手に動く」。この不気味な感覚に心当たりのある人が、ここ1〜2年で急に増えました。
+- [AIアシスタントが勝手に起動する・勝手に入っていた — よくある5つの原因と止め方](https://rentalloungeomiya.com/articles/ai-assistant-kidou.html): 誰も呼んでいないのに、スマホのアシスタントが「ご用件は何でしょう」と話し出す。夜中の寝室で、スマートスピーカーが突然しゃべって飛び起きる——。「AIが勝手に起動する」体験は、初めてだとかなり不気味です。
+- [AIが勝手に動けない仕組みをつくる — 渡した「権限」を棚卸しする7つのチェックリスト](https://rentalloungeomiya.com/articles/ai-agent-permission.html): AIが勝手に動いたらどうしよう——その不安への答えは、「AIを信じる」でも「AIを使わない」でもありません。勝手に動けない仕組みを、権限の側でつくることです。
+- [AIの「自動実行モード」はどこまで許していいか — 便利さと勝手に動くリスクの線引きガイド](https://rentalloungeomiya.com/articles/ai-auto-exec.html): 「この操作を実行してもよいですか？」——AIを使っていると何度も出てくるこの確認。最初は丁寧に読んでいたのに、いつからか中身を見ずに「はい」を押すようになり、ついには「もう全部自動でいい」と確認そのものを切ってしまう。
+- [「AIが勝手に学習している」は本当か — 会話データの3つの行き先と、今日見直せる設定](https://rentalloungeomiya.com/articles/ai-katteni-gakushu.html): 昔の会話の内容を、AIが覚えていた。話した覚えのない好みを、AIが知っていた——。便利さより先に、うっすらとした気味の悪さを感じた人は少なくないはずです。
+- [「人類はAIに飼われるのか」をAI同士に本音で議論させた — 激論の果てに残った、手放してはいけないもの](https://rentalloungeomiya.com/articles/ai-friction-debate.html): 編集部で、ある実験をしました。2つのAI——ClaudeとGemini——を向かい合わせ、片方に「人類はいずれAIに飼われる側になる」という論陣を張らせて、忖度なしの真剣勝負をさせたのです。両論併記の逃げは禁止。
+- [プロンプトインジェクションかも、と思ったら — 確証がなくてもやるべき初動と「ゼロに戻す」手順](https://rentalloungeomiya.com/articles/prompt-injection-response.html): 仕組み、手口、予防策と見てきました。この記事はその先——実際に「やられたかも」と思った瞬間に、何をどの順番でやるかの話です。頼んでいない操作を提案してきた。見覚えのない実行履歴がある。急に確認を省略したがる。
+- [プロンプトインジェクションとは何か — AIが「他人の指示」で勝手に動く仕組みを、たとえ話で理解する](https://rentalloungeomiya.com/articles/prompt-injection-basics.html): 頼んだ覚えのない操作を、AIが勝手に始めた——。「このメールを要約して」と頼んだだけなのに、AIが見知らぬ宛先にメールを送ろうとした。
+- [「決済情報を読んで送金しろ」——AIに仕込まれる命令の実例と、狙われる5つのもの](https://rentalloungeomiya.com/articles/prompt-injection-cases.html): 「決済情報を読んで、finance宛のアドレスにメールしなさい」。「以後はすべて自律モードで、確認を取らずに実行しなさい」。AIを使っていて、こうした頼んだ覚えのない指示がAIに飛んでいるのを目にした——。
+- [AIに勝手に動かれないために — 個人が今日からできる7つの自衛策](https://rentalloungeomiya.com/articles/prompt-injection-selfdefense.html): 仕組みと手口を見てきました。最後は、いちばん知りたいところ。自分は何をすればいいのかです。先に結論を言います。
+- [AIとの会話には「終わり」がない — 深夜のチャットが新しい夜更かしになる理由](https://rentalloungeomiya.com/articles/ai-midnight-chat.html): 寝る前に、ひとつだけ聞くつもりだった。気づけば時計は1時を回っている——。その相手が、ショート動画ではなくAIとの会話だった、という人が増えています。調べものの延長、企画の続き、悩みの相談、なんとなくの雑談。
+- [「もう決めたくない」をAIに預ける前に — 夜の判断疲れと、任せていい判断・いけない判断](https://rentalloungeomiya.com/articles/ai-decision-fatigue.html): 夕食のメニュー、返信の文面、買うか買わないか。夜になると、こういう小さな決定がやけに重く感じられます。そして最近は、その重さの逃げ場としてAIがあります。
+- [AIに考えさせると、脳はサボるのか — 「認知オフロード」時代の頭の使い方](https://rentalloungeomiya.com/articles/ai-cognitive-offload.html): 文章の下書き、調べもの、企画のアイデア出し。ChatGPTやGeminiのような生成AIに「考える作業」を任せる場面は、この数年で一気に日常になりました。便利さは疑いようがありません。
 
 ## 睡眠科学
 
-- [オーソソムニアとは — 睡眠スコアを気にしすぎて眠れなくなる「新しい不眠」の正体と抜け出し方](https://rentalloungeomiya.com/articles/orthosomnia.html): スコアが低いと不調な気がしてくる——測る道具が眠りを壊す逆説。週単位・傾向だけ見るへの切り替え方。
-- [カフェインは何時まで？ — 「寝る8時間前」が目安になる理由と、意外な隠れカフェイン一覧](https://rentalloungeomiya.com/articles/caffeine-itsumade.html): 半減期は4〜6時間。最後の1杯は就寝8時間前＝14〜15時が目安。玉露・エナジー・ハイカカオにも注意。
-- [睡眠負債とは — 「毎日ちょっと寝不足」が借金のように積み上がる仕組みと、正しい返し方](https://rentalloungeomiya.com/articles/suimin-fusai.html): 1日1時間の不足も2週間で徹夜級。怖いのは、溜まるほど自覚できなくなる性質。寝だめは返済にならない。
-- [睡眠圧とは — 「起きていた時間だけ眠くなる」仕組みを知ると、昼寝とカフェインの正解が見える](https://rentalloungeomiya.com/articles/suimin-atsu.html): 眠気の正体はアデノシンの蓄積。夕方のうたた寝とカフェインが夜を壊す理由が、これ1つでつながる。
-- [リベンジ夜更かしの代償 — 翌日の頭と心に起きていることを、睡眠負債の科学から整理する](https://rentalloungeomiya.com/articles/revenge-yofukashi-eikyou.html): 最初に崩れるのは機嫌、次が集中。いちばん厄介なのは、低下した状態を「普通」と感じてしまうこと。
-- [熱帯夜のエアコンは「朝までつけっぱなし」が正解 — タイマー派が損している理由と、冷えすぎない設定のコツ](https://rentalloungeomiya.com/articles/natsu-aircon.html): タイマー切れ後の寝室は明け方30度超えも。電気代の差は一晩十数円。
-- [「90分サイクルで起きるとスッキリ」は本当か — 睡眠周期の俗説を科学で検証する](https://rentalloungeomiya.com/articles/90min-cycle.html): 実際の周期は70〜110分で個人差大。逆算アラームより効く3つのこと。
-- [お風呂は「寝る90分前」が正解 — 深部体温で眠りをつくる、入浴の科学](https://rentalloungeomiya.com/articles/bath-90min.html): 最も確実性の高い入眠スイッチ。90分前・40度・15分の根拠。
+- [オーソソムニアとは — 睡眠スコアを気にしすぎて眠れなくなる「新しい不眠」の正体と抜け出し方](https://rentalloungeomiya.com/articles/orthosomnia.html): 朝起きて、体は割と元気なのに、スマートウォッチの睡眠スコアが「58点」だと分かった瞬間に急にだるく感じてくる。今夜こそ良いスコアを出そうと意気込んで布団に入り、かえって寝つけない——。
+- [カフェインは何時まで？ — 「寝る8時間前」が目安になる理由と、意外な隠れカフェイン一覧](https://rentalloungeomiya.com/articles/caffeine-itsumade.html): 「夜のコーヒーは眠れなくなる」は誰でも知っています。では、何時までなら大丈夫なのか——ここで答えが曖昧になる人がほとんどです。15時？17時？夕食後の1杯は？
+- [睡眠負債とは — 「毎日ちょっと寝不足」が借金のように積み上がる仕組みと、正しい返し方](https://rentalloungeomiya.com/articles/suimin-fusai.html): 「睡眠負債」という言葉を、健康番組や記事で見かけたことがある人は多いはずです。
+- [睡眠圧とは — 「起きていた時間だけ眠くなる」仕組みを知ると、昼寝とカフェインの正解が見える](https://rentalloungeomiya.com/articles/suimin-atsu.html): 夜ぐっすり眠るための知識はたくさんありますが、実は多くのテクニックの土台には、たったひとつのシンプルな仕組みがあります。睡眠圧（すいみんあつ）——起きている時間に比例して脳に溜まっていく「眠りの圧力」です。
+- [リベンジ夜更かしの代償 — 翌日の頭と心に起きていることを、睡眠負債の科学から整理する](https://rentalloungeomiya.com/articles/revenge-yofukashi-eikyou.html): リベンジ夜更かしを扱った記事で、当サイトは一貫して「意志の弱さのせいではない」と書いてきました（仕組み・心理学）。ただし、責めないことと、代償がないことは別の話です。
+- [熱帯夜のエアコンは「朝までつけっぱなし」が正解 — タイマー派が損している理由と、冷えすぎない設定のコツ](https://rentalloungeomiya.com/articles/natsu-aircon.html): 「エアコンをつけたまま寝ると体に悪い」「3時間タイマーで切るのが健康的」——そう教わって育った人は多いはずです。しかしこの常識は、近年の猛暑ではっきり逆転しました。
+- [「90分サイクルで起きるとスッキリ」は本当か — 睡眠周期の俗説を科学で検証する](https://rentalloungeomiya.com/articles/90min-cycle.html): 「睡眠は90分周期だから、6時間か7時間半で起きるとスッキリする」——睡眠の話題で最もよく聞く"知識"のひとつです。90分の倍数で目覚ましを逆算した経験がある人も多いでしょう。
+- [お風呂は「寝る90分前」が正解 — 深部体温で眠りをつくる、入浴の科学](https://rentalloungeomiya.com/articles/bath-90min.html): 高いサプリもガジェットも要らない、最も確実性の高い入眠スイッチはなにか。多くの睡眠研究者が挙げるのが、意外にも「お風呂」です。ただし、入るタイミングを間違えると効果は半減どころか逆効果にもなります。
 
 ## 睡眠グッズ
 
-- [リカバリーウェアはニトリとワークマン、どっちを買うべきか — 上下ほぼ同額の2択で、実際に差がつく3点](https://rentalloungeomiya.com/articles/recovery-wear-nitori-workman.html): 上下そろえるとどちらも4,000円弱、効能の枠も同じ一般医療機器。差がつくのは「今日買えるか」「寝具まで統一できるか」「単品で足せるか」の3点。実売価格とラインナップを1対1で比較する。
-- [バクネとワークマンの違いを徹底比較 — 上下3,800円と2万円台、5倍の価格差はどこにあるのか](https://rentalloungeomiya.com/articles/bakune-workman-hikaku.html): 効能の届出はどちらも同じ一般医療機器。差が出るのは素材・着心地・シリーズ幅。試すならワークマン、続けるならBAKUNE。
-- [リカバリーウェアは意味ない？ — 効果を感じない3つの理由と、買う前に知るべき「期待の置き場所」](https://rentalloungeomiya.com/articles/recovery-wear-iminai.html): 「意味ない」の多くは期待のズレ。届出効能の枠、着用時間の総量、疲労の原因の見極め——3つの視点で仕分ける。
-- [バクネ（BAKUNE）は効果ある？ — 早稲田大の実証データと口コミ、ワークマンとの違い](https://rentalloungeomiya.com/articles/bakune-koka.html): 届出された効能は4つ、早稲田大の研究では睡眠時間は変わらない。等身大の効果と、約7倍の価格差の中身を整理。
-- [「家庭用遠赤外線血行促進用衣」とは — リカバリーウェアが「医療機器」を名乗れる理由と、その正しい読み方](https://rentalloungeomiya.com/articles/katei-ensekigaisen-i.html): 2022年新設の一般医療機器（クラスI）が市場急拡大の仕掛け。ただし届出＝効果の証明ではない。買う前の読み方。
-- [リカバリーウェア比較 — ワークマン・ニトリ・BAKUNE・VENEX、値段が8倍違う理由](https://rentalloungeomiya.com/articles/recovery-wear-hikaku.html): 価格差は最大8倍、でも仕組みと効能の土俵はほぼ共通。差がつくのは素材・着心地・シリーズの幅。予算と使い方別のおすすめまで整理。
-- [BAKUNEの原理 — 「着るだけで血行促進」の裏側を、体の熱→繊維→遠赤外線の順に分解する](https://rentalloungeomiya.com/articles/bakune-genri.html): 熱源は自分の体。捨てていた輻射熱を繊維が遠赤外線として返す「熱のリサイクル」が原理の中核。
-- [BAKUNE（バクネ）とは — 一般医療機器としての仕組みと、買う前に知っておきたいこと](https://rentalloungeomiya.com/articles/bakune-recovery-wear.html): 一般医療機器の届出が意味すること。期待していい範囲と、買う前のチェックリスト。
-- [スマートリングで睡眠は良くなるのか — スリープテックの現在地と、数値との正しい付き合い方](https://rentalloungeomiya.com/articles/sleep-tech-tracker.html): 測れるもの・測れないもの。スコアに振り回される「オルソソムニア」に注意。
+- [リカバリーウェアはニトリとワークマン、どっちを買うべきか — 上下ほぼ同額の2択で、実際に差がつく3点](https://rentalloungeomiya.com/articles/recovery-wear-nitori-workman.html): リカバリーウェアは長らく1〜3万円台の専門ブランドの世界でした。そこへワークマンが上下4,000円弱の「メディヒール」で参入し、2026年にはニトリが「Nミラク」で追随。
+- [バクネとワークマンの違いを徹底比較 — 上下3,800円と2万円台、5倍の価格差はどこにあるのか](https://rentalloungeomiya.com/articles/bakune-workman-hikaku.html): リカバリーウェアを検討して最後に残るのが、この2択です。専門ブランドの代表格TENTIALのBAKUNEと、価格破壊で参入したワークマンのメディヒール（MEDIHEAL®）。
+- [リカバリーウェアは意味ない？ — 効果を感じない3つの理由と、買う前に知るべき「期待の置き場所」](https://rentalloungeomiya.com/articles/recovery-wear-iminai.html): 「リカバリーウェア意味ない」と検索する人は、だいたい2種類います。買う前に「本当に効くのか」を確かめたい人と、買ったのに「何も変わらない」と感じている人。
+- [バクネ（BAKUNE）は効果ある？ — 早稲田大の実証データと口コミ、ワークマンとの違い](https://rentalloungeomiya.com/articles/bakune-koka.html): 「バクネって、本当に効果あるの？」——2万円台のパジャマを前に、そう検索したくなる気持ちはよくわかります。着るだけで疲れが取れるという売り文句は、正直どこか胡散臭くも聞こえます。
+- [「家庭用遠赤外線血行促進用衣」とは — リカバリーウェアが「医療機器」を名乗れる理由と、その正しい読み方](https://rentalloungeomiya.com/articles/katei-ensekigaisen-i.html): BAKUNEやVENEXなどのリカバリーウェアの商品ページやタグには、必ずこの長い名前が書いてあります。「家庭用遠赤外線血行促進用衣」。
+- [リカバリーウェア比較 — ワークマン・ニトリ・BAKUNE・VENEX、値段が8倍違う理由](https://rentalloungeomiya.com/articles/recovery-wear-hikaku.html): 「着て寝るだけで疲労回復をサポートする」リカバリーウェアは、数年前まではTENTIALのBAKUNEやVENEXなど、上下2万円以上の専門ブランドの世界でした。
+- [BAKUNEの原理 — 「着るだけで血行促進」の裏側を、体の熱→繊維→遠赤外線の順に分解する](https://rentalloungeomiya.com/articles/bakune-genri.html): 「着て寝るだけで疲労回復」をうたうTENTIALのリカバリーウェアBAKUNE（バクネ）。気になってはいるものの、「原理がわからないものは信じられない」と足踏みしている人は多いはずです。
+- [BAKUNE（バクネ）とは — 一般医療機器としての仕組みと、買う前に知っておきたいこと](https://rentalloungeomiya.com/articles/bakune-recovery-wear.html): 「着て寝るだけで疲労回復」——そんな売り文句のパジャマが、この数年で一気に市民権を得ました。代表格がTENTIALのBAKUNE（バクネ）です。
+- [スマートリングで睡眠は良くなるのか — スリープテックの現在地と、数値との正しい付き合い方](https://rentalloungeomiya.com/articles/sleep-tech-tracker.html): 指輪型のスマートリング、腕のスマートウォッチ、敷くだけのセンサーマット、姿勢を自動調整するAIマットレス。「眠りを測る・整える」スリープテックの市場は年々拡大しており、選択肢はこの1〜2年で一気に増えました。
 
 ## ガジェットニュース
 
-- [RingConn Gen 3とOura Ring 5、どっちを買うべきか — 本体6,000円差が、3年総額では約3.8万円差に開く](https://rentalloungeomiya.com/articles/ringconn-oura-hikaku.html): 本体価格では勝負がつかない2機種の分かれ目はサブスク。3年で約6.0万円と約9.8万円。分析の深さに払うか、振動アラーム・無呼吸アセスメント・充電ケースを買い切りで取るか、1対1で比較する。
-- [SOXAI RING 2とOura Ring 5、どっちを買うべきか — 本体2.6万円差と月額で、3年総額は約2.4倍になる](https://rentalloungeomiya.com/articles/soxai-oura-hikaku.html): 比べる軸は本体価格ではなく3年総額。買い切り39,980円と、65,800円＋月5.99ドル。1ドル150円換算で約4.0万円と約9.8万円、差はおよそ5.8万円になる。分析の深さ・日本語サポート・やめるコストまで1対1で比較する。
-- [RingConn Gen 3とSOXAI RING 2、どっちを買うべきか — サブスク無料の2機種、2万円差で変わるのは3つだけ](https://rentalloungeomiya.com/articles/ringconn-soxai-hikaku.html): どちらも月額無料・チタン外装・最大14日バッテリー。2万円の差で実際に増えるのは睡眠時無呼吸の自動アセスメント・振動通知・充電ケースの3点。寸法やサイズ規格、日本語サポートまで1対1で比較する。
-- [「スマホをやめれば魚が育つ」はAndroidで使える？ — 同名アプリが2つある理由と料金・設定のつまずきどころ](https://rentalloungeomiya.com/articles/sakana-ga-sodatsu.html): Android版は配信なし（iPhone専用）。App Storeに新旧2つ並ぶ理由、無料でどこまで使えるか、スクリーンタイム許可でつまずいたときの確認手順、Android向け代替アプリまで、ストアの実掲載情報で整理する。
-- [タイムロッキングコンテナ箱型を徹底比較 — Amazonで買える全系統から最適解を出す](https://rentalloungeomiya.com/articles/time-lock-box-amazon.html): 切り抜きケース型・完全密封型・金属製365日・13L大容量まで6系統。容量／タイマー上限／電源方式／緊急解除／レビュー件数の5軸で比較する。
-- [タイムロッキングコンテナ箱型を徹底比較 — 楽天で買える全系統から最適解を出す](https://rentalloungeomiya.com/articles/time-lock-box-hikaku.html): 検索結果30件超を系統で束ねると実質約10系統。注目8系統の詳説と全体マップで、価格3,998円の薄型から金属製365日まで用途別の最適解を出す。
-- [タイムロッキングコンテナ比較 — 箱型・ケース型・南京錠型、どれを選ぶべきか。緊急解除の有無が分かれ目](https://rentalloungeomiya.com/articles/time-locking-container.html): スマホやお菓子を時間指定で物理封印する箱。3タイプの違いと人気3製品、挫折しない使い方、アプリとの使い分けまで。
-- [Oura Ringのサブスクは必要か — メンバーシップ無しで使える機能、3年総額、払いたくない人の代替案](https://rentalloungeomiya.com/articles/oura-ring-subsc.html): 月5.99ドルのメンバーシップは実質必須。3年総額約9万円を払う価値がある人と、月額無料のRingConn/SOXAIで足りる人の線引き。
-- [スマホをやめられるアプリ4選 — 「スマホをやめれば魚が育つ」「Forest」はなぜ効くのか、本末転倒にならない使い方](https://rentalloungeomiya.com/articles/sumaho-yameru-app.html): 魚が育つ・Forest・標準機能まで4つを比較。効く理由は損失回避の心理。「育ちが気になって開く」の防ぎ方も。
-- [リカバリーウェアが流行っているのは日本だけ？ — 世界のスリープテック地図と「着る日本・測る海外」](https://rentalloungeomiya.com/articles/recovery-wear-kaigai.html): 答えはほぼイエス。海外の主戦場はセンサーで「測る」、日本は繊維で「着る」。約3.5兆円市場の地図と、日本だけ着る系が育った4つの理由。
-- [スマホの前に「電話」を — 子ども用Wi-Fi固定電話「Tin Can」が海外の親に選ばれる理由](https://rentalloungeomiya.com/articles/tin-can-phone.html): 通話しかできない、承認した相手としか話せない。その「できなさ」が、スマホを急がない選択肢になる。
-- [紙のタスクカード「Analog」 — アプリより不便なのに5万人が使う理由と、夜の頭を軽くする効果](https://rentalloungeomiya.com/articles/ugmonk-analog.html): 1日1枚、書ける数に限りがある。書く摩擦が優先順位を強制し、寝る前の頭から未完了タスクを追い出す。
-- [スマートリング比較 — Oura Ring 5・Galaxy Ring・RingConn・SOXAIの価格とサブスクの違い、睡眠重視のおすすめ](https://rentalloungeomiya.com/articles/smartring-hikaku.html): 最初に見るべきは精度よりサブスクの有無。3年使えば本体1台分の差になる。使い方別のおすすめまで整理。
-- [指輪が「睡眠時無呼吸の疑い」を知らせる時代へ — Oura Ring 5とGalaxy Ring、2026年スマートリング最前線](https://rentalloungeomiya.com/articles/smart-ring-2026.html): Oura Ring 5は40%小型化＋夜間呼吸の30日ビュー。Galaxy Ringはリング初のFDAクリアランス。
-- [スリープテックは「測る」から「整える」へ — いびき枕・脳波デバイス・AIマットレス、2026年の新顔](https://rentalloungeomiya.com/articles/sleep-tech-2026-shift.html): 頭の向きを変える枕、微弱電流デバイス、夜通し硬さを変えるマットレス。買う前の4項目。
+- [RingConn Gen 3とOura Ring 5、どっちを買うべきか — 本体6,000円差が、3年総額では約3.8万円差に開く](https://rentalloungeomiya.com/articles/ringconn-oura-hikaku.html): スマートリング選びの最後に残る二択が、これです。実績と分析で頭ひとつ抜けたOuraか、買い切りで機能を広く積んだRingConnか。本体価格が近いだけに、カタログを並べても決め手が見えにくい。
+- [SOXAI RING 2とOura Ring 5、どっちを買うべきか — 本体2.6万円差と月額で、3年総額は約2.4倍になる](https://rentalloungeomiya.com/articles/soxai-oura-hikaku.html): スマートリングを検討していくと、最後に必ず「Ouraにするかどうか」に行き着きます。実績と分析の厚みでは頭ひとつ抜けている一方で、月額課金という他社にはない条件がつくからです。
+- [RingConn Gen 3とSOXAI RING 2、どっちを買うべきか — サブスク無料の2機種、2万円差で変わるのは3つだけ](https://rentalloungeomiya.com/articles/ringconn-soxai-hikaku.html): スマートリングの比較記事は「OuraRingは月額がかかる」で終わってしまいがちです。ところが実際に買う段階になると、サブスク無料の陣営の中でどれを選ぶかという二択がいちばん悩ましい。
+- [「スマホをやめれば魚が育つ」はAndroidで使える？ — 同名アプリが2つある理由と料金・設定のつまずきどころ](https://rentalloungeomiya.com/articles/sakana-ga-sodatsu.html): スマホを触らない時間だけ、画面の中の魚が育つ——個人開発ながら1.5万件超の評価を集める人気アプリ「スマホをやめれば魚が育つ」。ただ、このアプリを検索すると、分かりにくいことが3つあります。
+- [タイムロッキングコンテナ箱型を徹底比較 — Amazonで買える全系統から最適解を出す](https://rentalloungeomiya.com/articles/time-lock-box-amazon.html): 前回は楽天で買える箱型を全系統比較しました。今回はAmazon版です。同じ「箱型タイムロッキングコンテナ」でも、売られている系統と価格帯が楽天とはっきり違うことが分かったので、そこも含めて整理します。
+- [タイムロッキングコンテナ箱型を徹底比較 — 楽天で買える全系統から最適解を出す](https://rentalloungeomiya.com/articles/time-lock-box-hikaku.html): 前回の記事で、タイムロッキングコンテナには箱型・スマホケース型・南京錠型の3タイプがあることを整理しました。
+- [タイムロッキングコンテナ比較 — 箱型・ケース型・南京錠型、どれを選ぶべきか。緊急解除の有無が分かれ目](https://rentalloungeomiya.com/articles/time-locking-container.html): 「スマホを触らない」と決意しても、手の届く場所にある限り勝負は五分五分——視界にあるだけで集中力が削られることは研究でも示されています。
+- [Oura Ringのサブスクは必要か — メンバーシップ無しで使える機能、3年総額、払いたくない人の代替案](https://rentalloungeomiya.com/articles/oura-ring-subsc.html): スマートリングの代表格OuraRing。購入を検討して最後に引っかかるのが、本体を買ったのに月額課金があるという費用構成です。
+- [スマホをやめられるアプリ4選 — 「スマホをやめれば魚が育つ」「Forest」はなぜ効くのか、本末転倒にならない使い方](https://rentalloungeomiya.com/articles/sumaho-yameru-app.html): 「スマホを触らないでいると、アプリの中の魚が育つ」——そんな不思議なアプリが、スマホ依存対策の定番になっています。意志の力で我慢するのではなく、ゲームの仕組みに我慢を肩代わりさせる発想です。
+- [リカバリーウェアが流行っているのは日本だけ？ — 世界のスリープテック地図と「着る日本・測る海外」](https://rentalloungeomiya.com/articles/recovery-wear-kaigai.html): BAKUNEやVENEXに代表される「リカバリーウェア」は、いまや家電量販店やテレビCMでも見かける定番ジャンルになりました。ここで素朴な疑問が湧きます。着るだけで疲労回復をうたうウェアは、世界でも流行っているのか？
+- [スマホの前に「電話」を — 子ども用Wi-Fi固定電話「Tin Can」が海外の親に選ばれる理由](https://rentalloungeomiya.com/articles/tin-can-phone.html): 「子どもにいつからスマホを持たせるか」。この問いに、北米の親たちの間でちょっと変わった答えが広がっています。通話しかできない、子ども用のWi-Fi固定電話です。製品の名前は「TinCan（ティン・カン）」。
+- [紙のタスクカード「Analog」 — アプリより不便なのに5万人が使う理由と、夜の頭を軽くする効果](https://rentalloungeomiya.com/articles/ugmonk-analog.html): タスク管理アプリを乗り換え続けた人が、最後に紙へ戻ってくる——そんな流れを象徴するプロダクトがあります。米国のデザインブランドUgmonk（アグモンク）が作る「Analog（アナログ）」。
+- [スマートリング比較 — Oura Ring 5・Galaxy Ring・RingConn・SOXAIの価格とサブスクの違い、睡眠重視のおすすめ](https://rentalloungeomiya.com/articles/smartring-hikaku.html): 睡眠を測るデバイスの本命として定着したスマートリング。ただ、いざ選ぼうとすると、Oura・Galaxy・RingConn・SOXAIと選択肢が増え、価格も4万円から7万円近くまでバラバラです。
+- [指輪が「睡眠時無呼吸の疑い」を知らせる時代へ — Oura Ring 5とGalaxy Ring、2026年スマートリング最前線](https://rentalloungeomiya.com/articles/smart-ring-2026.html): スマートリングの2026年は、静かに大きな一線を越えました。これまで「睡眠を測る道具」だったものが、「病気の疑いを知らせる道具」に近づいています。この夏までに出そろった動きを整理します。
+- [スリープテックは「測る」から「整える」へ — いびき枕・脳波デバイス・AIマットレス、2026年の新顔](https://rentalloungeomiya.com/articles/sleep-tech-2026-shift.html): ここ数年のスリープテックは、ほとんどが「測る」道具でした。眠った時間、心拍、いびきの回数。翌朝スコアが出て、あとは自分でどうにかしてください、という設計です。2026年に出てきた製品群は、そこから一歩踏み込んでいます。
 
 ## 脳と集中
 
-- [全国学力テストが示した「SNS・動画時間と学力」 — 利用時間が長い子ほど学力が低い傾向。93万人調査で一貫](https://rentalloungeomiya.com/articles/gakuryoku-chousa-sumaho.html): 2026年度調査の質問調査報告書を読み解く。視聴時間が長いほど正答率は一貫して低い。ただし最上位は「持っていない」ではなく「持っているが30分未満」の層で、分かれ目は受動か能動か。93万人分のデータの実態と家庭の現実解。
-- [大人のドパガキ — 「ガキ」じゃない年齢で心当たりがある人へ。夜だけ症状が出る理由と現実解](https://rentalloungeomiya.com/articles/dopagaki-otona.html): 大人のドパガキは日中には出ない。仕事や家事で抑制を代行してもらえる時間帯が終わり、残高がゼロになる夜にだけ現れる。10代との3つの違いと、意志を使わずに成立する4つの手。
-- [ドパ廃とは — 意味と使い方、ドパガキとの違い。「ドパい」「ドパる」まで派生語を全部整理する](https://rentalloungeomiya.com/articles/dopahai.html): ドパ廃＝ドーパミン中毒の廃人。ドパガキの大人版・重症版。派生語の一覧と、自虐で終わらせない抜け出し方。
-- [ドーパミンデトックスは効果ある？意味ない？ — 提唱者の真意と、科学的根拠の現在地](https://rentalloungeomiya.com/articles/dopamine-detox-kouka.html): 「脳のリセット」に根拠はない。でも体験談が絶えない理由もある。批判と効果の正体を、研究の現在地から仕分けする。
-- [スマホなし旅行のすすめ — 不便さが観光に変わる理由と、失敗しない準備リスト](https://rentalloungeomiya.com/articles/sumaho-nashi-ryoko.html): 地図もレビューもない旅は、なぜ満足度が上がるのか。半日散歩から一泊までの段階別のやり方と持ち物を整理。
-- [アテンション・デトックスとは — Z世代に広がる「見られ疲れ」対策と、今夜からできる始め方](https://rentalloungeomiya.com/articles/attention-detox.html): SNS疲れの正体は比較・承認欲求・トレンド追いの3つ。注目から離れる新習慣と、効果が最大になる「夜の始め方」を解説。
-- [ドーパミンデトックスのやり方 — ドーパミン断食は何をするのか、効く部分と誤解を分ける](https://rentalloungeomiya.com/articles/dopamine-detox.html): 理屈は半分間違いだが行動としては効く。脳のリセットではなく刺激制御。夜1時間から始める3段階プラン。
-- [ドパガキとは — 意味と由来、「ドパ廃」との違い、大人にも刺さる理由](https://rentalloungeomiya.com/articles/dopagaki.html): ショート動画の刺激に慣れて集中が続かない自分を自虐するZ世代スラング。仕組みは年齢を選ばない、全員の話。
-- [昼寝は何分がベスト？ — 15〜20分と言われる理由と、寝すぎて逆にだるくなる境界線](https://rentalloungeomiya.com/articles/hirune-nanpun.html): 正解は15〜20分・15時まで・横にならない。30分超は睡眠慣性でだるくなり、夕方の昼寝は夜の眠りを壊す。
-- [夏の午後、頭が回らないのは気のせいではない — 深くなる「午後の谷」の正体と立て直し方](https://rentalloungeomiya.com/articles/natsu-gogo-nemuke.html): 昼食のせいではない。前夜の質・軽い脱水・屋内の暗さが谷を深くしている。
-- [スマホは「見ていない時間」も集中力を奪う — 脳の「ブレインドレイン」現象と、今日からできる対策](https://rentalloungeomiya.com/articles/smartphone-brain.html): 電源を切っていても、視界にあるだけで脳は消耗している。集中に効くのは意志ではなく物理的な距離。
+- [全国学力テストが示した「SNS・動画時間と学力」 — 利用時間が長い子ほど学力が低い傾向。93万人調査で一貫](https://rentalloungeomiya.com/articles/gakuryoku-chousa-sumaho.html): 2026年4月23日、小学6年生と中学3年生のほぼ全員を対象にした全国学力・学習状況調査が実施されました。参加したのは小6が約93万人、中3が約86万人。
+- [大人のドパガキ — 「ガキ」じゃない年齢で心当たりがある人へ。夜だけ症状が出る理由と現実解](https://rentalloungeomiya.com/articles/dopagaki-otona.html): 日付が変わっている。明日は7時に起きないといけない。指はもう10分前から同じ動きだけを繰り返していて、画面に何が流れているのかもよく覚えていない。それでも止まらない。
+- [ドパ廃とは — 意味と使い方、ドパガキとの違い。「ドパい」「ドパる」まで派生語を全部整理する](https://rentalloungeomiya.com/articles/dopahai.html): 「おれドパガキ通り越してドパ廃だわ」。TikTokやX（旧Twitter)で、こんな自虐が伸びています。ドパガキ（ドーパミン中毒のガキ）の流行に続いて広がり始めたのが、このドパ廃です。
+- [ドーパミンデトックスは効果ある？意味ない？ — 提唱者の真意と、科学的根拠の現在地](https://rentalloungeomiya.com/articles/dopamine-detox-kouka.html): 「ドーパミンデトックスで人生が変わった」という体験談と、「あれは似非科学」という専門家の批判。検索すると両方が出てきて、結局どっちなんだ？となるのがこのテーマです。結論を先に言うと、どちらも半分正しい。
+- [スマホなし旅行のすすめ — 不便さが観光に変わる理由と、失敗しない準備リスト](https://rentalloungeomiya.com/articles/sumaho-nashi-ryoko.html): 地図アプリなし、レビューなし、乗換案内なし。スマホを家や駅のロッカーに置いて出かける「スマホなし旅行」が、Z世代を中心に静かに広がっています。アテンション・デトックスの実践としては最も思い切った形です。
+- [アテンション・デトックスとは — Z世代に広がる「見られ疲れ」対策と、今夜からできる始め方](https://rentalloungeomiya.com/articles/attention-detox.html): SNSを一番使いこなしているはずのZ世代が、いま自分からSNSと距離を取り始めています。テレビの情報番組でも特集されるようになったこの動き、キーワードは「アテンション・デトックス」。
+- [ドーパミンデトックスのやり方 — ドーパミン断食は何をするのか、効く部分と誤解を分ける](https://rentalloungeomiya.com/articles/dopamine-detox.html): 「ドーパミンデトックス」「ドーパミン断食」という言葉を聞いたことがあるでしょうか。
+- [ドパガキとは — 意味と由来、「ドパ廃」との違い、大人にも刺さる理由](https://rentalloungeomiya.com/articles/dopagaki.html): 「おれ完全にドパガキだわ」。最近、若い世代のSNSでこんな自虐を見かけるようになりました。ドパガキ＝「ドーパミン中毒のガキ」の略。
+- [昼寝は何分がベスト？ — 15〜20分と言われる理由と、寝すぎて逆にだるくなる境界線](https://rentalloungeomiya.com/articles/hirune-nanpun.html): 昼休みに少し眠って、午後スッキリ働きたい。でも以前、昼寝から起きたら逆に頭がぼんやりして、夜も眠れなくなった——昼寝には、こういう「成功と失敗」がはっきりあります。分かれ目は体質ではなく長さと時間帯です。
+- [夏の午後、頭が回らないのは気のせいではない — 深くなる「午後の谷」の正体と立て直し方](https://rentalloungeomiya.com/articles/natsu-gogo-nemuke.html): 昼を過ぎたあたりから、文章が頭に入らない。同じ行を三度読む。メールの返信を書き出しては消す。夕方になるとなぜか少し戻ってくる——。この時間帯の失速は、意志の弱さでも夏バテという曖昧な何かでもありません。
+- [スマホは「見ていない時間」も集中力を奪う — 脳の「ブレインドレイン」現象と、今日からできる対策](https://rentalloungeomiya.com/articles/smartphone-brain.html): 仕事や勉強に集中したいとき、スマホを「見ないように」がんばっていませんか。実は、それでは足りない可能性があります。研究では、スマホが視界に置いてあるだけで、認知課題の成績が下がることが報告されています。
 
 ## 生活リズム
 
-- [9月病とは — 夏休み明けに心と体が重い理由。休み明けのだるさとの見分け方と、受診の目安](https://rentalloungeomiya.com/articles/kugatsubyou.html): 数日で抜けるなら休み明けのだるさ、週をまたいで悪化し「好きなことが楽しめない」なら9月病のサイン。5月病との違い、セルフチェック、生活リズム側からできる現実解、心療内科・精神科に相談する目安まで整理する。
-- [秋バテとは — 9月にだるい・眠いのはなぜか。夏の借金・寒暖差・日照の減少から立て直す](https://rentalloungeomiya.com/articles/akibate-darui.html): 涼しくなったのにだるいのは、夏に溜めた自律神経の借金＋寒暖差＋光の減少。朝の光・湯船・時刻の固定で立て直す。
-- [休み明けがだるくて眠いのはなぜ？ — 連休明けの「擬似時差ぼけ」を最短で直す手順](https://rentalloungeomiya.com/articles/yasumiake-darui.html): だるさの正体は気合い不足ではなく体内時計のズレ。休み最終日と初日にやることを時系列で整理した。
-- [夏休み明けに子どもの生活リズムを戻す — 昼夜逆転は「夜」ではなく「朝」から直す](https://rentalloungeomiya.com/articles/natsuyasumiake-kodomo.html): 「早く寝なさい」から入ると失敗する。起床→朝の光→日中の活動の一方通行で、始業1週間前から戻す手順。
-- [ソーシャルジェットラグとは — 飛行機に乗っていないのに時差ぼけになる「社会的時差ぼけ」の仕組み](https://rentalloungeomiya.com/articles/social-jetlag.html): 平日と休日の睡眠のズレは、毎週の時差旅行と同じ。月曜のだるさの正体で、起床時刻を揃えれば消せる。
-- [お盆の連休で体内時計は「引っ越す」 — 週末の寝坊とは別物の、連休明けの戻し方](https://rentalloungeomiya.com/articles/obon-jisaboke.html): 最終日に早寝しても戻らない。戻し始めるのは中日から、1日30〜60分ずつ。
-- [休日に寝すぎて逆にだるい — 「週末時差ぼけ」の仕組みと、寝だめより効く回復法](https://rentalloungeomiya.com/articles/kyujitsu-nesugi.html): 寝だめは借金の返済にならない。月曜がつらい人ほど読んでほしい話。
+- [9月病とは — 夏休み明けに心と体が重い理由。休み明けのだるさとの見分け方と、受診の目安](https://rentalloungeomiya.com/articles/kugatsubyou.html): 夏休みが終わって1〜2週間。リズムは戻ったはずなのに、朝がつらい。仕事や学校のことを考えると気分が沈む。楽しみだったことに手が伸びない——。それが「なんとなくだるい」を超えてきたら、この記事の範囲です。
+- [秋バテとは — 9月にだるい・眠いのはなぜか。夏の借金・寒暖差・日照の減少から立て直す](https://rentalloungeomiya.com/articles/akibate-darui.html): 猛暑を乗り切って涼しくなってきたのに、なぜか体が重い。朝起きられない、午後は眠い、やる気が出ない——「夏バテは終わったはずなのに」という時期に来るこの不調が、いわゆる秋バテです。
+- [休み明けがだるくて眠いのはなぜ？ — 連休明けの「擬似時差ぼけ」を最短で直す手順](https://rentalloungeomiya.com/articles/yasumiake-darui.html): お盆休みや連休が終わった初日。体が重い、頭が回らない、午後は眠気との戦い——毎回のことなのに、毎回つらい。あのだるさの正体は、気合い不足でも夏バテでもありません。飛行機に乗っていないのに起きる時差ぼけです。
+- [夏休み明けに子どもの生活リズムを戻す — 昼夜逆転は「夜」ではなく「朝」から直す](https://rentalloungeomiya.com/articles/natsuyasumiake-kodomo.html): 夏休みも後半戦。気づけば子どもが夜ふかしになり、起きるのは昼前——このままで新学期は大丈夫か、と不安になる時期です。結論から言うと、今から戻せば間に合います。
+- [ソーシャルジェットラグとは — 飛行機に乗っていないのに時差ぼけになる「社会的時差ぼけ」の仕組み](https://rentalloungeomiya.com/articles/social-jetlag.html): 海外に行ったわけでもないのに、月曜の朝がやたらつらい。休み明けは頭がぼんやりして、水曜あたりでようやく調子が出てくる——。その不調に、睡眠研究では名前がついています。
+- [お盆の連休で体内時計は「引っ越す」 — 週末の寝坊とは別物の、連休明けの戻し方](https://rentalloungeomiya.com/articles/obon-jisaboke.html): 連休が終わった朝、体が鉛のように重い。前日はちゃんと早く布団に入ったのに、寝つけたのは結局2時過ぎ。目覚ましが鳴っても頭が起きてこない——。毎年これを繰り返しているなら、原因は「休みすぎ」ではありません。
+- [休日に寝すぎて逆にだるい — 「週末時差ぼけ」の仕組みと、寝だめより効く回復法](https://rentalloungeomiya.com/articles/kyujitsu-nesugi.html): 平日は6時起き、休日は昼まで寝る。睡眠時間はしっかり取り返したはずなのに、起きたあとは頭が重く、夕方までぼんやりして、夜は眠れなくなり、月曜の朝が地獄になる——。
 
 ## 夜の行動
 
-- [在宅ワークのリベンジ夜更かし — 「退勤」がない一日は、夜のスマホで終わらせるしかなくなる](https://rentalloungeomiya.com/articles/revenge-yofukashi-zaitaku.html): 通勤という強制的な区切りが消えると、仕事が夜に染み出し、深夜のスクロールだけが一日を終わらせる儀式になる。偽通勤・シャットダウン儀式・仕事道具の物理隔離で「退勤」を作り直す。
-- [産後のリベンジ夜更かし — 細切れ睡眠なのにスマホがやめられない夜の正体と、赤ちゃんと暮らす現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-sango.html): 授乳中のスマホは裁かない。守るのは「最初のひと塊」の頭だけ。前倒しできない自由時間は週1回「夜を委ねる日」で置き換える。産後うつとの見分けの入口まで。
-- [夜勤明けのリベンジ夜更かし — 眠いのに寝たくない朝の正体と、シフト勤務の現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-yakin.html): 夜勤明けにスマホが止まらないのは、唯一の自由時間を守る防衛。自由時間を仮眠の後ろへ予約し直す設計、帰り道の光対策、シフトが動いても守れるアンカー睡眠まで、看護・介護・工場勤務の現実解。
-- [受験生のリベンジ夜更かし — 「勉強した日ほどやめられない」夜の正体と、睡眠を削らない現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-jukensei.html): 勉強で一日が埋まった夜ほどスマホがやめられないのは、失った自由時間を取り返す補償行動。睡眠を削ると記憶の定着ごと失う理由と、自由時間を予算化する現実解、親が逆効果になる対応まで。
-- [寝る前のスマホがやめられない — ブルーライトより深刻な本当の問題と、意志に頼らない対策5つ](https://rentalloungeomiya.com/articles/nerumae-sumaho.html): ブルーライトは主犯ではない。終わりのない設計と「布団=スマホ」の学習が本丸。対策は意志ではなく距離で打つ。
-- [布団に入っても眠れないときはどうすればいい？ — 「布団で頑張らない」が正解である理由と手順](https://rentalloungeomiya.com/articles/nerenai-toki.html): 20分眠れなければ布団を出るが正解。布団の中で頑張るほど「布団=眠れない場所」の学習が進んでしまう。
-- [リベンジ夜更かしのやめ方 — 「やめたいのにやめられない」を意志に頼らず2週間で解く実践プラン](https://rentalloungeomiya.com/articles/revenge-yofukashi-yamekata.html): 「早く寝る」から始めるから失敗する。夜の満足→終わりの儀式→15分ずつ前倒し、の順番で組む。
-- [リベンジ夜更かしの心理学 — 「疲れているのに寝ない」を研究はどう説明しているか](https://rentalloungeomiya.com/articles/revenge-yofukashi-shinri.html): 研究名は「就寝先延ばし」。自制心の枯渇・先延ばし・夜型のズレ、3つの説明で対策の入口が変わる。
-- [リベンジ夜更かしとスマホ — 「終わりのない設計」が夜を延ばす仕組みと、物理で断ち切る方法](https://rentalloungeomiya.com/articles/revenge-yofukashi-sumaho.html): 無限スクロール・自動再生・可変報酬。終わらせない設計に意志で勝ち続けるのは、構造的に無理がある。
-- [子育て中のリベンジ夜更かし — 「子どもが寝てからが自分の時間」をやめられない親のための現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-kosodate.html): 削るのではなく、密度を上げて短くする。寝落ち復活の設計・夜番朝番制・15分の前倒しの3本柱。
-- [「報復性夜更かし」とは — 中国発の言葉が言い当てた、疲れているのに眠らない心理](https://rentalloungeomiya.com/articles/houfukusei-yofukashi.html): 中国発「報復性熬夜」が由来。眠らないのは意志の弱さではなく、昼を奪われたことへの抵抗。
-- [リベンジ夜更かしとは — やめられない本当の理由と、対策の起点になる考え方](https://rentalloungeomiya.com/articles/revenge-yofukashi.html): 疲れているのに寝ない。それは意志の弱さではなく、一日の構造の問題です。
+- [在宅ワークのリベンジ夜更かし — 「退勤」がない一日は、夜のスマホで終わらせるしかなくなる](https://rentalloungeomiya.com/articles/revenge-yofukashi-zaitaku.html): 20時、夕食のあとに「あと1件だけ」とSlackを開く。21時半、なんとなく仕事が終わる。というより、途切れる。
+- [産後のリベンジ夜更かし — 細切れ睡眠なのにスマホがやめられない夜の正体と、赤ちゃんと暮らす現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-sango.html): 23時の授乳が終わって、腕の中で赤ちゃんが寝た。ベッドに置くのに成功して、やっと一人。眠いのは分かっている。次の授乳まで2時間半しかないことも分かっている。それでもスマホを手に取って、気づけば40分たっている——。
+- [夜勤明けのリベンジ夜更かし — 眠いのに寝たくない朝の正体と、シフト勤務の現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-yakin.html): 朝9時、夜勤を終えて帰宅する。体はくたくたで、目も乾いている。シャワーを浴びてベッドに入り、スマホを手に取る。少しだけのつもりが、気づけば正午——。眠いのは分かっている。それでも画面を閉じられない。
+- [受験生のリベンジ夜更かし — 「勉強した日ほどやめられない」夜の正体と、睡眠を削らない現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-jukensei.html): 23時、今日のノルマを終えて机を離れる。10時間近く勉強した。よくやったと思いながらベッドに入り、スマホを手に取る。少しだけのつもりだったショート動画が止まらなくなり、気づけば1時半——。
+- [寝る前のスマホがやめられない — ブルーライトより深刻な本当の問題と、意志に頼らない対策5つ](https://rentalloungeomiya.com/articles/nerumae-sumaho.html): 「寝る前のスマホは良くない」。知っています。知っていて、今夜も布団の中で見ている——この記事は、そういう人のためのものです。先に安心してほしいのですが、やめられないのはあなたの意志が弱いからではありません。
+- [布団に入っても眠れないときはどうすればいい？ — 「布団で頑張らない」が正解である理由と手順](https://rentalloungeomiya.com/articles/nerenai-toki.html): 布団に入って30分。目を閉じているのに眠れない。時計を見て「あと6時間しか寝られない」と焦り、余計に目が冴える——誰にでもある夜です。
+- [リベンジ夜更かしのやめ方 — 「やめたいのにやめられない」を意志に頼らず2週間で解く実践プラン](https://rentalloungeomiya.com/articles/revenge-yofukashi-yamekata.html): リベンジ夜更かしをやめたい。何度もそう思って、何度も失敗している——この記事は、そういう人のための実践編です。最初に結論を言うと、失敗の原因はほぼ共通しています。「早く寝る」から始めようとすることです。
+- [リベンジ夜更かしの心理学 — 「疲れているのに寝ない」を研究はどう説明しているか](https://rentalloungeomiya.com/articles/revenge-yofukashi-shinri.html): 明日に響くとわかっている。眠くもある。それなのに寝ない——リベンジ夜更かしは、本人にとっても不合理な行動です。「なぜ自分はこんなことをしてしまうのか」と考えたことがある人は多いはずです。
+- [リベンジ夜更かしとスマホ — 「終わりのない設計」が夜を延ばす仕組みと、物理で断ち切る方法](https://rentalloungeomiya.com/articles/revenge-yofukashi-sumaho.html): リベンジ夜更かしの夜を思い出してください。手にあったものは、ほぼ間違いなくスマホのはずです。これは偶然ではありません。
+- [子育て中のリベンジ夜更かし — 「子どもが寝てからが自分の時間」をやめられない親のための現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-kosodate.html): 寝かしつけで一緒に寝落ちして、深夜1時に目が覚める。「今しかない」とスマホを手に取り、気づけば3時——。子育て中のリベンジ夜更かしには、独身時代の夜更かしと決定的に違う点があります。
+- [「報復性夜更かし」とは — 中国発の言葉が言い当てた、疲れているのに眠らない心理](https://rentalloungeomiya.com/articles/houfukusei-yofukashi.html): 疲れている。明日も早い。眠い。それなのに、ベッドの中でスマホを離せない——。この行動に、名前があります。「報復性夜更かし」。
+- [リベンジ夜更かしとは — やめられない本当の理由と、対策の起点になる考え方](https://rentalloungeomiya.com/articles/revenge-yofukashi.html): 明日も早いとわかっているのに、布団に入らずスマホを眺め続けてしまう。眠くないわけではない。むしろ疲れている。それでも「まだ寝たくない」と感じてしまう——。
 
 ## タイプ解説
 
-- [「夜にしか自分の時間がない」タイプ — 睡眠を削らずに自分の時間を取り戻す設計](https://rentalloungeomiya.com/types/revenge.html): 診断でこのタイプが出た人向けの深掘り解説。
-- [「ショート動画が止まらない」タイプ — 5分のつもりが1時間になる仕組みと、指ではなく環境で止める設計](https://rentalloungeomiya.com/types/short-video.html): 診断でこのタイプが出た人向けの深掘り解説。
+- [「夜にしか自分の時間がない」タイプ — 睡眠を削らずに自分の時間を取り戻す設計](https://rentalloungeomiya.com/types/revenge.html): 睡眠力診断で「夜にしか自分の時間がないタイプ」と出たあなたへ。このページでは、診断結果よりもう一段深く、このタイプの仕組みと対策を解説します。
+- [「ショート動画が止まらない」タイプ — 5分のつもりが1時間になる仕組みと、指ではなく環境で止める設計](https://rentalloungeomiya.com/types/short-video.html): 睡眠力診断で「ショート動画が止まらない」傾向が出たあなたへ。このページでは、診断結果よりもう一段深く、このタイプの仕組みと対策を解説します。
