@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全78本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全79本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -86,6 +86,7 @@
 
 ## 生活リズム
 
+- [9月病とは — 夏休み明けに心と体が重い理由。休み明けのだるさとの見分け方と、受診の目安](https://rentalloungeomiya.com/articles/kugatsubyou.html): 数日で抜けるなら休み明けのだるさ、週をまたいで悪化し「好きなことが楽しめない」なら9月病のサイン。5月病との違い、セルフチェック、生活リズム側からできる現実解、心療内科・精神科に相談する目安まで整理する。
 - [秋バテとは — 9月にだるい・眠いのはなぜか。夏の借金・寒暖差・日照の減少から立て直す](https://rentalloungeomiya.com/articles/akibate-darui.html): 涼しくなったのにだるいのは、夏に溜めた自律神経の借金＋寒暖差＋光の減少。朝の光・湯船・時刻の固定で立て直す。
 - [休み明けがだるくて眠いのはなぜ？ — 連休明けの「擬似時差ぼけ」を最短で直す手順](https://rentalloungeomiya.com/articles/yasumiake-darui.html): だるさの正体は気合い不足ではなく体内時計のズレ。休み最終日と初日にやることを時系列で整理した。
 - [夏休み明けに子どもの生活リズムを戻す — 昼夜逆転は「夜」ではなく「朝」から直す](https://rentalloungeomiya.com/articles/natsuyasumiake-kodomo.html): 「早く寝なさい」から入ると失敗する。起床→朝の光→日中の活動の一方通行で、始業1週間前から戻す手順。
