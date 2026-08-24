@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全81本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全82本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -54,6 +54,7 @@
 
 ## ガジェットニュース
 
+- [寝ホンとは — 睡眠用イヤホンはなぜ売れる？音を消すAnkerと、音を慣らすfinalの正反対の設計思想](https://rentalloungeomiya.com/articles/nehon.html): 「寝ながらでも使えるイヤホン」ではなく、寝ることを前提に設計されたイヤホン——「寝（ね）ホン」と呼ばれる睡眠用イヤホンが静かに売れている。横になっても耳が痛くなりにくく、寝返りを打っても外れにくい極小設計。
 - [RingConn Gen 3とOura Ring 5、どっちを買うべきか — 本体6,000円差が、3年総額では約3.8万円差に開く](https://rentalloungeomiya.com/articles/ringconn-oura-hikaku.html): スマートリング選びの最後に残る二択が、これです。実績と分析で頭ひとつ抜けたOuraか、買い切りで機能を広く積んだRingConnか。本体価格が近いだけに、カタログを並べても決め手が見えにくい。
 - [SOXAI RING 2とOura Ring 5、どっちを買うべきか — 本体2.6万円差と月額で、3年総額は約2.4倍になる](https://rentalloungeomiya.com/articles/soxai-oura-hikaku.html): スマートリングを検討していくと、最後に必ず「Ouraにするかどうか」に行き着きます。実績と分析の厚みでは頭ひとつ抜けている一方で、月額課金という他社にはない条件がつくからです。
 - [RingConn Gen 3とSOXAI RING 2、どっちを買うべきか — サブスク無料の2機種、2万円差で変わるのは3つだけ](https://rentalloungeomiya.com/articles/ringconn-soxai-hikaku.html): スマートリングの比較記事は「OuraRingは月額がかかる」で終わってしまいがちです。ところが実際に買う段階になると、サブスク無料の陣営の中でどれを選ぶかという二択がいちばん悩ましい。
