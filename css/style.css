@@ -208,11 +208,13 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
   .cmp-table thead{display:none}
   .cmp-table,.cmp-table tbody,.cmp-table tr,.cmp-table td{display:block;width:100%}
   .cmp-table tr{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:12px;background:var(--card);box-sizing:border-box}
-  .cmp-table td{border-bottom:none;padding:3px 0;display:flex;gap:10px;box-sizing:border-box}
-  .cmp-table td::before{content:attr(data-label);flex:0 0 5em;color:var(--sub);font-size:12px;padding-top:2px}
-  .cmp-table td:first-child{font-size:15px;padding-bottom:8px;border-bottom:1px solid var(--line);margin-bottom:6px}
+  .cmp-table td{border-bottom:none;padding:3px 0 3px 6em;display:block;position:relative;box-sizing:border-box}
+  .cmp-table td::before{content:attr(data-label);position:absolute;left:0;top:5px;width:5.2em;color:var(--sub);font-size:12px;line-height:1.5}
+  .cmp-table td:first-child{font-size:15px;padding:0 0 8px;border-bottom:1px solid var(--line);margin-bottom:6px}
   .cmp-table td:first-child::before{display:none}
 }
+/* 表の中はマーカーを使わず素の太字（カード表示での行またぎバー浮き対策） */
+article .cmp-table b{background:none;padding:0}
 
 /* アフィリエイト商品カード */
 .aff-note{color:var(--sub);font-size:11.5px;margin-top:6px}
