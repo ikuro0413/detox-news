@@ -193,11 +193,14 @@ article b{background:linear-gradient(transparent 68%,var(--marker) 68%);font-wei
 .arch-list a{font-weight:700;font-size:14.5px;line-height:1.8}
 
 /* 新着ページャー */
-.pager{display:flex;justify-content:center;align-items:center;gap:8px;margin:26px 0 6px;flex-wrap:wrap}
-.pager a,.pager .cur{min-width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:8px;font-size:13px;padding:0 10px}
-.pager .cur{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.pager{display:flex;flex-direction:column;align-items:center;gap:10px;margin:26px 0 6px}
+.pager-row{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:nowrap}
+.pager a,.pager .cur{min-width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:8px;font-size:14px;padding:0 10px}
+.pager .cur{background:var(--ink);color:var(--on-ink);border-color:var(--ink);font-weight:700}
 .pager a:hover{background:var(--bg-gray);opacity:1}
-.pager .pn{border:none;letter-spacing:.04em}
+.pager .pn{border:none;letter-spacing:.04em;white-space:nowrap}
+.pager .gap{color:var(--sub);padding:0 2px}
+.pager .pos{font-size:11.5px;color:var(--sub);letter-spacing:.06em}
 
 /* 比較表（スマホではカード型に組み替え） */
 .cmp-wrap{overflow-x:auto;margin:18px 0}
