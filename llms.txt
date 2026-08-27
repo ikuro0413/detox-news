@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全87本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全88本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -43,6 +43,7 @@
 
 ## 睡眠グッズ
 
+- [ニトリのリカバリーウェア「Nミラク」は今買えるのか — 「売り切れ」の現在地、口コミの実態、BAKUNEとの違いまで実確認](https://rentalloungeomiya.com/articles/nitori-recovery-wear.html): 「ニトリのリカバリーウェアは売り切れで買えない」——発売直後の2026年2月には「めっちゃ品薄」と報じられ、いまも「売り切れ」「在庫」で検索され続けています。結論から言うと、この状況はもう変わっています。
 - [リカバリーウェアはニトリとワークマン、どっちを買うべきか — 上下ほぼ同額の2択で、実際に差がつく3点](https://rentalloungeomiya.com/articles/recovery-wear-nitori-workman.html): リカバリーウェアは長らく1〜3万円台の専門ブランドの世界でした。そこへワークマンが上下4,000円弱の「メディヒール」で参入し、2026年にはニトリが「Nミラク」で追随。
 - [バクネとワークマンの違いを徹底比較 — 上下3,800円と2万円台、5倍の価格差はどこにあるのか](https://rentalloungeomiya.com/articles/bakune-workman-hikaku.html): リカバリーウェアを検討して最後に残るのが、この2択です。専門ブランドの代表格TENTIALのBAKUNEと、価格破壊で参入したワークマンのメディヒール（MEDIHEAL®）。
 - [リカバリーウェアは意味ない？ — 効果を感じない3つの理由と、買う前に知るべき「期待の置き場所」](https://rentalloungeomiya.com/articles/recovery-wear-iminai.html): 「リカバリーウェア意味ない」と検索する人は、だいたい2種類います。買う前に「本当に効くのか」を確かめたい人と、買ったのに「何も変わらない」と感じている人。
