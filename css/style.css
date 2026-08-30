@@ -352,13 +352,13 @@ html[data-theme="dark"]{
   --cnav-new:#302c17;--cnav-ai:#1b2d2c;--cnav-science:#1e2632;--cnav-goods:#312219;
   --cnav-gadget:#262a1a;--cnav-brain:#2a2132;--cnav-rhythm:#1c2934;--cnav-night:#322616;--cnav-arch:#25262a;
 }
-.cat-cloud{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 16px}
-.cat-cloud-in{display:flex;flex-wrap:wrap;gap:12px 11px;justify-content:center;align-items:center;padding:18px 0 10px}
+.cat-cloud{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:8px 16px}
+.cat-cloud-in{display:flex;flex-wrap:wrap;gap:16px 14px;justify-content:center;align-items:center;padding:24px 0 16px}
 .cat-cloud a{color:var(--ink2);border-radius:999px;letter-spacing:.06em;display:inline-block;font-weight:700;
   transform:rotate(var(--r,0deg)) translateY(var(--y,0px));animation:cnavFloat var(--d,5s) ease-in-out infinite alternate}
-.cat-cloud .s1{font-size:12px;padding:10px 19px}
-.cat-cloud .s2{font-size:13.5px;padding:13px 23px}
-.cat-cloud .s3{font-size:15px;padding:16px 28px}
+.cat-cloud .s1{font-size:13.5px;padding:16px 25px}
+.cat-cloud .s2{font-size:15.5px;padding:20px 31px}
+.cat-cloud .s3{font-size:17.5px;padding:25px 38px}
 .cat-cloud .mk{background-image:linear-gradient(transparent 60%,var(--marker) 60%);background-repeat:no-repeat;background-size:0% 100%;transition:background-size .25s ease}
 .cat-cloud a:hover{animation:none;transform:rotate(0) translateY(0);transition:transform .25s ease;opacity:1}
 .cat-cloud a:hover .mk{background-size:100% 100%}
@@ -386,8 +386,8 @@ html[data-theme="dark"]{
 .c-arch{background:var(--cnav-arch)}
 @media (prefers-reduced-motion:reduce){.cat-cloud a{animation:none!important}.cat-cloud .mk{transition:none!important}}
 @media (max-width:480px){
-  .cat-cloud-in{gap:9px 7px;padding:16px 12px 18px}
-  .cat-cloud .s1{font-size:11px;padding:8px 15px}
-  .cat-cloud .s2{font-size:12px;padding:10px 18px}
-  .cat-cloud .s3{font-size:13.5px;padding:12px 21px}
+  .cat-cloud-in{gap:12px 10px;padding:18px 4px 14px}
+  .cat-cloud .s1{font-size:12px;padding:12px 19px}
+  .cat-cloud .s2{font-size:13.5px;padding:15px 23px}
+  .cat-cloud .s3{font-size:15px;padding:18px 27px}
 }
