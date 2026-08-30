@@ -352,8 +352,8 @@ html[data-theme="dark"]{
   --cnav-new:#302c17;--cnav-ai:#1b2d2c;--cnav-science:#1e2632;--cnav-goods:#312219;
   --cnav-gadget:#262a1a;--cnav-brain:#2a2132;--cnav-rhythm:#1c2934;--cnav-night:#322616;--cnav-arch:#25262a;
 }
-.cat-cloud{background:var(--card);border-bottom:1px solid var(--line)}
-.cat-cloud-in{display:flex;flex-wrap:wrap;gap:12px 11px;justify-content:center;align-items:center;max-width:860px;margin:0 auto;padding:22px 16px 24px}
+.cat-cloud{background:transparent}
+.cat-cloud-in{display:flex;flex-wrap:wrap;gap:12px 11px;justify-content:center;align-items:center;padding:18px 0 10px}
 .cat-cloud a{color:var(--ink2);border-radius:999px;letter-spacing:.06em;display:inline-block;font-weight:700;
   transform:rotate(var(--r,0deg)) translateY(var(--y,0px));animation:cnavFloat var(--d,5s) ease-in-out infinite alternate}
 .cat-cloud .s1{font-size:12px;padding:10px 19px}
