@@ -395,16 +395,15 @@ html[data-theme="dark"]{
 .c-night{background:linear-gradient(var(--cnav-night),var(--cnav-night)) padding-box,linear-gradient(135deg,#fb8902,#ffd08a) border-box;box-shadow:0 0 10px rgba(251,137,2,.30)}
 .c-arch{background:linear-gradient(var(--cnav-arch),var(--cnav-arch)) padding-box,linear-gradient(135deg,#9a9a9a,#d8d8d8) border-box;box-shadow:0 0 10px rgba(120,120,120,.25)}
 
-html[data-theme="dark"] .c-new{box-shadow:0 0 14px rgba(255,214,0,.55)}
-html[data-theme="dark"] .c-ai{box-shadow:0 0 14px rgba(80,200,196,.5)}
-html[data-theme="dark"] .c-science{box-shadow:0 0 14px rgba(120,160,215,.5)}
-html[data-theme="dark"] .c-goods{box-shadow:0 0 14px rgba(240,140,105,.5)}
-html[data-theme="dark"] .c-gadget{box-shadow:0 0 14px rgba(170,190,110,.5)}
-html[data-theme="dark"] .c-brain{box-shadow:0 0 14px rgba(190,140,240,.5)}
-html[data-theme="dark"] .c-rhythm{box-shadow:0 0 14px rgba(120,185,240,.5)}
-html[data-theme="dark"] .c-night{box-shadow:0 0 14px rgba(255,160,50,.55)}
-html[data-theme="dark"] .c-arch{box-shadow:0 0 12px rgba(190,190,190,.4)}
-html[data-theme="dark"] .cat-cloud::before{filter:drop-shadow(0 0 6px var(--cnav-glow1))}
+html[data-theme="dark"] .c-new{box-shadow:0 0 10px rgba(255,214,0,.32)}
+html[data-theme="dark"] .c-ai{box-shadow:0 0 10px rgba(80,200,196,.30)}
+html[data-theme="dark"] .c-science{box-shadow:0 0 10px rgba(120,160,215,.30)}
+html[data-theme="dark"] .c-goods{box-shadow:0 0 10px rgba(240,140,105,.30)}
+html[data-theme="dark"] .c-gadget{box-shadow:0 0 10px rgba(170,190,110,.30)}
+html[data-theme="dark"] .c-brain{box-shadow:0 0 10px rgba(190,140,240,.30)}
+html[data-theme="dark"] .c-rhythm{box-shadow:0 0 10px rgba(120,185,240,.30)}
+html[data-theme="dark"] .c-night{box-shadow:0 0 10px rgba(255,160,50,.32)}
+html[data-theme="dark"] .c-arch{box-shadow:0 0 10px rgba(190,190,190,.25)}
 @media (prefers-reduced-motion:reduce){.cat-cloud a{animation:none!important}.cat-cloud .mk{transition:none!important}.cat-cloud::before{animation:none!important}}
 @media (max-width:480px){
   .cat-cloud-in{gap:14px 12px;padding:20px 4px 16px}
