@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全92本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全93本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -58,6 +58,7 @@
 
 ## ガジェットニュース
 
+- [PLAUDとは — 議事録をAIに任せるボイスレコーダーはなぜ売れる？NOTEとNote Proの違い、料金の全体像、任せてはいけないメモ](https://rentalloungeomiya.com/articles/plaud-note.html): 会議で「書く係」をやめる人が静かに増えています。その代表格が、AIボイスレコーダーのPLAUD（プラウド）です。クレジットカードほどの薄い板をスマホの背面や胸元に付けて録音すると、文字起こしから議事録の体裁までアプリが仕上げてくれます。
 - [タイムロッキングコンテナは意味ない？ — 失敗する3パターンと、意味を出す使い方の3条件](https://rentalloungeomiya.com/articles/time-locking-container-iminai.html): 「意味ない」になる失敗には型がある。別の端末に逃げる・時間設定が長すぎて挫折する・罰として使って続かない、の3つ。物理封印が効く仕組みと、短く始める・逃げ道ごと封じる・時間帯を固定する3条件、電池切れや緊急解除の現実まで、買う前に整理する。
 - [スマートリングは寝る時気にならない？ — 「気になる」の正体3つと、やめた人の理由、慣れるまでの目安](https://rentalloungeomiya.com/articles/smart-ring-neru-toki.html): 「気になる」の正体は①物理（重さ2〜5g・サイズ）②生活（充電・着け外し）③心理（スコア不安）の3種類で、対策が全部違う。サイズキットは夜に試す、充電は入浴に固定——やめた人の理由から逆算した「続く買い方」。
 - [30分の砂時計はどれを選ぶ？ — 勉強・ポモドーロ・スマホ断ちに「通知ゼロのタイマー」が効く理由](https://rentalloungeomiya.com/articles/sunadokei-30pun.html): タイマーをセットしようとスマホを手に取り、通知を見て、気づけば10分溶けていた——。勉強や作業の時間管理でいちばん崩れやすいのは、タイマーそのものがスマホの中にあることです。
