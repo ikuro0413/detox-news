@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全91本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全92本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -43,6 +43,7 @@
 
 ## 睡眠グッズ
 
+- [イオンのリカバリーウェア「EX セリアント」はアリか — 価格・買える場所・ニトリとの違い、外で着られる新作Tシャツまで](https://rentalloungeomiya.com/articles/aeon-recovery-wear.html): スーパーのイオンでリカバリーウェアが買える——しかも2026年8月からは、部屋着やインナーだけでなく「外で着られるTシャツ」まで並び始めました。トップバリュの「EX セリアント」です。
 - [リカバリーウェアの値段の違いはどこにあるのか — 1,990円と2万円、「効能の看板」は同じ。差額で買っているものを4つに分解する](https://rentalloungeomiya.com/articles/recovery-wear-nedan.html): 「同じリカバリーウェアなのに、なぜニトリは1,990円でBAKUNEは2万円を超えるのか」。うたえる効能の枠は届出制度上ほぼ共通——では差額は何への支払いなのか。素材・着心地・シリーズ幅・ブランドの4つに分解し、価格帯マップと予算の線引きまで整理する。
 - [ニトリのリカバリーウェア「Nミラク」は今買えるのか — 「売り切れ」の現在地、口コミの実態、BAKUNEとの違いまで実確認](https://rentalloungeomiya.com/articles/nitori-recovery-wear.html): 「ニトリのリカバリーウェアは売り切れで買えない」——発売直後の2026年2月には「めっちゃ品薄」と報じられ、いまも「売り切れ」「在庫」で検索され続けています。結論から言うと、この状況はもう変わっています。
 - [リカバリーウェアはニトリとワークマン、どっちを買うべきか — 上下ほぼ同額の2択で、実際に差がつく3点](https://rentalloungeomiya.com/articles/recovery-wear-nitori-workman.html): リカバリーウェアは長らく1〜3万円台の専門ブランドの世界でした。そこへワークマンが上下4,000円弱の「メディヒール」で参入し、2026年にはニトリが「Nミラク」で追随。
