@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全93本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全94本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -83,6 +83,7 @@
 
 ## 脳と集中
 
+- [GTOに「ドパガキ」が登場 — 第6話で描かれた"2倍速世代"は誰のことか。言葉の意味と、大人が笑えない理由](https://rentalloungeomiya.com/articles/dopagaki-gto.html): ネットスラングだった「ドパガキ」が、ついにゴールデンのドラマに進出しました。8月24日放送の『GTO』第6話（カンテレ・フジテレビ系）に、この属性を背負った生徒が登場し、放送後から「ドパガキ」の検索が一気に膨らんでいます。
 - [ドパるとは — 意味と使い方・例文。「ドパい」「ドパ舌」など派生語ファミリーも整理](https://rentalloungeomiya.com/articles/doparu.html): 「気づいたら2時間ショート動画見てた。完全にドパってる」——SNSでこんな言い回しを見かけて、意味を確かめに来た人がこの記事の読者だと思います。先に言うと、あなたの推測はほぼ合っています。
 - [全国学力テストが示した「SNS・動画時間と学力」 — 利用時間が長い子ほど学力が低い傾向。93万人調査で一貫](https://rentalloungeomiya.com/articles/gakuryoku-chousa-sumaho.html): 2026年4月23日、小学6年生と中学3年生のほぼ全員を対象にした全国学力・学習状況調査が実施されました。参加したのは小6が約93万人、中3が約86万人。
 - [大人のドパガキ — 「ガキ」じゃない年齢で心当たりがある人へ。夜だけ症状が出る理由と現実解](https://rentalloungeomiya.com/articles/dopagaki-otona.html): 日付が変わっている。明日は7時に起きないといけない。指はもう10分前から同じ動きだけを繰り返していて、画面に何が流れているのかもよく覚えていない。それでも止まらない。
