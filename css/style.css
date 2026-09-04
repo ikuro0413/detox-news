@@ -229,16 +229,15 @@ article p.note{color:var(--sub);font-size:12.5px;line-height:1.8;margin:-8px 0 2
 .aff-body{min-width:0}
 .aff-name{font-weight:700;font-size:13.5px;line-height:1.6;margin-bottom:6px}
 .aff-price{color:var(--sub);font-size:12.5px;margin-bottom:10px}
-.aff-btn{display:inline-block;background:#bf0000;color:#fff;font-size:12.5px;font-weight:700;padding:7px 16px;border-radius:999px;letter-spacing:.04em}
+.aff-btn{display:inline-block;background:#bf0000;color:#fff;font-size:12.5px;font-weight:700;padding:7px 16px;border-radius:999px;letter-spacing:.04em;margin-right:8px}
 .aff-btn:hover{opacity:.85}
-.aff-btn+.aff-btn{margin-left:8px}
 .aff-btn-amazon,.aff-btn[href*="amazon.co.jp"]{background:#ff9900;color:#111}
 /* 画像を使えないAmazon単独商品用のカード（SiteStripeに画像リンクが無いため） */
 .aff-card-noimg{gap:0}
 .aff-card-noimg .aff-body{width:100%}
 .aff-card-noimg .aff-name{font-size:14px}
 .aff-meta{color:var(--sub);font-size:12px;margin:-4px 0 10px}
-@media (max-width:480px){.aff-btn{padding:7px 11px;font-size:12px;margin-bottom:6px}.aff-btn+.aff-btn{margin-left:6px}}
+@media (max-width:480px){.aff-btn{padding:7px 11px;font-size:12px;margin:0 6px 6px 0}}
 @media (max-width:480px){.aff-card{align-items:flex-start}.aff-card .aff-img img{width:88px;height:88px}}
 
 /* 記事タイトルの主題＋副題 */
