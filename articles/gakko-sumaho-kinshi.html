@@ -36,6 +36,7 @@
 
 
 
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -78,12 +79,11 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 
 <div class="answer">
 <span class="ans-label">結論</span>
-<p>学校でスマホを物理的に取り上げると<b>使用量は確かに激減しますが、テストの点はほぼ動きません</b>。全米約5,000校のデータを使った2026年の研究の結論です。</p>
+<p>学校でスマホを取り上げると<b>使用量は激減しますが、テストの点はほぼ動きません</b>。全米約5,000校のデータを使った2026年の研究の結論です。</p>
 <ul>
-<li>授業中の私的なスマホ利用は、教員の報告で<b>61%→13%</b>（約80%減）</li>
-<li>テストスコアへの平均効果は<b>ほぼゼロ</b>。0.007標準偏差を超える改善は否定できる</li>
-<li>ただし<b>高校の数学だけプラス</b>（0.9パーセンタイル相当）、<b>中学はむしろマイナス</b></li>
-<li>導入1年目は<b>懲戒が約15%増え、生徒の幸福感も下がる</b>。2年目に反転する</li>
+<li>授業中の私的利用は<b>61%→13%</b>に激減。ただしテストスコアへの平均効果はほぼゼロ</li>
+<li><b>高校の数学だけプラス</b>、中学はむしろマイナス。効果は一律ではない</li>
+<li>導入1年目は懲戒増・幸福感低下も、<b>2年目に反転する</b></li>
 </ul>
 </div>
 

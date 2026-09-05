@@ -34,6 +34,26 @@
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
 document.addEventListener('DOMContentLoaded',lbl);})();</script>
+<script id="aff-track">(function(){
+document.addEventListener('click',function(e){
+var t=e.target;if(!t||!t.closest)return;
+var a=t.closest('.aff-card a[href*="hb.afl.rakuten.co.jp"], .aff-card a[href*="amazon.co.jp"]');if(!a)return;
+var card=a.closest('.aff-card');if(!card)return;
+var nm=card.querySelector('.aff-name');
+var all=[].slice.call(document.querySelectorAll('.aff-card'));
+var u=decodeURIComponent(a.getAttribute('href')||'');
+var net=u.indexOf('amazon.co.jp')>-1?'amazon':'rakuten',sku='';
+if(net==='amazon'){var d=u.indexOf('/dp/');if(d>-1)sku=u.slice(d+4).split('?')[0].split('/')[0];}
+else{var k=u.indexOf('item.rakuten.co.jp/');if(k>-1)sku=u.slice(k+19).split('?')[0].split('/').filter(Boolean).slice(0,2).join('/');}
+if(typeof gtag==='function'){gtag('event','affiliate_click',{
+aff_item_name:(nm?nm.textContent:'').trim().slice(0,90),
+aff_item_id:sku,
+aff_network:net,
+aff_category:card.getAttribute('data-aff-cat')||'unset',
+card_position:all.indexOf(card)+1,
+click_area:a.className.indexOf('aff-btn')>-1?'button':'image',
+article_path:location.pathname});}
+},true);})();</script>
 </head>
 <body>
 
@@ -72,11 +92,10 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 
 <div class="answer">
 <span class="ans-label">結論</span>
-<p>しまむらのPB「CLOSSHI」健康シリーズ「活き活きラボ」から、<b>疲労回復ルームウェアの新WebCMが2026年9月3日に公開</b>されました。三浦知良さん・澤穂希さんのダブル起用です。</p>
+<p>しまむらのPB「活き活きラボ」から疲労回復ルームウェアが登場、<b>三浦知良さん・澤穂希さん起用の新CMが9月3日公開</b>されました。</p>
 <ul>
-<li><b>鉱石プリントタイプ</b>: 9月9日発売・1,859円〜（一般医療機器・届出番号20B2X00003000053）</li>
-<li><b>鉱石練り込みタイプ「ROTA+ウェアS」</b>: 10月7日発売・2,189円〜（届出番号47B3X10001THS001）</li>
-<li>価格帯はニトリ（1,790円〜）とワークマン（1,290円〜）の間。買える場所は<b>全国のしまむら店舗としまむらパーク</b>（楽天・Amazonの出店なし）</li>
+<li><b>鉱石プリント</b>: 9/9発売・1,859円〜／<b>鉱石練り込み「ROTA+ウェアS」</b>: 10/7発売・2,189円〜（ともに一般医療機器）</li>
+<li>価格帯は<b>ニトリとワークマンの中間</b>。買える場所は全国のしまむら店舗としまむらパーク（楽天・Amazon出店なし）</li>
 </ul>
 </div>
 
@@ -128,6 +147,10 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 </div>
 
 <p>しまむらの1,859円という価格は、<b>ワークマンとニトリの中間</b>に位置します。ワークマンより高いのは、鉱石プリント／練り込みという2段階のラインを最初から用意している分と見られます。専門ブランド（BAKUNE等）と比べると<b>入り口価格は6分の1程度</b>で、「まず1枚試したい」層を明確に狙う価格設定です。</p>
+
+<p>しまむらは楽天・Amazonに出店していないため、<b>ネットだけで完結させたい・もう少し予算を出して専門ブランドで試したいなら</b>、Amazonで公式出品があるBAKUNEが候補になります。</p>
+<div class="aff-card" data-aff-cat="wear"><div class="aff-body"><div class="aff-name">BAKUNE Dry メンズ 長袖上下セット（TENTIAL公式・一般医療機器）</div><div class="aff-meta">遠赤外線繊維・専門ブランド／★4.2（382件・Amazon・執筆時点）</div><div class="aff-price">24,860円（税込・執筆時点）</div><a class="aff-btn aff-btn-amazon" href="https://www.amazon.co.jp/dp/B0DZBKTLQP/?tag=detoxnews-22&linkCode=ll1&language=ja_JP" target="_blank" rel="noopener sponsored">Amazonで見る</a></div></div>
+<div class="aff-note">※商品リンクはアフィリエイト広告（楽天・Amazon）です。</div>
 
 <div class="point">
   <span class="pt">POINT</span>
