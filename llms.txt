@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全102本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全103本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -64,6 +64,7 @@
 
 ## ガジェットニュース
 
+- [「勉強すると魚が育つ」アプリはどれ？ — iPhoneは「スマやめ」、Androidは別アプリ。勉強用に選ぶ決め手](https://rentalloungeomiya.com/articles/benkyou-sakana-app.html): 「勉強すると魚が育つ」で探されるアプリは、iPhoneなら「スマホをやめれば魚が育つ」（無料＋アプリ内購入・★4.5／1.6万件）です。Android版は配信されていないため、魚を育てる型ならDeepFocus、母数の実績で選ぶならForestが代わりになります。ただしAndroid側は「アプリを閉じたら失敗」の自己申告型で、iPhoneのスクリーンタイム連携より強制力が一段弱い——その差と、アプリが効かなかったときの次の一手まで整理します。
 - [スマートリングのサイズの選び方 — 指輪の号数では決めない。サイジングキットを夜に試すのが正解な理由](https://rentalloungeomiya.com/articles/smartring-size.html): いちばん多い失敗は機種選びではなくサイズ選び。号数で決めず、550円からのキットを夜に試すのが正解な理由。
 - [PLAUDとは — 議事録をAIに任せるボイスレコーダーはなぜ売れる？NOTEとNote Proの違い、料金の全体像、任せてはいけないメモ](https://rentalloungeomiya.com/articles/plaud-note.html): 会議で「書く係」をやめる人が増えている。NOTEとNote Proの違い、料金の全体像、任せてはいけないメモまで。
 - [タイムロッキングコンテナは意味ない？ — 失敗する3パターンと、意味を出す使い方の3条件](https://rentalloungeomiya.com/articles/time-locking-container-iminai.html): 「意味ない」には型がある——別端末に逃げる・時間が長すぎる・罰として使う。効かせる3条件を買う前に整理。
