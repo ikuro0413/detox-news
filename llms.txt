@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全107本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全108本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -32,6 +32,7 @@
 
 ## 睡眠科学
 
+- [柳沢正史とは — オレキシン発見で2026年ラスカー賞。睡眠研究でわかった3つの数字と、教授が実践する寝室の作り方](https://rentalloungeomiya.com/articles/yanagisawa-masashi.html): 1998年のオレキシン発見で2026年ラスカー賞。寝だめが逆効果な理由と、教授が実践する寝室の4項目まで。
 - [オーソソムニアとは — 睡眠スコアを気にしすぎて眠れなくなる「新しい不眠」の正体と抜け出し方](https://rentalloungeomiya.com/articles/orthosomnia.html): 朝起きて、体は割と元気なのに、スマートウォッチの睡眠スコアが「58点」だと分かった瞬間に急にだるく感じてくる。今夜こそ良いスコアを出そうと意気込んで布団に入り、かえって寝つけない——。
 - [カフェインは何時まで？ — 「寝る8時間前」が目安になる理由と、意外な隠れカフェイン一覧](https://rentalloungeomiya.com/articles/caffeine-itsumade.html): 「夜のコーヒーは眠れなくなる」は誰でも知っています。では、何時までなら大丈夫なのか——ここで答えが曖昧になる人がほとんどです。15時？17時？夕食後の1杯は？
 - [睡眠負債とは — 「毎日ちょっと寝不足」が借金のように積み上がる仕組みと、正しい返し方](https://rentalloungeomiya.com/articles/suimin-fusai.html): 「睡眠負債」という言葉を、健康番組や記事で見かけたことがある人は多いはずです。
