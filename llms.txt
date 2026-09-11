@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全108本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全109本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -44,6 +44,7 @@
 
 ## 睡眠グッズ
 
+- [電気毛布はニトリと山善、どっちを買うべきか — 同サイズ・ほぼ同額の2択で、実際に差がつく3点](https://rentalloungeomiya.com/articles/nitori-yamazen-denki-moufu.html): 130×80cmで4,193円と3,980円。睡眠で効く差は自動電源オフの有無。電気代は1時間0.4〜0.8円。
 - [リカバリーウェアを着てはいけない人はいるのか — 添付文書4製品を実際に読み比べた](https://rentalloungeomiya.com/articles/recovery-wear-kinki.html): 添付文書4製品を実読。使ってはいけないのはほぼ皮膚の異常だけ。高血圧・糖尿病・妊娠中は書かれていない。
 - [ニトリの新作「Sミラク」とは — 実は島忠ブランド、Nミラクとの違いを実確認](https://rentalloungeomiya.com/articles/nitori-s-miraku.html): ニトリネットの新シリーズ、実は島忠ブランド。Nミラクとの違いは素材・価格・買い方の3点。
 - [シックスパッドの疲労回復ウェアとは — EMSのMTGが出す「着て寝る」リカバリーウェア。スリープ/デイリーの違い、価格、楽天とAmazonどちらが安いか](https://rentalloungeomiya.com/articles/sixpad-recovery-wear.html): EMSのMTGが出す上下2万円台の一般医療機器。就寝用スリープと日中用デイリーの2系統。9/17までは楽天が2割安い。
