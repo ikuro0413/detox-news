@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全113本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全114本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -44,6 +44,7 @@
 
 ## 睡眠グッズ
 
+- [NELLとピップの「SOON」とは — 上下2万6,500円のリカバリーウェア。効能は「上下セット着用時のもの」という注記](https://rentalloungeomiya.com/articles/nell-soon-recovery-wear.html): バラ買いとセットは同額。買う場所で3,975円の差。300回洗濯の自主基準と、PR表記の星4.9まで。
 - [売り切れ多発のニトリのリカバリーウェア — それぞれの型での在庫情報](https://rentalloungeomiya.com/articles/nitori-recovery-wear-urikire.html): 衣類は全型在庫あり。9月前半に全滅していた敷きパッドも復活。Amazonで出てこないのは未出品だから。
 - [ニトリの着る毛布はどれを買うべきか — 価格差は暖かさではなく重さと丈。570gと1.51kgの4型を実確認](https://rentalloungeomiya.com/articles/nitori-kiru-moufu.html): 同じNウォームでも重さは2.6倍。店舗受取のできない型、販売終了した1,197円まで在庫の現状も。
 - [ニトリのリカバリーパジャマはどれを買うべきか — テーラーパジャマ4,990円と、長袖T＋ルームパンツ3,980円の上下そろえ](https://rentalloungeomiya.com/articles/nitori-recovery-pajama.html): 上下そろえ3,980円とテーラーパジャマ4,990円の2択。差額1,010円の中身とサイズの選び方まで。
