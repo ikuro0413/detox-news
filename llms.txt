@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全114本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全115本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -32,6 +32,7 @@
 
 ## 睡眠科学
 
+- [寝るときのエアコンはいつまで必要か — 東京の平年値で日付を出す。厚労省が挙げる33℃は室温ではなく布団の中の温度](https://rentalloungeomiya.com/articles/aki-aircon-itsumade.html): 最低気温の20℃割れは9月18日、15℃割れは10月16日。一日の寒暖差は年間ほぼ一定。
 - [2026年ラスカー賞の柳沢正史が発見したオレキシンとは — 睡眠研究でわかった3つの数字と、教授が実践する寝室の作り方](https://rentalloungeomiya.com/articles/yanagisawa-masashi.html): 覚醒を支える「つっかえ棒」の正体から、休日の寝だめが逆効果な理由、光・室温・換気・スマホの4条件まで。
 - [オーソソムニアとは — 睡眠スコアを気にしすぎて眠れなくなる「新しい不眠」の正体と抜け出し方](https://rentalloungeomiya.com/articles/orthosomnia.html): 朝起きて、体は割と元気なのに、スマートウォッチの睡眠スコアが「58点」だと分かった瞬間に急にだるく感じてくる。今夜こそ良いスコアを出そうと意気込んで布団に入り、かえって寝つけない——。
 - [カフェインは何時まで？ — 「寝る8時間前」が目安になる理由と、意外な隠れカフェイン一覧](https://rentalloungeomiya.com/articles/caffeine-itsumade.html): 「夜のコーヒーは眠れなくなる」は誰でも知っています。では、何時までなら大丈夫なのか——ここで答えが曖昧になる人がほとんどです。15時？17時？夕食後の1杯は？
