@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全117本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全118本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -45,6 +45,7 @@
 
 ## 睡眠グッズ
 
+- [メディヒールコスモスのサイズ感は？ メンズMとレディースLLは身幅53cmでも同じではない](https://rentalloungeomiya.com/articles/workman-medihi-cosmos-size.html): 身幅53cmで一致する男女の2サイズ。袖の違いと、股下1cm・ヒップ6cmのサイズ差を公式4商品の寸法で確認します。
 - [ワークマンのリカバリースーツとは — 上下8,980円、室内着とは別の届出。「素肌の上から」の注記が消えている](https://rentalloungeomiya.com/articles/workman-recovery-suit.html): 生地は綿混からポリエステル100%へ。レビューは4点で計9件、スーツ上下は4Lでそろわず、楽天は1,600円高い。
 - [NELLとピップの「SOON」とは — 上下2万6,500円のリカバリーウェア。効能は「上下セット着用時のもの」という注記](https://rentalloungeomiya.com/articles/nell-soon-recovery-wear.html): バラ買いとセットは同額。買う場所で3,975円の差。300回洗濯の自主基準と、PR表記の星4.9まで。
 - [売り切れ多発のニトリのリカバリーウェア — それぞれの型での在庫情報](https://rentalloungeomiya.com/articles/nitori-recovery-wear-urikire.html): 衣類は全型在庫あり。9月前半に全滅していた敷きパッドも復活。Amazonで出てこないのは未出品だから。
