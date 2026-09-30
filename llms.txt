@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全120本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全121本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -78,6 +78,7 @@
 
 ## ガジェットニュース
 
+- [横向き寝の寝ホンはどう選ぶ？ Sleep A30とZE500を、枕への当たりと再生時間で比較](https://rentalloungeomiya.com/articles/nehon-yokomuki-hikaku.html): 横向きで枕に当たる人へ。約2万円の差で何が変わる？ 装着設計と、ケース込みではない本体の再生時間を比較。
 - [SOXAI RING Xを待つか、RING 2を今買うか — 差は幅1.51mmと電池5日。価格も発売時期もまだ出ていない](https://rentalloungeomiya.com/articles/soxai-ring-x-ring-2.html): 差は幅1.51mmと電池5日ぶん。RING Xは仕様も開発中で、Kickstarterはまだ立っていない。
 - [SOXAI RING Xとは — 幅5.19mmの世界最小、公表はまだ2つの数字だけ。100円「限定価格パス」の中身](https://rentalloungeomiya.com/articles/soxai-ring-x.html): 細さの代償はバッテリー。現行RING 2の最大15日から10日へ。100円パスは返金も商品代金への充当もなし。
 - [「勉強すると魚が育つ」アプリはどれ？ — iPhoneは「スマやめ」、Androidは別アプリ。勉強用に選ぶ決め手](https://rentalloungeomiya.com/articles/benkyou-sakana-app.html): iPhoneは本家「スマやめ」、Androidは本家が無い。代替2本は「閉じたら失敗」の自己申告型で、強制力が一段違う。
