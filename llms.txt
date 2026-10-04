@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全124本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全125本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -45,6 +45,7 @@
 
 ## 睡眠グッズ
 
+- [横向き寝の耳栓はLoop DreamとQuiet 2、どちら？ 遮音性・交換チップ・返品条件を比較](https://rentalloungeomiya.com/articles/loop-dream-quiet2-yokomuki.html): 横向き寝で気になる枕への当たり、交換チップ、購入先で異なる返品条件から睡眠用耳栓を選びます。
 - [ブレインスリープ ピローはLOWとSTANDARD、どちらを選ぶ？ 高さ・寝姿勢・交換条件を比較](https://rentalloungeomiya.com/articles/brainsleep-pillow-low-standard.html): LOWは6〜8cm、STANDARDは9〜11cm。寝姿勢から選ぶポイントと、楽天のサイズ交換・公式の有料トライアルの違いを整理。
 - [ReDの新作スウェットとベーシック、どちらを選ぶ？ 長袖上下の差額4,400円と素材を比較](https://rentalloungeomiya.com/articles/red-sweat-basic-pajama.html): 新作は長袖上下19,800円、ベーシックとの差は4,400円。素材の違いと、楽天の単品・セット価格を確認します。
 - [リカバリーパジャマはどれを買うべきか — ニトリ・ワークマン・しまむら・BAKUNEを比較。前あきの形は3社、長袖上下の最安はしまむら3,718円](https://rentalloungeomiya.com/articles/recovery-pajama-hikaku.html): 効能の枠は4社共通。差は前あきの形と冬の生地、通販ですぐ届くか。ワークマンは入荷待ち、しまむら通販は10月下旬以降。
