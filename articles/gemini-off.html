@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 
 <header class="site-header">
   <a href="../index.html" class="site-logo">Detox<span class="accent">News</span><span class="sub">DIGITAL WELLNESS ＆ SLEEP</span></a>
-  <div class="header-right"><button class="theme-toggle" onclick="__themeToggle()" aria-label="表示モード切り替え">夜モード</button><a class="header-cta" href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">無料で睡眠力を診断</a></div>
+  <div class="header-right"><button class="theme-toggle" onclick="__themeToggle()" aria-label="表示モード切り替え">夜モード</button><a class="header-cta" href="https://shindan.rentalloungeomiya.com/?from=gemini-off&amp;pos=header" target="_blank" rel="noopener">無料で睡眠力を診断</a></div>
 </header>
 
 <nav class="cat-nav"><div class="cat-nav-in">
@@ -168,8 +168,8 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
   <div class="cta-block">
     <span class="small">＼ AIとの距離を整えたら、次は眠りの土台 ／</span>
     <h3>現代を生きる"睡眠力"診断</h3>
-    <p>9つの行動領域から、あなたの睡眠タイプと具体策をAIが分析。<br>1〜3分で終わります。</p>
-    <a class="cta-btn" href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">無料で診断してみる</a>
+    <p>9つの行動領域から、あなたの睡眠タイプを判定。<br>タイプに合う具体策と睡眠グッズがわかります。1〜3分・無料。</p>
+    <a class="cta-btn" href="https://shindan.rentalloungeomiya.com/?from=gemini-off&amp;pos=end" target="_blank" rel="noopener">無料で診断してみる</a>
     <div class="cta-note">登録不要・スマホでそのまま受けられます</div>
   </div>
 </section>
@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 
 <footer class="site-footer">
   <div class="links">
-    <a href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">睡眠力診断</a>
+    <a href="https://shindan.rentalloungeomiya.com/?from=gemini-off&amp;pos=footer" target="_blank" rel="noopener">睡眠力診断</a>
     <a href="../about.html">運営者情報</a>
     <a href="../archive.html">月別アーカイブ</a>
     <a href="https://store.detoxnews.jp/" target="_blank" rel="noopener">TOKI STORE</a>
@@ -249,5 +249,16 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
   <div class="copy">© TOKI — DetoxNews</div>
 </footer>
 
+<!-- SHINDAN-CTA-TRACK-START -->
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a[href^="https://shindan.rentalloungeomiya.com/"]');
+  if(!a)return;
+  try{var u=new URL(a.href);
+    if(typeof gtag==='function'){gtag('event','shindan_cta_click',{from:u.searchParams.get('from')||'',pos:u.searchParams.get('pos')||''});}
+  }catch(err){}
+});
+</script>
+<!-- SHINDAN-CTA-TRACK-END -->
 </body>
 </html>

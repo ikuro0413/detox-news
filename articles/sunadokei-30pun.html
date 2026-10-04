@@ -63,7 +63,7 @@ article_path:location.pathname});}
 
 <header class="site-header">
   <a href="../index.html" class="site-logo">Detox<span class="accent">News</span><span class="sub">DIGITAL WELLNESS ＆ SLEEP</span></a>
-  <div class="header-right"><button class="theme-toggle" onclick="__themeToggle()" aria-label="表示モード切り替え">夜モード</button><a class="header-cta" href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">無料で睡眠力を診断</a></div>
+  <div class="header-right"><button class="theme-toggle" onclick="__themeToggle()" aria-label="表示モード切り替え">夜モード</button><a class="header-cta" href="https://shindan.rentalloungeomiya.com/?from=sunadokei-30pun&amp;pos=header" target="_blank" rel="noopener">無料で睡眠力を診断</a></div>
 </header>
 
 <nav class="cat-nav"><div class="cat-nav-in">
@@ -107,7 +107,7 @@ article_path:location.pathname});}
 
 <p>タイマーをセットしようとスマホを手に取り、通知を見て、気づけば10分溶けていた——。勉強や作業の時間管理でいちばん崩れやすいのは、タイマーそのものがスマホの中にあることです。</p>
 
-<p>この記事は、30分の砂時計を「勉強・ポモドーロ・スマホ断ちの道具」として選ぶためのガイドです。実際に売られている商品を価格とレビュー母数まで確認した上で、砂時計が効く理由、現実的な選択肢、弱点、そして砂時計では足りない人の次の一手まで整理します。当サイトの<a href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">睡眠力診断</a>でも、ショート動画がやめられないタイプの人に30分砂時計を提案しており、実際に選ばれている道具です。</p>
+<p>この記事は、30分の砂時計を「勉強・ポモドーロ・スマホ断ちの道具」として選ぶためのガイドです。実際に売られている商品を価格とレビュー母数まで確認した上で、砂時計が効く理由、現実的な選択肢、弱点、そして砂時計では足りない人の次の一手まで整理します。当サイトの<a href="https://shindan.rentalloungeomiya.com/?from=sunadokei-30pun&amp;pos=footer" target="_blank" rel="noopener">睡眠力診断</a>でも、ショート動画がやめられないタイプの人に30分砂時計を提案しており、実際に選ばれている道具です。</p>
 
 <h2>スマホのタイマーがダメな理由 — 「設定する」たびに罠がある</h2>
 
@@ -191,8 +191,8 @@ article_path:location.pathname});}
   <div class="cta-block">
     <span class="small">＼ 夜のショート動画、砂時計で止まる？ ／</span>
     <h3>現代を生きる"睡眠力"診断</h3>
-    <p>9つの行動領域から、あなたの睡眠タイプと具体策をAIが分析。<br>1〜3分で終わります。</p>
-    <a class="cta-btn" href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">無料で診断してみる</a>
+    <p>9つの行動領域から、あなたの睡眠タイプを判定。<br>タイプに合う具体策と睡眠グッズがわかります。1〜3分・無料。</p>
+    <a class="cta-btn" href="https://shindan.rentalloungeomiya.com/?from=sunadokei-30pun&amp;pos=end" target="_blank" rel="noopener">無料で診断してみる</a>
     <div class="cta-note">登録不要・スマホでそのまま受けられます</div>
   </div>
 </section>
@@ -263,7 +263,7 @@ article_path:location.pathname});}
 
 <footer class="site-footer">
   <div class="links">
-    <a href="https://shindan.rentalloungeomiya.com/" target="_blank" rel="noopener">睡眠力診断</a>
+    <a href="https://shindan.rentalloungeomiya.com/?from=sunadokei-30pun&amp;pos=footer" target="_blank" rel="noopener">睡眠力診断</a>
     <a href="../about.html">運営者情報</a>
     <a href="../archive.html">月別アーカイブ</a>
     <a href="https://store.detoxnews.jp/" target="_blank" rel="noopener">TOKI STORE</a>
@@ -272,5 +272,16 @@ article_path:location.pathname});}
   <div class="copy">© TOKI — DetoxNews</div>
 </footer>
 
+<!-- SHINDAN-CTA-TRACK-START -->
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a[href^="https://shindan.rentalloungeomiya.com/"]');
+  if(!a)return;
+  try{var u=new URL(a.href);
+    if(typeof gtag==='function'){gtag('event','shindan_cta_click',{from:u.searchParams.get('from')||'',pos:u.searchParams.get('pos')||''});}
+  }catch(err){}
+});
+</script>
+<!-- SHINDAN-CTA-TRACK-END -->
 </body>
 </html>
