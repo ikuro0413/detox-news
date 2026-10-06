@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全125本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全129本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -45,6 +45,10 @@
 
 ## 睡眠グッズ
 
+- [家族を起こさない目覚ましの選び方 腕の振動と枕の下、どちらを選ぶ？](https://rentalloungeomiya.com/articles/kazoku-okosanai-mezamashi.html): 手首に伝える振動と、枕の下に置く専用機。装着感・充電・音の設定から、家族と眠る部屋に合う方式を選ぶ。
+- [ADESSO BB-808とBB-2000の違い 電源・曜日設定・音を切る使い方を比較](https://rentalloungeomiya.com/articles/adesso-bb808-bb2000.html): 乾電池かUSB充電か。平日・土日の設定、振動だけで使う方法、朝止めたあとの翌日の準備まで比較する。
+- [光目覚ましは音なしで使える？ 消音設定と置き場所から選ぶ](https://rentalloungeomiya.com/articles/hikari-mezamashi-otonashi.html): 光目覚ましでも消音できるとは限らない。説明書から音の設定、設置距離、同室の家族との相性を確認する。
+- [ブレインスリープとめぐりズム、寝る前のアイマスクはどちら？ 使い方と30回分の費用を比較](https://rentalloungeomiya.com/articles/brainsleep-megrhythm-eyemask.html): 開封だけで温まる使い切り型と、ジェルを外しても使える繰り返し型。寝る前の手順と30回分の費用を比較。
 - [横向き寝の耳栓はLoop DreamとQuiet 2、どちら？ 遮音性・交換チップ・返品条件を比較](https://rentalloungeomiya.com/articles/loop-dream-quiet2-yokomuki.html): 横向き寝で気になる枕への当たり、交換チップ、購入先で異なる返品条件から睡眠用耳栓を選びます。
 - [ブレインスリープ ピローはLOWとSTANDARD、どちらを選ぶ？ 高さ・寝姿勢・交換条件を比較](https://rentalloungeomiya.com/articles/brainsleep-pillow-low-standard.html): LOWは6〜8cm、STANDARDは9〜11cm。寝姿勢から選ぶポイントと、楽天のサイズ交換・公式の有料トライアルの違いを整理。
 - [ReDの新作スウェットとベーシック、どちらを選ぶ？ 長袖上下の差額4,400円と素材を比較](https://rentalloungeomiya.com/articles/red-sweat-basic-pajama.html): 新作は長袖上下19,800円、ベーシックとの差は4,400円。素材の違いと、楽天の単品・セット価格を確認します。
