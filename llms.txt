@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全129本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全130本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -116,6 +116,7 @@
 
 ## 脳と集中
 
+- [ドパガキの由来と元ネタ いつから使われ始めたか。Xの投稿と検索の推移でたどる](https://rentalloungeomiya.com/articles/dopagaki-yurai.html): 元ネタとされる2024年12月のポストに略語は出てこない。Xで月11件から30万件へ、検索の山は9月中旬。
 - [学校でスマホを取り上げると成績は上がるのか — 全米約5,000校の研究が出した答え](https://rentalloungeomiya.com/articles/gakko-sumaho-kinshi.html): 全米約5,000校のポーチ導入を検証したら、授業中の私的利用は61%→13%。それでもテストの点はほとんど動かなかった。
 - [GTOに「ドパガキ」が登場 — 第6話で描かれた"2倍速世代"は誰のことか。言葉の意味と、大人が笑えない理由](https://rentalloungeomiya.com/articles/dopagaki-gto.html): ネットスラングが『GTO』第6話でゴールデンに進出。放送後に検索が急増した言葉の意味と、大人が笑えない理由。
 - [ドパるとは — 意味と使い方・例文。「ドパい」「ドパ舌」など派生語ファミリーも整理](https://rentalloungeomiya.com/articles/doparu.html): 「気づいたら2時間ショート動画見てた。完全にドパってる」——SNSでこんな言い回しを見かけて、意味を確かめに来た人がこの記事の読者だと思います。先に言うと、あなたの推測はほぼ合っています。
