@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全132本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全137本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -46,6 +46,7 @@
 
 ## 睡眠グッズ
 
+- [時計の秒針がうるさくて眠れない — 今夜できる対処と、買い替えるなら見るべき2つの機能](https://rentalloungeomiya.com/articles/tokei-byoshin-urusai.html): スムーズ秒針でも駆動音は少し残る。夜間秒針停止は暗さで止まる仕組みで、明かりをつけて寝る部屋では働かない。
 - [家族を起こさない目覚ましの選び方 腕の振動と枕の下、どちらを選ぶ？](https://rentalloungeomiya.com/articles/kazoku-okosanai-mezamashi.html): 手首に伝える振動と、枕の下に置く専用機。装着感・充電・音の設定から、家族と眠る部屋に合う方式を選ぶ。
 - [ADESSO BB-808とBB-2000の違い 電源・曜日設定・音を切る使い方を比較](https://rentalloungeomiya.com/articles/adesso-bb808-bb2000.html): 乾電池かUSB充電か。平日・土日の設定、振動だけで使う方法、朝止めたあとの翌日の準備まで比較する。
 - [光目覚ましは音なしで使える？ 消音設定と置き場所から選ぶ](https://rentalloungeomiya.com/articles/hikari-mezamashi-otonashi.html): 光目覚ましでも消音できるとは限らない。説明書から音の設定、設置距離、同室の家族との相性を確認する。
@@ -136,6 +137,7 @@
 
 ## 生活リズム
 
+- [朝が暗くて起きられない — 起きる時刻別に、暗い朝が始まる日と終わる日を出す（東京）](https://rentalloungeomiya.com/articles/asa-kurai-okirarenai.html): 6時起きなら10月30日から3月9日まで日の出前。10月だけで日の出は26分遅れ、最も遅いのは冬至でなく1月上旬。
 - [冬に向けて眠い・だるくなるのはなぜか — 日の出は1時間33分遅れる。光と体内時計を数字で見る](https://rentalloungeomiya.com/articles/fuyu-nemui-hikari.html): 東京の日の出は9月から冬至までに1時間33分遅れ、昼は3時間11分短くなる。暗さのピークは冬至ではない。
 - [子どものスマホルールは新学期に作り直す — 「取り上げ」が失敗しやすい理由と、守られるルールの3条件](https://rentalloungeomiya.com/articles/kodomo-sumaho-rule.html): 「何時間まで」から入ると失敗する。多くの家のルールが守られずに終わる理由と、守られるルールの3条件。
 - [生活リズムを戻すのに何日かかる？ — 昼夜逆転はズレ幅で決まる。夏休み明け・連休明けの日数別プラン](https://rentalloungeomiya.com/articles/natsuyasumi-chuyagyakuten.html): 気づけば寝るのは朝の4時、起きるのは昼過ぎ。新学期まであと1週間——。この記事は、夏休みで昼夜逆転した生活を始業日までに戻すための具体的な手順だけを扱います。
@@ -149,6 +151,9 @@
 
 ## 夜の行動
 
+- [大学生のリベンジ夜更かし — 1限がない日の夜は、どこまでも延びる](https://rentalloungeomiya.com/articles/revenge-yofukashi-daigakusei.html): 原因は時間不足ではなく区切りの不在。いちばん早い曜日に起床をそろえ、課題とオンデマンド授業を朝へ回す。
+- [電気をつけたまま毎日寝落ちしてしまう — 体への影響と、寝落ちしても明かりが消える仕組みの作り方](https://rentalloungeomiya.com/articles/denki-tsukeppanashi-neochi.html): 一晩100ルクスで眠った実験と4万人超の追跡調査。常夜灯との差と、寝落ちしても消える明かりの作り方まで。
+- [寝落ちした動画を自動で止めるには — YouTube・iPhone・Spotifyのスリープタイマーと、自動再生を切る設定](https://rentalloungeomiya.com/articles/neochi-douga-timer.html): YouTubeは歯車から10〜60分と「動画の最後」。iPhoneは時計のタイマーで全アプリの再生を止められる。
 - [在宅ワークのリベンジ夜更かし — 「退勤」がない一日は、夜のスマホで終わらせるしかなくなる](https://rentalloungeomiya.com/articles/revenge-yofukashi-zaitaku.html): 20時、夕食のあとに「あと1件だけ」とSlackを開く。21時半、なんとなく仕事が終わる。というより、途切れる。
 - [産後のリベンジ夜更かし — 細切れ睡眠なのにスマホがやめられない夜の正体と、赤ちゃんと暮らす現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-sango.html): 23時の授乳が終わって、腕の中で赤ちゃんが寝た。ベッドに置くのに成功して、やっと一人。眠いのは分かっている。次の授乳まで2時間半しかないことも分かっている。それでもスマホを手に取って、気づけば40分たっている——。
 - [夜勤明けのリベンジ夜更かし — 眠いのに寝たくない朝の正体と、シフト勤務の現実解](https://rentalloungeomiya.com/articles/revenge-yofukashi-yakin.html): 朝9時、夜勤を終えて帰宅する。体はくたくたで、目も乾いている。シャワーを浴びてベッドに入り、スマホを手に取る。少しだけのつもりが、気づけば正午——。眠いのは分かっている。それでも画面を閉じられない。
