@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全137本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全138本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -151,6 +151,7 @@
 
 ## 夜の行動
 
+- [受験生が夜更かししてしまった次の日 — 取り戻そうとしない過ごし方と、昼寝は何分までか](https://rentalloungeomiya.com/articles/jukensei-yofukashi-tsugi-no-hi.html): 起きる時刻はずらさず、昼寝は午後の早い時間に30分以内。寝坊と長い昼寝で取り戻すと翌日まで響く理由。
 - [大学生のリベンジ夜更かし — 1限がない日の夜は、どこまでも延びる](https://rentalloungeomiya.com/articles/revenge-yofukashi-daigakusei.html): 原因は時間不足ではなく区切りの不在。いちばん早い曜日に起床をそろえ、課題とオンデマンド授業を朝へ回す。
 - [電気をつけたまま毎日寝落ちしてしまう — 体への影響と、寝落ちしても明かりが消える仕組みの作り方](https://rentalloungeomiya.com/articles/denki-tsukeppanashi-neochi.html): 一晩100ルクスで眠った実験と4万人超の追跡調査。常夜灯との差と、寝落ちしても消える明かりの作り方まで。
 - [寝落ちした動画を自動で止めるには — YouTube・iPhone・Spotifyのスリープタイマーと、自動再生を切る設定](https://rentalloungeomiya.com/articles/neochi-douga-timer.html): YouTubeは歯車から10〜60分と「動画の最後」。iPhoneは時計のタイマーで全アプリの再生を止められる。
