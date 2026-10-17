@@ -30,6 +30,7 @@
 <!-- SEO-META-END -->
 
 
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -82,6 +83,7 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <tr><td data-label="見ているもの">YouTube（アプリ・ブラウザ）</td><td data-label="止め方">プレーヤーの設定（歯車）→「スリープ タイマー」</td><td data-label="選べる時間">10・15・20・30・45・60分、動画の最後</td></tr>
 <tr><td data-label="見ているもの">iPhone・iPadのあらゆるアプリ</td><td data-label="止め方">「時計」アプリのタイマー →「タイマー終了時」→「再生停止」</td><td data-label="選べる時間">自由に設定</td></tr>
 <tr><td data-label="見ているもの">Spotify（スマホアプリ）</td><td data-label="止め方">再生画面のメニュー →「スリープタイマー」</td><td data-label="選べる時間">数分〜1時間、曲（エピソード）の最後など</td></tr>
+<tr><td data-label="見ているもの">Netflix・プライムビデオ</td><td data-label="止め方">アプリ内のタイマーは確認できず。「次のエピソードの自動再生」をオフ（<a href="netflix-prime-neochi.html">設定の場所</a>）</td><td data-label="選べる時間">1話で止まる</td></tr>
 <tr><td data-label="見ているもの">テレビで見ている配信</td><td data-label="止め方">テレビ本体のオフタイマー</td><td data-label="選べる時間">機種による</td></tr>
 </tbody>
 </table>
@@ -149,13 +151,13 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 
 <details class="faq"><summary>YouTubeのスリープタイマーはPremium限定ですか？</summary><div class="a">当初はYouTube Premium向けの試験機能でしたが、その後一般に提供されています。2026年10月10日に、ログインしていないブラウザ版のYouTubeでも、設定メニューに「スリープ タイマー」が表示されることを確認しました。表示されない場合は、アプリを最新版に更新してください。</div></details>
 
-<details class="faq"><summary>NetflixやAmazonプライム・ビデオにタイマーはありますか？</summary><div class="a">サービスや端末によって対応が異なり、この記事では確認できていません。iPhone・iPadで見ているなら、時計アプリのタイマーを「再生停止」にする方法がどのアプリでも使えます。テレビで見ている場合は、テレビ本体のオフタイマーを使ってください。</div></details>
+<details class="faq"><summary>NetflixやAmazonプライム・ビデオにタイマーはありますか？</summary><div class="a">2026年10月17日に公式ヘルプと設定画面を確認したところ、どちらにもスリープタイマーの項目は見当たりませんでした。かわりに「次のエピソードの自動再生」をオフにすると1話で止まります。設定の場所は<a href="netflix-prime-neochi.html">Netflix・プライムビデオで寝落ちしても止める方法</a>にまとめました。時間で止めたい場合は、iPhone・iPadなら時計アプリのタイマーを「再生停止」に、テレビならテレビ本体のオフタイマーを使ってください。</div></details>
 
 <details class="faq"><summary>iPhoneのタイマーで「再生停止」が見つかりません。</summary><div class="a">「タイマー終了時」を押したあとに表示される音の一覧を、いちばん下までスクロールしてください。「再生停止」は一覧の最後にあります。</div></details>
 
 <details class="faq"><summary>寝落ち用の動画やBGMは、流さないほうがいいですか？</summary><div class="a">静かすぎると眠れない人が、音を流して寝つきやすくなるなら、それ自体を無理にやめる必要はありません。大事なのは、眠ったあとも何時間も光と音が続かないことです。画面は消して音だけにし、タイマーで止まるようにしておきましょう。</div></details>
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"YouTubeのスリープタイマーはPremium限定ですか？","acceptedAnswer":{"@type":"Answer","text":"当初はYouTube Premium向けの試験機能でしたが、その後一般に提供されています。2026年10月10日に、ログインしていないブラウザ版でも設定メニューに表示されることを確認しました。"}},{"@type":"Question","name":"NetflixやAmazonプライム・ビデオにタイマーはありますか？","acceptedAnswer":{"@type":"Answer","text":"サービスや端末によって対応が異なり、この記事では確認できていません。iPhone・iPadなら時計アプリのタイマーを「再生停止」にする方法がどのアプリでも使えます。テレビではテレビ本体のオフタイマーを使ってください。"}},{"@type":"Question","name":"iPhoneのタイマーで「再生停止」が見つかりません。","acceptedAnswer":{"@type":"Answer","text":"「タイマー終了時」を押したあとに表示される音の一覧を、いちばん下までスクロールしてください。「再生停止」は一覧の最後にあります。"}},{"@type":"Question","name":"寝落ち用の動画やBGMは、流さないほうがいいですか？","acceptedAnswer":{"@type":"Answer","text":"音を流して寝つきやすくなるなら無理にやめる必要はありません。大事なのは眠ったあとも何時間も光と音が続かないことです。画面は消して音だけにし、タイマーで止まるようにしておきましょう。"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"YouTubeのスリープタイマーはPremium限定ですか？","acceptedAnswer":{"@type":"Answer","text":"当初はYouTube Premium向けの試験機能でしたが、その後一般に提供されています。2026年10月10日に、ログインしていないブラウザ版でも設定メニューに表示されることを確認しました。"}},{"@type":"Question","name":"NetflixやAmazonプライム・ビデオにタイマーはありますか？","acceptedAnswer":{"@type":"Answer","text":"2026年10月17日に公式ヘルプと設定画面を確認したところ、どちらにもスリープタイマーの項目は見当たりませんでした。かわりに「次のエピソードの自動再生」をオフにすると1話で止まります。時間で止めたい場合は、iPhone・iPadなら時計アプリのタイマーを「再生停止」に、テレビならテレビ本体のオフタイマーを使ってください。"}},{"@type":"Question","name":"iPhoneのタイマーで「再生停止」が見つかりません。","acceptedAnswer":{"@type":"Answer","text":"「タイマー終了時」を押したあとに表示される音の一覧を、いちばん下までスクロールしてください。「再生停止」は一覧の最後にあります。"}},{"@type":"Question","name":"寝落ち用の動画やBGMは、流さないほうがいいですか？","acceptedAnswer":{"@type":"Answer","text":"音を流して寝つきやすくなるなら無理にやめる必要はありません。大事なのは眠ったあとも何時間も光と音が続かないことです。画面は消して音だけにし、タイマーで止まるようにしておきましょう。"}}]}</script>
 </section>
 
 <p class="note">参考：YouTube（ブラウザ版の設定メニューを2026年10月10日に確認）／厚生労働省「<a href="https://www.mhlw.go.jp/content/001305530.pdf" target="_blank" rel="noopener">健康づくりのための睡眠ガイド2023</a>」。各アプリの画面や表示名は、バージョンによって変わることがあります。</p>
@@ -175,6 +177,10 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <section>
   <h2 class="sec">あわせて読む</h2>
   <div class="card-list">
+    <a class="card" href="netflix-prime-neochi.html">
+      <span class="pill night">夜の行動</span>
+      <h3>Netflix・プライムビデオで寝落ちしても止める方法 — スリープタイマーはある？自動再生オフと、iPhone・Android・テレビのタイマー</h3>
+    </a>
     <a class="card" href="denki-tsukeppanashi-neochi.html">
       <span class="pill night">夜の行動</span>
       <h3>電気をつけたまま毎日寝落ちしてしまう — 体への影響と、寝落ちしても明かりが消える仕組みの作り方</h3>
