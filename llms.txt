@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全146本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全147本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -34,6 +34,7 @@
 
 ## 睡眠科学
 
+- [寝るときに靴下を履くと、よく眠れるのか — 寝つき7.5分・睡眠32分の実験を読む。「体に悪い」と言われる理由と、選び方](https://rentalloungeomiya.com/articles/neru-toki-kutsushita.html): 靴下の夜は寝つき7.5分早く、睡眠32分長い。ただし6人の実験で、本人の眠れた感覚は変わらなかった。
 - [明け方、寒くて目が覚めるのはなぜ？ — 東京の気温は寝るときから2℃ほどしか下がらない。10月後半に変わるのは「下がり幅」ではなく「水準」](https://rentalloungeomiya.com/articles/akegata-samukute-me-ga-sameru.html): 一晩の下がり幅は平均2℃前後、最も冷えるのは5〜7時台。明け方15℃未満の夜は10月後半に半数、11月はほぼ毎晩。
 - [疲れている時のエナジードリンク、何が「ヤバい」？ 眠気と疲労回復を混同しないために](https://rentalloungeomiya.com/articles/energy-drink-fatigue.html): 眠気が薄れても、睡眠不足が解消したとは限らない。飲む時刻・カフェインの合計量・重ね飲みから、疲れた日の注意点を整理。
 - [寝るときのエアコンはいつまで必要か — 東京の平年値で日付を出す。厚労省が挙げる33℃は室温ではなく布団の中の温度](https://rentalloungeomiya.com/articles/aki-aircon-itsumade.html): 最低気温の20℃割れは9月18日、15℃割れは10月16日。一日の寒暖差は年間ほぼ一定。
