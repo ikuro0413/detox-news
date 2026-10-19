@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全147本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全148本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -50,6 +50,7 @@
 
 ## 睡眠グッズ
 
+- [湯たんぽと電気毛布、どっちがいい？ — 1晩のコストは電気毛布のほうが安い。安全面の注意は「寝るときは外す・切る」で同じ](https://rentalloungeomiya.com/articles/yutanpo-denki-moufu.html): 1晩のコストはお湯2Lで約7〜8円、電気毛布は寝る前30分で1円未満。どちらも寝るときは外す・切る。
 - [ソニック「デジトックス ブロックケース」DG-2635とは — 鍵で閉じるスマホケース。タイマー式との違いと、入るスマホの目安](https://rentalloungeomiya.com/articles/sonic-digitox-block-case.html): フタを閉じると自動ロック、鍵でしか開かない。時刻ではなく鍵の置き場所で距離をつくる1,980円のケース。
 - [時計の秒針がうるさくて眠れない — 今夜できる対処と、買い替えるなら見るべき2つの機能](https://rentalloungeomiya.com/articles/tokei-byoshin-urusai.html): スムーズ秒針でも駆動音は少し残る。夜間秒針停止は暗さで止まる仕組みで、明かりをつけて寝る部屋では働かない。
 - [家族を起こさない目覚ましの選び方 腕の振動と枕の下、どちらを選ぶ？](https://rentalloungeomiya.com/articles/kazoku-okosanai-mezamashi.html): 手首に伝える振動と、枕の下に置く専用機。装着感・充電・音の設定から、家族と眠る部屋に合う方式を選ぶ。
