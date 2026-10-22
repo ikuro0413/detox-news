@@ -31,6 +31,7 @@
 
 
 
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -150,6 +151,10 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <section>
   <h2 class="sec">あわせて読む</h2>
   <div class="card-list">
+    <a class="card" href="android-auto-gemini.html">
+      <span class="pill ai">AIとの付き合い方</span>
+      <h3>Android AutoのGeminiは、Googleアシスタントに戻せる？ — 9月4日以降ほとんどの人は戻せない。勝手に話し出さないための「OK Google」オフと、会話の止め方</h3>
+    </a>
     <a class="card" href="ai-assistant-kun.html">
       <span class="pill ai">AIとの付き合い方</span>
       <h3>「AIアシスタントくん」が勝手に入っていた？ — 正体と、入った経緯の確かめ方。消す前に有料プランを止める順番</h3>

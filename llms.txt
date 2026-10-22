@@ -6,13 +6,14 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全150本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全151本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
 
 ## AIとの付き合い方
 
+- [Android AutoのGeminiは、Googleアシスタントに戻せる？ — 9月4日以降ほとんどの人は戻せない。勝手に話し出さないための「OK Google」オフと、会話の止め方](https://rentalloungeomiya.com/articles/android-auto-gemini.html): アシスタントには戻せず、車もGeminiに。「OK Google」を切れば、必要なときだけボタンで呼び出せる。
 - [Yahoo!検索のAI（Agent i）は消せる？ — 検索窓のボタンと先頭の「AI回答」を止める設定はない。代わりにできること](https://rentalloungeomiya.com/articles/yahoo-agent-i-kesu.html): 検索設定で外せるのはAI入力補助だけ。Agent iのボタンとAI回答に消す項目はない。LINEは30日だけ非表示。
 - [「AIアシスタントくん」が勝手に入っていた？ — 正体と、入った経緯の確かめ方。消す前に有料プランを止める順番](https://rentalloungeomiya.com/articles/ai-assistant-kun.html): ChatGPT公式ではない日本語AIチャット。購入履歴で入手日を確かめ、削除の前にサブスクを解約する。
 - [Geminiの消し方・オフにする方法 — 勝手に起動させない設定をAndroid・iPhone・Gmail別に整理](https://rentalloungeomiya.com/articles/gemini-off.html): 頼んでいないのに出てくるGeminiを、出てこなくする設定ガイド。Android・iPhone・Gmail別に整理。
