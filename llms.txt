@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全151本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全152本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -147,6 +147,7 @@
 
 ## 生活リズム
 
+- [時差ボケは東と西で治る日数が違う — ハワイは行き5日・帰り3〜4日、ロンドンは行き6日・帰り9日。行き先別の目安と出発前の準備](https://rentalloungeomiya.com/articles/jisaboke-higashi-nishi.html): 体が合うのは西向きで1日1.5時間、東向きで1時間。ヨーロッパは帰りのほうが3日長くかかる。
 - [夕方眠いのに夜眠れないのはなぜ？ — 夕方のうたた寝が寝つきを遅らせる仕組みと、眠気をやり過ごす4つの方法](https://rentalloungeomiya.com/articles/yugata-nemui-yoru-nemurenai.html): 眠気の山は午後と夜の2回、間の20〜22時ごろは眠りにくい。夕方のうたた寝は夜の眠気を先に使ってしまう。
 - [生活リズムを戻すには何日かかる？ — 目安は「ずれた時間×1日」。オールで一気に直すのをすすめない理由](https://rentalloungeomiya.com/articles/seikatsu-rhythm-modosu-nannichi.html): ずれ3時間なら3日前後、昼夜逆転なら1週間前後。オールで直すより、起床を1日1時間ずつ早めるほうが早い。
 - [朝が暗くて起きられない — 起きる時刻別に、暗い朝が始まる日と終わる日を出す（東京）](https://rentalloungeomiya.com/articles/asa-kurai-okirarenai.html): 6時起きなら10月30日から3月9日まで日の出前。10月だけで日の出は26分遅れ、最も遅いのは冬至でなく1月上旬。
