@@ -30,6 +30,7 @@
 <!-- SEO-META-END -->
 
 
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -134,6 +135,10 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <section>
   <h2 class="sec">あわせて読む</h2>
   <div class="card-list">
+    <a class="card" href="sumaho-shirokuro.html">
+      <span class="pill brain">脳と集中</span>
+      <h3>スマホを白黒（グレースケール）にすると、使う時間は減るのか — 実験では1日20〜38分減った。ただし開く回数は変わらない</h3>
+    </a>
     <a class="card" href="shuchu-nioi.html">
       <span class="pill brain">脳と集中</span>
       <h3>集中力を高める匂いはあるのか — ローズマリー・ペパーミント・コーヒーの研究でわかったことと、わかっていないこと</h3>
