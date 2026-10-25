@@ -32,6 +32,7 @@
 
 
 
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -186,6 +187,10 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <section>
   <h2 class="sec">あわせて読む</h2>
   <div class="card-list">
+    <a class="card" href="shinshitsu-kanki-fuyu.html">
+      <span class="pill science">睡眠科学</span>
+      <h3>冬、窓を閉め切って寝ると寝室の空気はどうなる？ — 2人で寝る6畳は朝までにCO2が約2,200ppm</h3>
+    </a>
     <a class="card" href="akegata-samukute-me-ga-sameru.html">
       <span class="pill science">睡眠科学</span>
       <h3>明け方、寒くて目が覚めるのはなぜ？ — 東京の気温は寝るときから2℃ほどしか下がらない。10月後半に変わるのは「下がり幅」ではなく「水準」</h3>
