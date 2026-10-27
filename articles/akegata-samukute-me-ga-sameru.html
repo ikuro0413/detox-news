@@ -36,6 +36,8 @@
 
 
 
+
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -194,6 +196,10 @@ article_path:location.pathname});}
 <section>
   <h2 class="sec">あわせて読む</h2>
   <div class="card-list">
+    <a class="card" href="fuyu-shinshitsu-ondo.html">
+      <span class="pill science">睡眠科学</span>
+      <h3>冬の寝室は何度がいい？ — 国の指針は寝具ありで13〜29℃、健康を守る線はWHOの18℃</h3>
+    </a>
     <a class="card" href="shinshitsu-kanki-fuyu.html">
       <span class="pill science">睡眠科学</span>
       <h3>冬、窓を閉め切って寝ると寝室の空気はどうなる？ — 2人で寝る6畳は朝までにCO2が約2,200ppm</h3>
@@ -255,7 +261,7 @@ article_path:location.pathname});}
   <div class="cat-cloud"><div class="cat-cloud-in">
     <a href="../index.html" class="s2 c-new"><span class="mk">新着</span></a>
     <a href="../category/ai.html" class="s3 c-ai"><span class="mk">AIとの付き合い方</span></a>
-    <a href="../category/science.html" class="s2 c-science"><span class="mk">睡眠科学</span></a>
+    <a href="../category/science.html" class="s3 c-science"><span class="mk">睡眠科学</span></a>
     <a href="../category/goods.html" class="s3 c-goods"><span class="mk">睡眠グッズ</span></a>
     <a href="../category/gadget.html" class="s3 c-gadget"><span class="mk">ガジェットニュース</span></a>
     <a href="../category/brain.html" class="s3 c-brain"><span class="mk">脳と集中</span></a>

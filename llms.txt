@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全155本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全156本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -35,6 +35,7 @@
 
 ## 睡眠科学
 
+- [冬の寝室は何度がいい？ — 「20℃前後」「16〜20℃」と目安がばらばらな理由。国の指針は寝具ありで13〜29℃、健康を守る線はWHOの18℃](https://rentalloungeomiya.com/articles/fuyu-shinshitsu-ondo.html): 国の指針は寝具ありなら13〜29℃で、布団の中33℃前後が基準。健康面ではWHOが冬の室内18℃以上を勧める。
 - [寝る前のホットミルクは本当に効くのか — 1杯のトリプトファンは約95mg。研究で効果が見られた1gには牛乳約2.1リットルが必要。「逆効果」説の中身と、飲むときの注意](https://rentalloungeomiya.com/articles/hot-milk-nerumae.html): 1杯のトリプトファンは約95mg、効果が見られた量の10分の1以下。ただ1杯で眠りが悪くなるという研究も見当たらない。
 - [冬、窓を閉め切って寝ると寝室の空気はどうなる？ — 2人で寝る6畳は朝までにCO2が約2,200ppm。眠りの質が下がり始める1,000ppmを超えない換気の目安と、寒くならない工夫](https://rentalloungeomiya.com/articles/shinshitsu-kanki-fuyu.html): 2人で寝る6畳は24時間換気があっても朝に約2,200ppm。目安の800ppmには今の基準の2倍以上の換気が要る。
 - [寝るときに靴下を履くと、よく眠れるのか — 寝つき7.5分・睡眠32分の実験を読む。「体に悪い」と言われる理由と、選び方](https://rentalloungeomiya.com/articles/neru-toki-kutsushita.html): 靴下の夜は寝つき7.5分早く、睡眠32分長い。ただし6人の実験で、本人の眠れた感覚は変わらなかった。
