@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全156本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全157本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -54,6 +54,7 @@
 
 ## 睡眠グッズ
 
+- [BAKUNE（バクネ）の布団はどれを選ぶ？ — 掛け布団7種類の値段・重さ・季節を比較。冬はウォーム31,900円、1年中ならオールシーズン26,950円。着るBAKUNEと違い医療機器ではない](https://rentalloungeomiya.com/articles/bakune-futon.html): 7種類で19,910円〜62,480円。冬はウォーム、1年中ならオールシーズン。布団は医療機器ではない。
 - [湯たんぽと電気毛布、どっちがいい？ — 1晩のコストは電気毛布のほうが安い。安全面の注意は「寝るときは外す・切る」で同じ](https://rentalloungeomiya.com/articles/yutanpo-denki-moufu.html): 1晩のコストはお湯2Lで約7〜8円、電気毛布は寝る前30分で1円未満。どちらも寝るときは外す・切る。
 - [ソニック「デジトックス ブロックケース」DG-2635とは — 鍵で閉じるスマホケース。タイマー式との違いと、入るスマホの目安](https://rentalloungeomiya.com/articles/sonic-digitox-block-case.html): フタを閉じると自動ロック、鍵でしか開かない。時刻ではなく鍵の置き場所で距離をつくる1,980円のケース。
 - [時計の秒針がうるさくて眠れない — 今夜できる対処と、買い替えるなら見るべき2つの機能](https://rentalloungeomiya.com/articles/tokei-byoshin-urusai.html): スムーズ秒針でも駆動音は少し残る。夜間秒針停止は暗さで止まる仕組みで、明かりをつけて寝る部屋では働かない。

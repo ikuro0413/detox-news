@@ -38,6 +38,8 @@
 
 
 
+
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -215,6 +217,10 @@ article_path:location.pathname});}
 <section>
   <h2 class="sec">あわせて読む</h2>
   <div class="card-list">
+    <a class="card" href="bakune-futon.html">
+      <span class="pill goods">睡眠グッズ</span>
+      <h3>BAKUNE（バクネ）の布団はどれを選ぶ？ — 掛け布団7種類の値段・重さ・季節を比較</h3>
+    </a>
     <a class="card" href="nitori-recovery-wear.html">
       <span class="pill goods">睡眠グッズ</span>
       <h3>ニトリのリカバリーウェア「Nミラク」は今買えるのか — 売り切れの現在・口コミの実態・BAKUNEとの違い</h3>
