@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全159本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全160本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -35,6 +35,7 @@
 
 ## 睡眠科学
 
+- [夢を見るのは眠りが浅いから？ — 夢はノンレム睡眠でも見ている。覚えているかは「夢の途中で約2分目が覚めたか」で決まり、深い眠りが減っているわけではない](https://rentalloungeomiya.com/articles/yume-nemuri-asai.html): 夢はノンレム睡眠でも見ている。覚えているかどうかは夢の途中で目が覚めたかで決まり、眠りの浅さとは別。
 - [寝る前のココアは飲んでもいい？ — 純ココア1杯のカフェインは約10mgでコーヒーの9分の1。ただ「テオブロミンでリラックス」「トリプトファンで快眠」は量も研究も足りない](https://rentalloungeomiya.com/articles/nerumae-cocoa.html): 純ココア1杯のカフェインは約10mgでコーヒーの9分の1。ただテオブロミンで落ち着くという根拠はない。
 - [墜落睡眠とは？ 布団に入ってすぐ寝るのは危険なのか — 医学用語ではなく意味はばらばら。寝つきの目安は「30分以内」で、早すぎる基準はない。見分けるのは昼間の眠気](https://rentalloungeomiya.com/articles/tsuiraku-suimin.html): 医学用語ではなく、意味も書き手によってばらばら。寝つきは30分以内が目安で、見分けるのは昼間の眠気。
 - [冬の寝室は何度がいい？ — 「20℃前後」「16〜20℃」と目安がばらばらな理由。国の指針は寝具ありで13〜29℃、健康を守る線はWHOの18℃](https://rentalloungeomiya.com/articles/fuyu-shinshitsu-ondo.html): 国の指針は寝具ありなら13〜29℃で、布団の中33℃前後が基準。健康面ではWHOが冬の室内18℃以上を勧める。

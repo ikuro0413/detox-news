@@ -30,6 +30,7 @@
 <!-- SEO-META-END -->
 
 
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -138,6 +139,10 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <section>
   <h2 class="sec">あわせて読む</h2>
   <div class="card-list">
+    <a class="card" href="yume-nemuri-asai.html">
+      <span class="pill science">睡眠科学</span>
+      <h3>夢を見るのは眠りが浅いから？ — 夢はノンレム睡眠でも見ている。覚えているかは「夢の途中で約2分目が覚めたか」で決まり、深い眠りが減っているわけではない</h3>
+    </a>
     <a class="card" href="smartring-hikaku.html">
       <span class="pill gadget">ガジェットニュース</span>
       <h3>スマートリング比較 — Oura Ring 5・Galaxy Ring・RingConn・SOXAIの価格とサブスクの違い、睡眠重視のおすすめ</h3>
