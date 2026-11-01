@@ -34,6 +34,8 @@
 
 
 
+
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -207,6 +209,10 @@ article_path:location.pathname});}
 <section>
   <h2 class="sec">あわせて読む</h2>
   <div class="card-list">
+    <a class="card" href="sonic-chiritsumo.html">
+      <span class="pill goods">睡眠グッズ</span>
+      <h3>ソニック「デジトックス チリツモ」DG-3119とは — スマホをロックした時間を1週間分★で記録するタイマー式ケース。ザ・ルーティン・ブロックケースとの違いと、緊急解除の弱点</h3>
+    </a>
     <a class="card" href="sumaho-yameru-app.html">
       <span class="pill gadget">ガジェットニュース</span>
       <h3>スマホをやめられるアプリ4選 — 「スマホをやめれば魚が育つ」「Forest」はなぜ効くのか、本末転倒にならない使い方</h3>
