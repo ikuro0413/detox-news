@@ -30,6 +30,7 @@
 <!-- SEO-META-END -->
 
 
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -188,6 +189,10 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <section>
   <h2 class="sec">あわせて読む</h2>
   <div class="card-list">
+    <a class="card" href="line-ai-kesu.html">
+      <span class="pill ai">AIとの付き合い方</span>
+      <h3>LINEのAI（Agent i）を消す方法 — トーク画面のボタンは2タップで消えるが30日で戻る。ずっと消す方法と、うっかり有料プランの確かめ方</h3>
+    </a>
     <a class="card" href="ai-assistant-off.html">
       <span class="pill ai">AIとの付き合い方</span>
       <h3>AIアシスタントが勝手に入っていた — 消し方・無効化の手順と、消せないときの現実的な対処</h3>
