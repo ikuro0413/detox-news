@@ -6,13 +6,14 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全162本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全163本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
 
 ## AIとの付き合い方
 
+- [インスタの「AIコンテンツ（AI情報）」ラベルとは — 生成AIを使っていないのに勝手に付く理由と、消せるかどうか。「カメラで撮影」ラベルの意味も](https://rentalloungeomiya.com/articles/insta-ai-content-label.html): 生成AIを使っていなくても編集アプリの印で付くことがある。自動で付いたラベルを外す手順は案内されていない。
 - [LINEのAI（Agent i）を消す方法 — トーク画面のボタンは2タップで消えるが30日で戻る。ずっと消す方法と、うっかり有料プランの確かめ方](https://rentalloungeomiya.com/articles/line-ai-kesu.html): トーク画面のAIは2タップで消えるが30日で戻る。ずっと消す手順はなく、消し直しと有料プランの確認が要る。
 - [Android AutoのGeminiは、Googleアシスタントに戻せる？ — 9月4日以降ほとんどの人は戻せない。勝手に話し出さないための「OK Google」オフと、会話の止め方](https://rentalloungeomiya.com/articles/android-auto-gemini.html): アシスタントには戻せず、車もGeminiに。「OK Google」を切れば、必要なときだけボタンで呼び出せる。
 - [Yahoo!検索のAI（Agent i）は消せる？ — 検索窓のボタンと先頭の「AI回答」を止める設定はない。代わりにできること](https://rentalloungeomiya.com/articles/yahoo-agent-i-kesu.html): 検索設定で外せるのはAI入力補助だけ。Agent iのボタンとAI回答に消す項目はない。LINEは30日だけ非表示。

@@ -30,6 +30,7 @@
 <!-- SEO-META-END -->
 
 
+
 <script id="theme-init">(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}
 function lbl(){var b=document.querySelector('.theme-toggle');if(b)b.textContent=document.documentElement.getAttribute('data-theme')==='dark'?'昼モード':'夜モード';}
 window.__themeToggle=function(){var d=document.documentElement,n=d.getAttribute('data-theme')==='dark'?'light':'dark';if(n==='dark')d.setAttribute('data-theme','dark');else d.removeAttribute('data-theme');try{localStorage.setItem('theme',n)}catch(e){}lbl();};
@@ -174,6 +175,10 @@ document.addEventListener('DOMContentLoaded',lbl);})();</script>
 <section>
   <h2 class="sec">あわせて読む</h2>
   <div class="card-list">
+    <a class="card" href="insta-ai-content-label.html">
+      <span class="pill ai">AIとの付き合い方</span>
+      <h3>インスタの「AIコンテンツ（AI情報）」ラベルとは — 生成AIを使っていないのに勝手に付く理由と、消せるかどうか。「カメラで撮影」ラベルの意味も</h3>
+    </a>
     <a class="card" href="ai-assistant-kidou.html">
       <span class="pill ai">AIとの付き合い方</span>
       <h3>スマホのAIアシスタントが勝手に起動する・勝手に話し出す — よくある5つの原因と止め方</h3>
