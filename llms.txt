@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全167本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全168本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -60,6 +60,7 @@
 
 ## 睡眠グッズ
 
+- [布団乾燥機と電気毛布、寝る前に温めるならどっち？ — 温めるだけなら電気毛布で足りる。布団乾燥機は本体が3倍以上するが、8〜10分で温まり乾燥もできる。電気代はどちらも月数百円以内](https://rentalloungeomiya.com/articles/futon-kansouki-denki-moufu.html): 温めるだけなら電気毛布で足りる。布団乾燥機は8〜10分で温まり乾燥もできる。電気代はどちらも月数百円以内。
 - [羽毛布団の洗濯はいくらかかる？ — コインランドリーは1,400円前後、店や宅配は1枚7,000〜10,000円。1枚だけ出すと、ニトリの羽毛布団がほぼ買える値段になる](https://rentalloungeomiya.com/articles/umou-futon-sentaku-ryokin.html): コインランドリーは1,400円前後、店や宅配は7,000〜10,000円。まとめて出すと1枚5,000円前後。
 - [ニトリの羽毛布団はどれを選ぶ？ — シングル7種類を比較。値段は5倍でも中の羽毛は0.7kgから1.0kgまで。差は羽毛の質で、迷ったら14,990円のスタンダード](https://rentalloungeomiya.com/articles/nitori-umou-futon.html): シングル9,990〜49,990円の7種類。値段は5倍でも中の羽毛は0.7→1.0kg。迷ったらスタンダード。
 - [電気毛布の値段はいくら？ — 敷きは3,000〜5,000円、掛け敷きは6,000〜11,000円が目安。いちばん安い型には自動で切れる機能がなく、1,000円ほど上の型から付く](https://rentalloungeomiya.com/articles/denki-moufu-nedan.html): 敷きは3,000〜5,000円が中心。最安の型は自動オフなしで、切り忘れ対策は1,000円ほど上の型から。
