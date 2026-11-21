@@ -61,6 +61,18 @@ function toki_product(string $slug): ?array {
  * 枠は在庫そのものではなく受付の目安として使う。
  */
 function toki_preorder_count(string $sku): int {
+    return toki_order_count($sku, "1");
+}
+
+/**
+ * 在庫販売（preorder=0）で売れた数を数える。在庫を超えて売るのを防ぐためのもの。
+ * 数え方は toki_preorder_count と同じ（確定分のみ・返金分は差し引く）。
+ */
+function toki_sold_count(string $sku): int {
+    return toki_order_count($sku, "0");
+}
+
+function toki_order_count(string $sku, string $preorderFlag): int {
     $path = toki_private_dir() . '/orders.jsonl';
     if (!is_readable($path)) return 0;
 
@@ -78,7 +90,7 @@ function toki_preorder_count(string $sku): int {
             continue;
         }
         if ((string)($o['sku'] ?? '') !== $sku) continue;
-        if (($o['preorder'] ?? '') !== '1') continue;
+        if ((string)($o['preorder'] ?? '0') !== $preorderFlag) continue;
         if ($id === '') continue;
         $orders[$id] = max(1, (int)($o['quantity'] ?? 1));
     }

@@ -74,7 +74,9 @@ if ($isPreorder) {
     }
 } else {
     $stock = (int)($p['stock'] ?? 0);
-    if ($stock < $qty) toki_fail(409, 'out_of_stock', 'stock=' . $stock);
+    // 在庫は手で減らさないので、確定済みの在庫販売の数を差し引いて判定する
+    $left  = $stock - toki_sold_count((string)$p['sku']);
+    if ($left < $qty) toki_fail(409, 'out_of_stock', 'stock=' . $stock . ' left=' . $left);
 }
 
 $orderId = toki_next_order_id();

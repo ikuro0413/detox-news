@@ -6,14 +6,8 @@ declare(strict_types=1);
 return [
     'off-box' => [
         'white' => ['label' => 'ホワイト', 'image' => 'off-box-centered.png'],
-        'black' => ['label' => 'ブラック', 'image' => 'off-box-black.png'],
-        'pink' => ['label' => 'ピンク', 'image' => 'off-box-pink.png'],
-        'blue' => ['label' => 'スカイブルー', 'image' => 'off-box-blue.png'],
-        'purple' => ['label' => 'パープル', 'image' => 'off-box-purple.png'],
     ],
     'charge-lock-case' => [
         'green' => ['label' => '抹茶グリーン', 'image' => 'charge-lock-case-green.jpg'],
-        'pink' => ['label' => '桜パウダー', 'image' => 'charge-lock-case-pink.jpg'],
-        'navy' => ['label' => 'ネイビーブルー', 'image' => 'charge-lock-case-navy.jpg'],
     ],
 ];
