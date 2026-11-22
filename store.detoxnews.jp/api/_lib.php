@@ -90,6 +90,8 @@ function toki_order_count(string $sku, string $preorderFlag): int {
             continue;
         }
         if ((string)($o['sku'] ?? '') !== $sku) continue;
+        // Stripeのテストモードで作った注文は数えない
+        if (strpos((string)($o['stripe_session_id'] ?? ''), 'cs_test_') === 0) continue;
         if ((string)($o['preorder'] ?? '0') !== $preorderFlag) continue;
         if ($id === '') continue;
         $orders[$id] = max(1, (int)($o['quantity'] ?? 1));
