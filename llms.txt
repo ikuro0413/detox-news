@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全174本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全175本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -60,6 +60,7 @@
 
 ## 睡眠グッズ
 
+- [ニトリの足元ヒーター、電気代が安いのはどれ？ — いま買える5機種をニトリ表示の1時間あたりの電気代で比較。ひざ掛け付きHH01は約1.3円、1日8時間・30日で約312円](https://rentalloungeomiya.com/articles/nitori-ashimoto-heater.html): ニトリで買える足元ヒーター5機種を電気代で比べた。最安はひざ掛け付きHH01で1時間約1.3円。用途別の選び方も。
 - [ニトリに「着るこたつ」はある？ — 11/25時点でニトリネットに該当なし。昨季の背中が温まるUSB着る毛布は販売終了、本家サンコーのこたんぽも再入荷調整中。いま買えるもので代わりにする方法](https://rentalloungeomiya.com/articles/nitori-kiru-kotatsu.html): ニトリネットに着るこたつは見当たらず、昨季のUSB着る毛布も販売終了。いま買えるもので代わりにする方法をまとめる。
 - [まるでこたつソックスとおやすみスイッチ、寝るときはどっち？ — 違いはつま先。岡本は1,980円のまるでこたつを家用、3,500円のおやすみスイッチを就寝専用と分ける。「87.4%」は眠りを測った数字ではない](https://rentalloungeomiya.com/articles/marude-kotatsu-oyasumi-switch.html): 違いはつま先。家用のまるでこたつ1,980円と就寝専用のおやすみスイッチ3,500円を、根拠の強さまで比べる。
 - [寝室に置くニトリの加湿器はどれを選ぶ？ — 超音波4,990円・スチーム6,990円・ハイブリッド9,990円・気化14,900円を比較。夜中に鳴らないナイトモードと湿度設定があるHB05が無難、安さなら超音波のHM07](https://rentalloungeomiya.com/articles/nitori-kashitsuki-shinshitsu.html): ニトリの超音波・スチーム・ハイブリッド・気化の4台を比較。夜中の警告音と電気代の差から寝室向きの1台を選ぶ。
