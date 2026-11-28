@@ -13,10 +13,10 @@
 
 ## AIとの付き合い方
 
-- [「だれでもAI」が勝手に入っていた？ — ソフトバンクの無料AI体験。5G LABのアイコンが自動で置き換わった経緯と、消し方・特典の自動更新の注意点](https://rentalloungeomiya.com/articles/daredemo-ai.html): ソフトバンクの無料AI体験で、Androidの5G LABが自動で置き換わったもの。消してよいが特典の自動更新に注意。
-- [インスタの「AIコンテンツ（AI情報）」ラベルとは — 生成AIを使っていないのに勝手に付く理由と、消せるかどうか。「カメラで撮影」ラベルの意味も](https://rentalloungeomiya.com/articles/insta-ai-content-label.html): 生成AIを使っていなくても編集アプリの印で付くことがある。自動で付いたラベルを外す手順は案内されていない。
-- [LINEのAI（Agent i）を消す方法 — トーク画面のボタンは2タップで消えるが30日で戻る。ずっと消す方法と、うっかり有料プランの確かめ方](https://rentalloungeomiya.com/articles/line-ai-kesu.html): トーク画面のAIは2タップで消えるが30日で戻る。ずっと消す手順はなく、消し直しと有料プランの確認が要る。
-- [Android AutoのGeminiは、Googleアシスタントに戻せる？ — 9月4日以降ほとんどの人は戻せない。勝手に話し出さないための「OK Google」オフと、会話の止め方](https://rentalloungeomiya.com/articles/android-auto-gemini.html): アシスタントには戻せず、車もGeminiに。「OK Google」を切れば、必要なときだけボタンで呼び出せる。
+- [「だれでもAI」が勝手に入っていた？ — ソフトバンクの無料AI体験。消し方と自動更新の注意点](https://rentalloungeomiya.com/articles/daredemo-ai.html): ソフトバンクの無料AI体験で、Androidの5G LABが自動で置き換わったもの。消してよいが特典の自動更新に注意。
+- [インスタの「AIコンテンツ（AI情報）」ラベルとは — 生成AIを使っていないのに付く理由と、消せるかどうか](https://rentalloungeomiya.com/articles/insta-ai-content-label.html): 生成AIを使っていなくても編集アプリの印で付くことがある。自動で付いたラベルを外す手順は案内されていない。
+- [LINEのAI（Agent i）を消す方法 — ボタンは2タップで消えるが30日で戻る。ずっと消す方法](https://rentalloungeomiya.com/articles/line-ai-kesu.html): トーク画面のAIは2タップで消えるが30日で戻る。ずっと消す手順はなく、消し直しと有料プランの確認が要る。
+- [Android AutoのGeminiは、Googleアシスタントに戻せる？ — ほとんどの人は戻せない。「OK Google」オフと会話の止め方](https://rentalloungeomiya.com/articles/android-auto-gemini.html): アシスタントには戻せず、車もGeminiに。「OK Google」を切れば、必要なときだけボタンで呼び出せる。
 - [Yahoo!検索のAI（Agent i）は消せる？ — 検索窓のボタンと先頭の「AI回答」を止める設定はない。代わりにできること](https://rentalloungeomiya.com/articles/yahoo-agent-i-kesu.html): 検索設定で外せるのはAI入力補助だけ。Agent iのボタンとAI回答に消す項目はない。LINEは30日だけ非表示。
 - [「AIアシスタントくん」が勝手に入っていた？ — 正体と、入った経緯の確かめ方。消す前に有料プランを止める順番](https://rentalloungeomiya.com/articles/ai-assistant-kun.html): ChatGPT公式ではない日本語AIチャット。購入履歴で入手日を確かめ、削除の前にサブスクを解約する。
 - [Geminiの消し方・オフにする方法 — 勝手に起動させない設定をAndroid・iPhone・Gmail別に整理](https://rentalloungeomiya.com/articles/gemini-off.html): 頼んでいないのに出てくるGeminiを、出てこなくする設定ガイド。Android・iPhone・Gmail別に整理。
@@ -38,14 +38,14 @@
 
 ## 睡眠科学
 
-- [夢を見るのは眠りが浅いから？ — 夢はノンレム睡眠でも見ている。覚えているかは「夢の途中で約2分目が覚めたか」で決まり、深い眠りが減っているわけではない](https://rentalloungeomiya.com/articles/yume-nemuri-asai.html): 夢はノンレム睡眠でも見ている。覚えているかどうかは夢の途中で目が覚めたかで決まり、眠りの浅さとは別。
-- [寝る前のココアは飲んでもいい？ — 純ココア1杯のカフェインは約10mgでコーヒーの9分の1。ただ「テオブロミンでリラックス」「トリプトファンで快眠」は量も研究も足りない](https://rentalloungeomiya.com/articles/nerumae-cocoa.html): 純ココア1杯のカフェインは約10mgでコーヒーの9分の1。ただテオブロミンで落ち着くという根拠はない。
-- [墜落睡眠とは？ 布団に入ってすぐ寝るのは危険なのか — 医学用語ではなく意味はばらばら。寝つきの目安は「30分以内」で、早すぎる基準はない。見分けるのは昼間の眠気](https://rentalloungeomiya.com/articles/tsuiraku-suimin.html): 医学用語ではなく、意味も書き手によってばらばら。寝つきは30分以内が目安で、見分けるのは昼間の眠気。
-- [冬の寝室は何度がいい？ — 「20℃前後」「16〜20℃」と目安がばらばらな理由。国の指針は寝具ありで13〜29℃、健康を守る線はWHOの18℃](https://rentalloungeomiya.com/articles/fuyu-shinshitsu-ondo.html): 国の指針は寝具ありなら13〜29℃で、布団の中33℃前後が基準。健康面ではWHOが冬の室内18℃以上を勧める。
-- [寝る前のホットミルクは本当に効くのか — 1杯のトリプトファンは約95mg。研究で効果が見られた1gには牛乳約2.1リットルが必要。「逆効果」説の中身と、飲むときの注意](https://rentalloungeomiya.com/articles/hot-milk-nerumae.html): 1杯のトリプトファンは約95mg、効果が見られた量の10分の1以下。ただ1杯で眠りが悪くなるという研究も見当たらない。
-- [冬、窓を閉め切って寝ると寝室の空気はどうなる？ — 2人で寝る6畳は朝までにCO2が約2,200ppm。眠りの質が下がり始める1,000ppmを超えない換気の目安と、寒くならない工夫](https://rentalloungeomiya.com/articles/shinshitsu-kanki-fuyu.html): 2人で寝る6畳は24時間換気があっても朝に約2,200ppm。目安の800ppmには今の基準の2倍以上の換気が要る。
+- [夢を見るのは眠りが浅いから？ — 夢はノンレム睡眠でも見る。覚えているのは途中で目が覚めたとき](https://rentalloungeomiya.com/articles/yume-nemuri-asai.html): 夢はノンレム睡眠でも見ている。覚えているかどうかは夢の途中で目が覚めたかで決まり、眠りの浅さとは別。
+- [寝る前のココアは飲んでもいい？ — 純ココア1杯のカフェインはコーヒーの9分の1。快眠説は根拠不足](https://rentalloungeomiya.com/articles/nerumae-cocoa.html): 純ココア1杯のカフェインは約10mgでコーヒーの9分の1。ただテオブロミンで落ち着くという根拠はない。
+- [墜落睡眠とは？ 布団に入ってすぐ寝るのは危険なのか — 医学用語ではない。見分けるのは寝つきの速さより昼間の眠気](https://rentalloungeomiya.com/articles/tsuiraku-suimin.html): 医学用語ではなく、意味も書き手によってばらばら。寝つきは30分以内が目安で、見分けるのは昼間の眠気。
+- [冬の寝室は何度がいい？ — 目安がばらばらな理由。国の指針は13〜29℃、WHOは18℃](https://rentalloungeomiya.com/articles/fuyu-shinshitsu-ondo.html): 国の指針は寝具ありなら13〜29℃で、布団の中33℃前後が基準。健康面ではWHOが冬の室内18℃以上を勧める。
+- [寝る前のホットミルクは本当に効くのか — 1杯のトリプトファンは約95mg。効く量には牛乳2リットル超](https://rentalloungeomiya.com/articles/hot-milk-nerumae.html): 1杯のトリプトファンは約95mg、効果が見られた量の10分の1以下。ただ1杯で眠りが悪くなるという研究も見当たらない。
+- [冬、窓を閉め切って寝ると寝室の空気はどうなる？ — 2人で寝る6畳は朝にCO2約2,200ppm。寒くならない換気の目安](https://rentalloungeomiya.com/articles/shinshitsu-kanki-fuyu.html): 2人で寝る6畳は24時間換気があっても朝に約2,200ppm。目安の800ppmには今の基準の2倍以上の換気が要る。
 - [寝るときに靴下を履くと、よく眠れるのか — 寝つき7.5分・睡眠32分の実験を読む。「体に悪い」と言われる理由と、選び方](https://rentalloungeomiya.com/articles/neru-toki-kutsushita.html): 靴下の夜は寝つき7.5分早く、睡眠32分長い。ただし6人の実験で、本人の眠れた感覚は変わらなかった。
-- [明け方、寒くて目が覚めるのはなぜ？ — 東京の気温は寝るときから2℃ほどしか下がらない。10月後半に変わるのは「下がり幅」ではなく「水準」](https://rentalloungeomiya.com/articles/akegata-samukute-me-ga-sameru.html): 一晩の下がり幅は平均2℃前後、最も冷えるのは5〜7時台。明け方15℃未満の夜は10月後半に半数、11月はほぼ毎晩。
+- [明け方、寒くて目が覚めるのはなぜ？ — 夜の冷え込みは2℃ほど。10月後半に変わるのは気温の水準](https://rentalloungeomiya.com/articles/akegata-samukute-me-ga-sameru.html): 一晩の下がり幅は平均2℃前後、最も冷えるのは5〜7時台。明け方15℃未満の夜は10月後半に半数、11月はほぼ毎晩。
 - [疲れている時のエナジードリンク、何が「ヤバい」？ 眠気と疲労回復を混同しないために](https://rentalloungeomiya.com/articles/energy-drink-fatigue.html): 眠気が薄れても、睡眠不足が解消したとは限らない。飲む時刻・カフェインの合計量・重ね飲みから、疲れた日の注意点を整理。
 - [寝るときのエアコンはいつまで必要か — 東京の平年値で日付を出す。厚労省が挙げる33℃は室温ではなく布団の中の温度](https://rentalloungeomiya.com/articles/aki-aircon-itsumade.html): 最低気温の20℃割れは9月18日、15℃割れは10月16日。一日の寒暖差は年間ほぼ一定。
 - [2026年ラスカー賞の柳沢正史が発見したオレキシンとは — 睡眠研究でわかった3つの数字と、教授が実践する寝室の作り方](https://rentalloungeomiya.com/articles/yanagisawa-masashi.html): 覚醒を支える「つっかえ棒」の正体から、休日の寝だめが逆効果な理由、光・室温・換気・スマホの4条件まで。
@@ -60,20 +60,20 @@
 
 ## 睡眠グッズ
 
-- [ニトリの電気ひざ掛け、いま買えるのはどれ？ — NウォームのUSBブランケットとポカポカ電気ひざかけは販売終了。ニトリネットで買えるのはデコホーム扱いのUSB式2点。コンセント式の代わりも含めて整理](https://rentalloungeomiya.com/articles/nitori-denki-hizakake.html): ニトリのNウォームUSBブランケットは販売終了。いまニトリネットで買える電気ひざ掛けと、コンセント式の代わりを整理した。
-- [ニトリの足元ヒーター、電気代が安いのはどれ？ — いま買える5機種をニトリ表示の1時間あたりの電気代で比較。ひざ掛け付きHH01は約1.3円、1日8時間・30日で約312円](https://rentalloungeomiya.com/articles/nitori-ashimoto-heater.html): ニトリで買える足元ヒーター5機種を電気代で比べた。最安はひざ掛け付きHH01で1時間約1.3円。用途別の選び方も。
-- [ニトリに「着るこたつ」はある？ — 11/25時点でニトリネットに該当なし。昨季の背中が温まるUSB着る毛布は販売終了、本家サンコーのこたんぽも再入荷調整中。いま買えるもので代わりにする方法](https://rentalloungeomiya.com/articles/nitori-kiru-kotatsu.html): ニトリネットに着るこたつは見当たらず、昨季のUSB着る毛布も販売終了。いま買えるもので代わりにする方法をまとめる。
-- [まるでこたつソックスとおやすみスイッチ、寝るときはどっち？ — 違いはつま先。岡本は1,980円のまるでこたつを家用、3,500円のおやすみスイッチを就寝専用と分ける。「87.4%」は眠りを測った数字ではない](https://rentalloungeomiya.com/articles/marude-kotatsu-oyasumi-switch.html): 違いはつま先。家用のまるでこたつ1,980円と就寝専用のおやすみスイッチ3,500円を、根拠の強さまで比べる。
-- [寝室に置くニトリの加湿器はどれを選ぶ？ — 超音波4,990円・スチーム6,990円・ハイブリッド9,990円・気化14,900円を比較。夜中に鳴らないナイトモードと湿度設定があるHB05が無難、安さなら超音波のHM07](https://rentalloungeomiya.com/articles/nitori-kashitsuki-shinshitsu.html): ニトリの超音波・スチーム・ハイブリッド・気化の4台を比較。夜中の警告音と電気代の差から寝室向きの1台を選ぶ。
-- [冬の敷きパッドはニトリ・ユニクロ・しまむらのどれを選ぶ？ — シングルでニトリ1,790円・しまむら3,289円・ユニクロ5,990円。安さと段階ならニトリ、厚みならユニクロ、乾燥機と消臭ならしまむら](https://rentalloungeomiya.com/articles/shikipad-nitori-uniqlo-shimamura.html): シングルでニトリ1,790円・しまむら3,289円・ユニクロ5,990円。段階・厚み・乾燥機の違いで選ぶ。
-- [無印の着る毛布は羽織るガウンではなくパジャマ — 大人6,990円・XS〜XXLの「静電気が起きにくい 着る毛布」。ネットストアは停止中で、いま買えるのは店舗。ニトリの着る毛布パジャマとの違いも比べた](https://rentalloungeomiya.com/articles/muji-kiru-moufu.html): 無印の着る毛布は寝るときに着る上下のパジャマで大人6,990円。ネットストア停止中で、いまは店舗で買う。
-- [着る毛布はニトリとワークマン、どっちを買うべきか — ニトリは足元まで包むガウン型、ワークマンは腰までの羽織るポンチョ型。足まで暖めたいならニトリのロング丈、両手を使いながらならワークマン](https://rentalloungeomiya.com/articles/kiru-moufu-nitori-workman.html): ニトリは足元まで包むガウン型、ワークマンは腰までの羽織るポンチョ型。足まで暖めるならニトリのロング丈。
-- [布団乾燥機と電気毛布、寝る前に温めるならどっち？ — 温めるだけなら電気毛布で足りる。布団乾燥機は本体が3倍以上するが、8〜10分で温まり乾燥もできる。電気代はどちらも月数百円以内](https://rentalloungeomiya.com/articles/futon-kansouki-denki-moufu.html): 温めるだけなら電気毛布で足りる。布団乾燥機は8〜10分で温まり乾燥もできる。電気代はどちらも月数百円以内。
-- [羽毛布団の洗濯はいくらかかる？ — コインランドリーは1,400円前後、店や宅配は1枚7,000〜10,000円。1枚だけ出すと、ニトリの羽毛布団がほぼ買える値段になる](https://rentalloungeomiya.com/articles/umou-futon-sentaku-ryokin.html): コインランドリーは1,400円前後、店や宅配は7,000〜10,000円。まとめて出すと1枚5,000円前後。
-- [ニトリの羽毛布団はどれを選ぶ？ — シングル7種類を比較。値段は5倍でも中の羽毛は0.7kgから1.0kgまで。差は羽毛の質で、迷ったら14,990円のスタンダード](https://rentalloungeomiya.com/articles/nitori-umou-futon.html): シングル9,990〜49,990円の7種類。値段は5倍でも中の羽毛は0.7→1.0kg。迷ったらスタンダード。
-- [電気毛布の値段はいくら？ — 敷きは3,000〜5,000円、掛け敷きは6,000〜11,000円が目安。いちばん安い型には自動で切れる機能がなく、1,000円ほど上の型から付く](https://rentalloungeomiya.com/articles/denki-moufu-nedan.html): 敷きは3,000〜5,000円が中心。最安の型は自動オフなしで、切り忘れ対策は1,000円ほど上の型から。
-- [ソニック「デジトックス チリツモ」DG-3119とは — スマホをロックした時間を1週間分★で記録するタイマー式ケース。ザ・ルーティン・ブロックケースとの違いと、緊急解除の弱点](https://rentalloungeomiya.com/articles/sonic-chiritsumo.html): ロックした時間を1週間分★で記録するタイマー式ケース。税込4,180円。緊急解除がピンで押せる点に注意。
-- [BAKUNE（バクネ）の布団はどれを選ぶ？ — 掛け布団7種類の値段・重さ・季節を比較。冬はウォーム31,900円、1年中ならオールシーズン26,950円。着るBAKUNEと違い医療機器ではない](https://rentalloungeomiya.com/articles/bakune-futon.html): 7種類で19,910円〜62,480円。冬はウォーム、1年中ならオールシーズン。布団は医療機器ではない。
+- [ニトリの電気ひざ掛け、いま買えるのはどれ？ — Nウォームは販売終了。いま買えるUSB式2点とコンセント式の代わり](https://rentalloungeomiya.com/articles/nitori-denki-hizakake.html): ニトリのNウォームUSBブランケットは販売終了。いまニトリネットで買える電気ひざ掛けと、コンセント式の代わりを整理した。
+- [ニトリの足元ヒーター、電気代が安いのはどれ？ — 5機種を1時間の電気代で比較。最安はひざ掛け付きのHH01](https://rentalloungeomiya.com/articles/nitori-ashimoto-heater.html): ニトリで買える足元ヒーター5機種を電気代で比べた。最安はひざ掛け付きHH01で1時間約1.3円。用途別の選び方も。
+- [ニトリに「着るこたつ」はある？ — 11月時点でニトリには無い。いま買えるもので代わりにする方法](https://rentalloungeomiya.com/articles/nitori-kiru-kotatsu.html): ニトリネットに着るこたつは見当たらず、昨季のUSB着る毛布も販売終了。いま買えるもので代わりにする方法をまとめる。
+- [まるでこたつソックスとおやすみスイッチ、寝るときはどっち？ — 違いはつま先。家用は1,980円、就寝用は3,500円](https://rentalloungeomiya.com/articles/marude-kotatsu-oyasumi-switch.html): 違いはつま先。家用のまるでこたつ1,980円と就寝専用のおやすみスイッチ3,500円を、根拠の強さまで比べる。
+- [寝室に置くニトリの加湿器はどれを選ぶ？ — 4方式を比較。夜中に鳴らないHB05が無難、安さならHM07](https://rentalloungeomiya.com/articles/nitori-kashitsuki-shinshitsu.html): ニトリの超音波・スチーム・ハイブリッド・気化の4台を比較。夜中の警告音と電気代の差から寝室向きの1台を選ぶ。
+- [冬の敷きパッドはニトリ・ユニクロ・しまむらのどれを選ぶ？ — 安さならニトリ、厚みならユニクロ、乾燥機に強いのはしまむら](https://rentalloungeomiya.com/articles/shikipad-nitori-uniqlo-shimamura.html): シングルでニトリ1,790円・しまむら3,289円・ユニクロ5,990円。段階・厚み・乾燥機の違いで選ぶ。
+- [無印の着る毛布は羽織るガウンではなくパジャマ — 大人6,990円。ネットは停止中で、いま買えるのは店舗](https://rentalloungeomiya.com/articles/muji-kiru-moufu.html): 無印の着る毛布は寝るときに着る上下のパジャマで大人6,990円。ネットストア停止中で、いまは店舗で買う。
+- [着る毛布はニトリとワークマン、どっちを買うべきか — 足まで包むニトリのガウン型、腰までのワークマンのポンチョ型](https://rentalloungeomiya.com/articles/kiru-moufu-nitori-workman.html): ニトリは足元まで包むガウン型、ワークマンは腰までの羽織るポンチョ型。足まで暖めるならニトリのロング丈。
+- [布団乾燥機と電気毛布、寝る前に温めるならどっち？ — 温めるだけなら電気毛布で足りる。乾燥もするなら布団乾燥機](https://rentalloungeomiya.com/articles/futon-kansouki-denki-moufu.html): 温めるだけなら電気毛布で足りる。布団乾燥機は8〜10分で温まり乾燥もできる。電気代はどちらも月数百円以内。
+- [羽毛布団の洗濯はいくらかかる？ — コインランドリーは1,400円前後、店や宅配は1枚7,000円から](https://rentalloungeomiya.com/articles/umou-futon-sentaku-ryokin.html): コインランドリーは1,400円前後、店や宅配は7,000〜10,000円。まとめて出すと1枚5,000円前後。
+- [ニトリの羽毛布団はどれを選ぶ？ — シングル7種類を比較。迷ったら14,990円のスタンダード](https://rentalloungeomiya.com/articles/nitori-umou-futon.html): シングル9,990〜49,990円の7種類。値段は5倍でも中の羽毛は0.7→1.0kg。迷ったらスタンダード。
+- [電気毛布の値段はいくら？ — 敷きは3,000〜5,000円が目安。自動で切れる型は1,000円ほど上](https://rentalloungeomiya.com/articles/denki-moufu-nedan.html): 敷きは3,000〜5,000円が中心。最安の型は自動オフなしで、切り忘れ対策は1,000円ほど上の型から。
+- [ソニック「デジトックス チリツモ」DG-3119とは — ロックした時間を記録するタイマー式ケース。緊急解除の弱点も](https://rentalloungeomiya.com/articles/sonic-chiritsumo.html): ロックした時間を1週間分★で記録するタイマー式ケース。税込4,180円。緊急解除がピンで押せる点に注意。
+- [BAKUNE（バクネ）の布団はどれを選ぶ？ — 掛け布団7種類を比較。冬はウォーム、1年中ならオールシーズン](https://rentalloungeomiya.com/articles/bakune-futon.html): 7種類で19,910円〜62,480円。冬はウォーム、1年中ならオールシーズン。布団は医療機器ではない。
 - [湯たんぽと電気毛布、どっちがいい？ — 1晩のコストは電気毛布のほうが安い。安全面の注意は「寝るときは外す・切る」で同じ](https://rentalloungeomiya.com/articles/yutanpo-denki-moufu.html): 1晩のコストはお湯2Lで約7〜8円、電気毛布は寝る前30分で1円未満。どちらも寝るときは外す・切る。
 - [ソニック「デジトックス ブロックケース」DG-2635とは — 鍵で閉じるスマホケース。タイマー式との違いと、入るスマホの目安](https://rentalloungeomiya.com/articles/sonic-digitox-block-case.html): フタを閉じると自動ロック、鍵でしか開かない。時刻ではなく鍵の置き場所で距離をつくる1,980円のケース。
 - [時計の秒針がうるさくて眠れない — 今夜できる対処と、買い替えるなら見るべき2つの機能](https://rentalloungeomiya.com/articles/tokei-byoshin-urusai.html): スムーズ秒針でも駆動音は少し残る。夜間秒針停止は暗さで止まる仕組みで、明かりをつけて寝る部屋では働かない。
@@ -84,26 +84,26 @@
 - [横向き寝の耳栓はLoop DreamとQuiet 2、どちら？ 遮音性・交換チップ・返品条件を比較](https://rentalloungeomiya.com/articles/loop-dream-quiet2-yokomuki.html): 横向き寝で気になる枕への当たり、交換チップ、購入先で異なる返品条件から睡眠用耳栓を選びます。
 - [ブレインスリープ ピローはLOWとSTANDARD、どちらを選ぶ？ 高さ・寝姿勢・交換条件を比較](https://rentalloungeomiya.com/articles/brainsleep-pillow-low-standard.html): LOWは6〜8cm、STANDARDは9〜11cm。寝姿勢から選ぶポイントと、楽天のサイズ交換・公式の有料トライアルの違いを整理。
 - [ReDの新作スウェットとベーシック、どちらを選ぶ？ 長袖上下の差額4,400円と素材を比較](https://rentalloungeomiya.com/articles/red-sweat-basic-pajama.html): 新作は長袖上下19,800円、ベーシックとの差は4,400円。素材の違いと、楽天の単品・セット価格を確認します。
-- [リカバリーパジャマはどれを買うべきか — ニトリ・ワークマン・しまむら・BAKUNEを比較。前あきの形は3社、長袖上下の最安はしまむら3,718円](https://rentalloungeomiya.com/articles/recovery-pajama-hikaku.html): 効能の枠は4社共通。差は前あきの形と冬の生地、通販ですぐ届くか。ワークマンは入荷待ち、しまむら通販は10月下旬以降。
+- [リカバリーパジャマはどれを買うべきか — 4社を比較。前あきの形は3社、長袖上下の最安はしまむら](https://rentalloungeomiya.com/articles/recovery-pajama-hikaku.html): 効能の枠は4社共通。差は前あきの形と冬の生地、通販ですぐ届くか。ワークマンは入荷待ち、しまむら通販は10月下旬以降。
 - [メディヒールコスモスのサイズ感は？ メンズMとレディースLLは身幅53cmでも同じではない](https://rentalloungeomiya.com/articles/workman-medihi-cosmos-size.html): 身幅53cmで一致する男女の2サイズ。袖の違いと、股下1cm・ヒップ6cmのサイズ差を公式4商品の寸法で確認します。
-- [ワークマンのリカバリースーツとは — 上下8,980円、室内着とは別の届出。「素肌の上から」の注記が消えている](https://rentalloungeomiya.com/articles/workman-recovery-suit.html): 生地は綿混からポリエステル100%へ。レビューは4点で計9件、スーツ上下は4Lでそろわず、楽天は1,600円高い。
-- [NELLとピップの「SOON」とは — 上下2万6,500円のリカバリーウェア。効能は「上下セット着用時のもの」という注記](https://rentalloungeomiya.com/articles/nell-soon-recovery-wear.html): バラ買いとセットは同額。買う場所で3,975円の差。300回洗濯の自主基準と、PR表記の星4.9まで。
+- [ワークマンのリカバリースーツとは — 上下8,980円で外に出たメディヒール。室内着とは別の届出](https://rentalloungeomiya.com/articles/workman-recovery-suit.html): 生地は綿混からポリエステル100%へ。レビューは4点で計9件、スーツ上下は4Lでそろわず、楽天は1,600円高い。
+- [NELLとピップの「SOON」とは — 上下2万6,500円のリカバリーウェア。買う場所で変わる価格](https://rentalloungeomiya.com/articles/nell-soon-recovery-wear.html): バラ買いとセットは同額。買う場所で3,975円の差。300回洗濯の自主基準と、PR表記の星4.9まで。
 - [売り切れ多発のニトリのリカバリーウェア — それぞれの型での在庫情報](https://rentalloungeomiya.com/articles/nitori-recovery-wear-urikire.html): 衣類は全型在庫あり。9月前半に全滅していた敷きパッドも復活。Amazonで出てこないのは未出品だから。
 - [ニトリの着る毛布はどれを買うべきか — 価格差は暖かさではなく重さと丈。570gと1.51kgの4型を実確認](https://rentalloungeomiya.com/articles/nitori-kiru-moufu.html): 同じNウォームでも重さは2.6倍。店舗受取のできない型、販売終了した1,197円まで在庫の現状も。
-- [ニトリのリカバリーパジャマはどれを買うべきか — テーラーパジャマ4,990円と、長袖T＋ルームパンツ3,980円の上下そろえ](https://rentalloungeomiya.com/articles/nitori-recovery-pajama.html): 上下そろえ3,980円とテーラーパジャマ4,990円の2択。差額1,010円の中身とサイズの選び方まで。
+- [ニトリのリカバリーパジャマはどれを買うべきか — 上下セット4,990円と、長袖T＋ルームパンツ3,980円の違い](https://rentalloungeomiya.com/articles/nitori-recovery-pajama.html): 上下そろえ3,980円とテーラーパジャマ4,990円の2択。差額1,010円の中身とサイズの選び方まで。
 - [電気毛布はニトリと山善、どっちを買うべきか — 同じ大きさの2択で、実際に差がつく3点](https://rentalloungeomiya.com/articles/nitori-yamazen-denki-moufu.html): 130×80cmで4,193円と3,980円。睡眠で効く差は自動電源オフの有無。電気代は1時間0.4〜0.8円。
 - [リカバリーウェアを着てはいけない人はいるのか — 添付文書4製品を実際に読み比べた](https://rentalloungeomiya.com/articles/recovery-wear-kinki.html): 添付文書4製品を実読。使ってはいけないのはほぼ皮膚の異常だけ。高血圧・糖尿病・妊娠中は書かれていない。
 - [ニトリの新作「Sミラク」とは — 実は島忠ブランド、Nミラクとの違いを実確認](https://rentalloungeomiya.com/articles/nitori-s-miraku.html): ニトリネットの新シリーズ、実は島忠ブランド。Nミラクとの違いは素材・価格・買い方の3点。
-- [シックスパッドの疲労回復ウェアとは — EMSのMTGが出す「着て寝る」リカバリーウェア。スリープ/デイリーの違い、価格、楽天とAmazonどちらが安いか](https://rentalloungeomiya.com/articles/sixpad-recovery-wear.html): EMSのMTGが出す上下2万円台の一般医療機器。就寝用スリープと日中用デイリーの2系統。9/17までは楽天が2割安い。
+- [シックスパッドの疲労回復ウェアとは — EMSのMTGが出す着て寝るウェア。スリープとデイリーの違い](https://rentalloungeomiya.com/articles/sixpad-recovery-wear.html): EMSのMTGが出す上下2万円台の一般医療機器。就寝用スリープと日中用デイリーの2系統。9/17までは楽天が2割安い。
 - [ワークマンの最上位リカバリーウエア「メディヒールコスモス」とは — 通常品との違い、NASA由来という技術の正体](https://rentalloungeomiya.com/articles/workman-medihi-cosmos.html): 2,900円の新ライン。通常品1,900円との差は温度調節技術アウトラスト。NASA向けなのは技術であって商品ではない。
-- [しまむらのリカバリーウェアはどれを買うべきか — 綿混の練り込み2,189円・サラッとしたプリント1,859円・インナー1,419円、アベイルの2,530円まで。着た人の口コミと、返品できない注意点](https://rentalloungeomiya.com/articles/shimamura-recovery-wear.html): 綿混の練り込み型は店頭にあり、ネットは11月発送。プリント型はサラッと薄手で、冬は重ね着が要るという口コミ。
-- [ニトリのリカバリー敷きパッドは売っているのか — Nミラクの在庫は9月に戻った。後継「Nウォーム」との違いと、寝具だけ医療機器になれない理由](https://rentalloungeomiya.com/articles/nitori-recovery-bedding.html): 9月上旬に全滅した敷きパッドは在庫が戻った。後継「Nウォーム」との違いと、寝具だけ医療機器になれない理由。
-- [リライブシャツはニトリで買える？ — 売っていない理由と、ニトリで代わりに出てくる「Nミラク」との違い。同じ一般医療機器なのに価格は7倍](https://rentalloungeomiya.com/articles/nitori-relive-shirt.html): ニトリでは売っていない。検索で出てくるのは自社の「Nミラク」で、同じ一般医療機器なのに価格は約7倍。その差の中身。
+- [しまむらのリカバリーウェアはどれを買うべきか — 1,419円から2,530円まで4タイプ。口コミと返品できない注意点](https://rentalloungeomiya.com/articles/shimamura-recovery-wear.html): 綿混の練り込み型は店頭にあり、ネットは11月発送。プリント型はサラッと薄手で、冬は重ね着が要るという口コミ。
+- [ニトリのリカバリー敷きパッドは売っているのか — Nミラクの在庫は戻った。後継のNウォームとの違い](https://rentalloungeomiya.com/articles/nitori-recovery-bedding.html): 9月上旬に全滅した敷きパッドは在庫が戻った。後継「Nウォーム」との違いと、寝具だけ医療機器になれない理由。
+- [リライブシャツはニトリで買える？ — ニトリでは売っていない。代わりに出るNミラクとの違い](https://rentalloungeomiya.com/articles/nitori-relive-shirt.html): ニトリでは売っていない。検索で出てくるのは自社の「Nミラク」で、同じ一般医療機器なのに価格は約7倍。その差の中身。
 - [バクネとニトリのリカバリーウェアを徹底比較 — 上下4千円弱と2万円台、5倍の価格差で変わるもの・変わらないもの](https://rentalloungeomiya.com/articles/bakune-nitori-hikaku.html): 上下4千円弱と2万円台。うたえる効能は同じで、5倍の価格差は何に消えるのか。広げる方向が正反対の2つを1対1で。
-- [ワークマンのリカバリーウェア「メディヒール」は今買えるのか — 「売ってない」の現在地、公式オンラインの実態、秋冬新作の先行予約まで](https://rentalloungeomiya.com/articles/workman-recovery-wear.html): 上下約3,800円で火がついたメディヒール。「売ってない」の現在地と、確実に買える秋冬の先行予約ルートを整理する。
-- [イオンのリカバリーウェア「EX セリアント」はアリか — 価格・買える場所・ニトリとの違い、外で着られる新作Tシャツまで](https://rentalloungeomiya.com/articles/aeon-recovery-wear.html): トップバリュ「EX セリアント」。価格・買える場所・ニトリとの違いと、外で着られる新作Tシャツまで。
+- [ワークマンのリカバリーウェア「メディヒール」は今買えるのか — 店舗とオンラインの在庫の現在地と、秋冬新作の先行予約](https://rentalloungeomiya.com/articles/workman-recovery-wear.html): 上下約3,800円で火がついたメディヒール。「売ってない」の現在地と、確実に買える秋冬の先行予約ルートを整理する。
+- [イオンのリカバリーウェア「EX セリアント」はアリか — 価格・買える場所・ニトリとの違い、外で着られる新作まで](https://rentalloungeomiya.com/articles/aeon-recovery-wear.html): トップバリュ「EX セリアント」。価格・買える場所・ニトリとの違いと、外で着られる新作Tシャツまで。
 - [リカバリーウェアの値段の違いはどこにあるのか — 1,990円と2万円、「効能の看板」は同じ。差額で買っているものを4つに分解する](https://rentalloungeomiya.com/articles/recovery-wear-nedan.html): ニトリ1,990円とBAKUNE2万円。うたえる効能はほぼ同じで、差額は何への支払いなのかを4つに分解する。
-- [ニトリのリカバリーウェア「Nミラク」はどれを買うべきか — 999円のDRYと1,990円の本ライン、2系統の違い](https://rentalloungeomiya.com/articles/nitori-recovery-wear.html): 999円のDRYと1,990円の本ラインの2系統。口コミの実態、BAKUNEとの違い、在庫の現在地まで実確認。
+- [ニトリのリカバリーウェア「Nミラク」はどれを買うべきか — 999円のDRYと1,990円の本ライン。2系統の違いと口コミ](https://rentalloungeomiya.com/articles/nitori-recovery-wear.html): 999円のDRYと1,990円の本ラインの2系統。口コミの実態、BAKUNEとの違い、在庫の現在地まで実確認。
 - [リカバリーウェアはニトリとワークマン、どっちを買うべきか — 2026秋冬版。上下の実売価格と「今買えるか」で比較](https://rentalloungeomiya.com/articles/recovery-wear-nitori-workman.html): リカバリーウェアは長らく1〜3万円台の専門ブランドの世界でした。そこへワークマンが上下4,000円弱の「メディヒール」で参入し、2026年にはニトリが「Nミラク」で追随。
 - [バクネとワークマンの違いを徹底比較 — 上下3,800円と2万円台、5倍の価格差はどこにあるのか](https://rentalloungeomiya.com/articles/bakune-workman-hikaku.html): リカバリーウェアを検討して最後に残るのが、この2択です。専門ブランドの代表格TENTIALのBAKUNEと、価格破壊で参入したワークマンのメディヒール（MEDIHEAL®）。
 - [リカバリーウェアは意味ない？ — 効果を感じない3つの理由と、買う前に知るべき「期待の置き場所」](https://rentalloungeomiya.com/articles/recovery-wear-iminai.html): 「リカバリーウェア意味ない」と検索する人は、だいたい2種類います。買う前に「本当に効くのか」を確かめたい人と、買ったのに「何も変わらない」と感じている人。
@@ -116,19 +116,19 @@
 
 ## ガジェットニュース
 
-- [SOXAI RING XのKickstarterは1億5,721万円で終了 — 締め切り後も「レイトプレッジ」で申し込める。1台44,600円、即時請求・キャンセル不可](https://rentalloungeomiya.com/articles/soxai-ring-x-late-pledge.html): 終了後もレイトプレッジで1台44,600円。申し込み時にすぐ請求され、変更・キャンセルはできない。
+- [SOXAI RING XのKickstarterは1億5,721万円で終了 — 締め切り後もレイトプレッジで申し込める。1台44,600円](https://rentalloungeomiya.com/articles/soxai-ring-x-late-pledge.html): 終了後もレイトプレッジで1台44,600円。申し込み時にすぐ請求され、変更・キャンセルはできない。
 - [SOXAI RING Xの価格はいくら？ Kickstarterの支援プランを日本円で比較。締め切りは10月10日23:59](https://rentalloungeomiya.com/articles/soxai-ring-x-kakaku.html): 公開プランは1台43,300円から、2台なら1台40,300円。届くのは2027年5〜7月、締め切りは10月10日。
 - [RingConn Gen 2 Airは睡眠記録に十分？ Gen 3との差額25,000円で何が変わるか](https://rentalloungeomiya.com/articles/ringconn-gen2-air-gen3-sleep.html): 睡眠の基本項目ならAirも候補。呼吸パターン・充電方式・夜のフィット感から、Gen 3との差額25,000円を考えます。
-- [SOXAI RING Xはいつ買える？ — Kickstarterは審査を通過、公開日はまだ未定。100円パスが無駄になる条件](https://rentalloungeomiya.com/articles/soxai-ring-x-kickstarter.html): 審査は通過したが、支援の受付開始日・価格・届く時期は未発表。100円パスが返金なしで消える条件も整理。
+- [SOXAI RING Xはいつ買える？ — Kickstarterは審査通過、公開日はまだ未定。100円パスの注意点](https://rentalloungeomiya.com/articles/soxai-ring-x-kickstarter.html): 審査は通過したが、支援の受付開始日・価格・届く時期は未発表。100円パスが返金なしで消える条件も整理。
 - [横向き寝の寝ホンはどう選ぶ？ Sleep A30とZE500を、枕への当たりと再生時間で比較](https://rentalloungeomiya.com/articles/nehon-yokomuki-hikaku.html): 横向きで枕に当たる人へ。約2万円の差で何が変わる？ 装着設計と、ケース込みではない本体の再生時間を比較。
 - [SOXAI RING Xを待つか、RING 2を今買うか — 差は幅1.51mmと電池5日。価格も発売時期もまだ出ていない](https://rentalloungeomiya.com/articles/soxai-ring-x-ring-2.html): 差は幅1.51mmと電池5日ぶん。RING Xは仕様も開発中で、Kickstarterはまだ立っていない。
 - [SOXAI RING Xとは — 幅5.19mmの世界最小、公表はまだ2つの数字だけ。100円「限定価格パス」の中身](https://rentalloungeomiya.com/articles/soxai-ring-x.html): 細さの代償はバッテリー。現行RING 2の最大15日から10日へ。100円パスは返金も商品代金への充当もなし。
-- [「勉強すると魚が育つ」アプリはどれ？ — iPhoneは「スマやめ」、Androidは別アプリ。勉強用に選ぶ決め手](https://rentalloungeomiya.com/articles/benkyou-sakana-app.html): iPhoneは本家「スマやめ」、Androidは本家が無い。代替2本は「閉じたら失敗」の自己申告型で、強制力が一段違う。
-- [スマートリングのサイズの選び方 — 指輪の号数では決めない。サイジングキットを夜に試すのが正解な理由](https://rentalloungeomiya.com/articles/smartring-size.html): いちばん多い失敗は機種選びではなくサイズ選び。号数で決めず、550円からのキットを夜に試すのが正解な理由。
-- [PLAUDとは — 議事録をAIに任せるボイスレコーダーはなぜ売れる？NOTEとNote Proの違い、料金の全体像、任せてはいけないメモ](https://rentalloungeomiya.com/articles/plaud-note.html): 会議で「書く係」をやめる人が増えている。NOTEとNote Proの違い、料金の全体像、任せてはいけないメモまで。
+- [「勉強すると魚が育つ」アプリはどれ？ — iPhoneは「スマやめ」。勉強用に選ぶ決め手は強制力](https://rentalloungeomiya.com/articles/benkyou-sakana-app.html): iPhoneは本家「スマやめ」、Androidは本家が無い。代替2本は「閉じたら失敗」の自己申告型で、強制力が一段違う。
+- [スマートリングのサイズの選び方 — 指輪の号数では決めない。サイジングキットは夜に試す](https://rentalloungeomiya.com/articles/smartring-size.html): いちばん多い失敗は機種選びではなくサイズ選び。号数で決めず、550円からのキットを夜に試すのが正解な理由。
+- [PLAUDとは — NOTEとNote Proの違い、料金、任せてはいけないメモ](https://rentalloungeomiya.com/articles/plaud-note.html): 会議で「書く係」をやめる人が増えている。NOTEとNote Proの違い、料金の全体像、任せてはいけないメモまで。
 - [タイムロッキングコンテナは意味ない？ — 失敗する3パターンと、意味を出す使い方の3条件](https://rentalloungeomiya.com/articles/time-locking-container-iminai.html): 「意味ない」には型がある——別端末に逃げる・時間が長すぎる・罰として使う。効かせる3条件を買う前に整理。
 - [スマートリングは寝る時気にならない？ — 「気になる」の正体3つと、やめた人の理由、慣れるまでの目安](https://rentalloungeomiya.com/articles/smart-ring-neru-toki.html): 「気になる」の正体は物理・生活・心理の3種類で、対策が全部違う。やめた人の理由から逆算した続く買い方。
-- [30分の砂時計はどれを選ぶ？ — 勉強・ポモドーロ・スマホ断ちに「通知ゼロのタイマー」が効く理由](https://rentalloungeomiya.com/articles/sunadokei-30pun.html): タイマーを出そうとスマホを持ち、通知で10分溶ける。時間管理が崩れる原因は、タイマーがスマホの中にあること。
+- [30分の砂時計はどれを選ぶ？ — 勉強やスマホ断ちに「通知ゼロのタイマー」が効く理由](https://rentalloungeomiya.com/articles/sunadokei-30pun.html): タイマーを出そうとスマホを持ち、通知で10分溶ける。時間管理が崩れる原因は、タイマーがスマホの中にあること。
 - [ニュージーランドも「16歳未満はSNS禁止」法案 — 罰金は世界売上の10%。それでも成立しない理由と、規制より先に家庭でできること](https://rentalloungeomiya.com/articles/nz-sns-kinshi.html): 16歳未満のSNS禁止法案、罰金は世界売上の10%。それでも成立しない理由と、規制を待たずに家庭でできること。
 - [ながらスマホ・居眠り運転の自動検知が義務化へ — 「時速50kmで3.5秒」の意味と、警告が鳴る前にできること](https://rentalloungeomiya.com/articles/dms-gimuka.html): 2031年から新型車に義務化。作動要件「時速50kmで3.5秒の脇見」は距離にすると約97m——その意味を整理する。
 - [寝ホンとは — 睡眠用イヤホンはなぜ売れる？音を消すAnkerと、音を慣らすfinalの正反対の設計思想](https://rentalloungeomiya.com/articles/nehon.html): 「寝ながらでも使えるイヤホン」ではなく、寝ることを前提に設計されたイヤホン——「寝（ね）ホン」と呼ばれる睡眠用イヤホンが静かに売れている。横になっても耳が痛くなりにくく、寝返りを打っても外れにくい極小設計。
@@ -144,17 +144,17 @@
 - [リカバリーウェアが流行っているのは日本だけ？ — 世界のスリープテック地図と「着る日本・測る海外」](https://rentalloungeomiya.com/articles/recovery-wear-kaigai.html): BAKUNEやVENEXに代表される「リカバリーウェア」は、いまや家電量販店やテレビCMでも見かける定番ジャンルになりました。ここで素朴な疑問が湧きます。着るだけで疲労回復をうたうウェアは、世界でも流行っているのか？
 - [スマホの前に「電話」を — 子ども用Wi-Fi固定電話「Tin Can」が海外の親に選ばれる理由](https://rentalloungeomiya.com/articles/tin-can-phone.html): 「子どもにいつからスマホを持たせるか」。この問いに、北米の親たちの間でちょっと変わった答えが広がっています。通話しかできない、子ども用のWi-Fi固定電話です。製品の名前は「TinCan（ティン・カン）」。
 - [紙のタスクカード「Analog」 — アプリより不便なのに5万人が使う理由と、夜の頭を軽くする効果](https://rentalloungeomiya.com/articles/ugmonk-analog.html): タスク管理アプリを乗り換え続けた人が、最後に紙へ戻ってくる——そんな流れを象徴するプロダクトがあります。米国のデザインブランドUgmonk（アグモンク）が作る「Analog（アナログ）」。
-- [スマートリング比較 — Oura Ring 5・Galaxy Ring・RingConn・SOXAIの価格とサブスクの違い、睡眠重視のおすすめ](https://rentalloungeomiya.com/articles/smartring-hikaku.html): 睡眠を測るデバイスの本命として定着したスマートリング。ただ、いざ選ぼうとすると、Oura・Galaxy・RingConn・SOXAIと選択肢が増え、価格も4万円から7万円近くまでバラバラです。
+- [スマートリング比較 — Oura・Galaxy・RingConn・SOXAIの価格とサブスクの違い](https://rentalloungeomiya.com/articles/smartring-hikaku.html): 睡眠を測るデバイスの本命として定着したスマートリング。ただ、いざ選ぼうとすると、Oura・Galaxy・RingConn・SOXAIと選択肢が増え、価格も4万円から7万円近くまでバラバラです。
 - [指輪が「睡眠時無呼吸の疑い」を知らせる時代へ — Oura Ring 5とGalaxy Ring、2026年スマートリング最前線](https://rentalloungeomiya.com/articles/smart-ring-2026.html): スマートリングの2026年は、静かに大きな一線を越えました。これまで「睡眠を測る道具」だったものが、「病気の疑いを知らせる道具」に近づいています。この夏までに出そろった動きを整理します。
 - [スリープテックは「測る」から「整える」へ — いびき枕・脳波デバイス・AIマットレス、2026年の新顔](https://rentalloungeomiya.com/articles/sleep-tech-2026-shift.html): ここ数年のスリープテックは、ほとんどが「測る」道具でした。眠った時間、心拍、いびきの回数。翌朝スコアが出て、あとは自分でどうにかしてください、という設計です。2026年に出てきた製品群は、そこから一歩踏み込んでいます。
 
 ## 脳と集中
 
-- [スマホを白黒（グレースケール）にすると、使う時間は減るのか — 実験では1日20〜38分減った。ただし開く回数は変わらない。iPhone・Androidの設定と、寝る前だけ白黒にする方法](https://rentalloungeomiya.com/articles/sumaho-shirokuro.html): 実験では使用時間が1日20〜38分減った。ただしスマホを開く回数と睡眠の質は、白黒にしても変わらなかった。
-- [集中力は何分続く？ — 「15分しか続かない」の元をたどると、裏づけは乏しかった。15・45・90分の出どころと、区切り方](https://rentalloungeomiya.com/articles/shuchuryoku-nanpun.html): 15分説を支える一次データは乏しい。実際の集中は短い途切れを繰り返し、だんだん途切れやすくなる。
+- [スマホを白黒（グレースケール）にすると、使う時間は減るのか — 1日20〜38分減ったが、開く回数は変わらない。設定方法も](https://rentalloungeomiya.com/articles/sumaho-shirokuro.html): 実験では使用時間が1日20〜38分減った。ただしスマホを開く回数と睡眠の質は、白黒にしても変わらなかった。
+- [集中力は何分続く？ — 「15分しか続かない」に裏づけは乏しい。出どころと区切り方](https://rentalloungeomiya.com/articles/shuchuryoku-nanpun.html): 15分説を支える一次データは乏しい。実際の集中は短い途切れを繰り返し、だんだん途切れやすくなる。
 - [集中力を高める匂いはあるのか — ローズマリー・ペパーミント・コーヒーの研究でわかったことと、わかっていないこと](https://rentalloungeomiya.com/articles/shuchu-nioi.html): 記憶と覚醒感が上がったのはローズマリーとペパーミント。ラベンダーは落ち着く側、コーヒーの香りは期待が効いた。
 - [ドパガキの由来と元ネタ いつから使われ始めたか。Xの投稿と検索の推移でたどる](https://rentalloungeomiya.com/articles/dopagaki-yurai.html): 元ネタとされる2024年12月のポストに略語は出てこない。Xで月11件から30万件へ、検索の山は9月中旬。
-- [学校でスマホを取り上げると成績は上がるのか — 全米約5,000校の研究が出した答え](https://rentalloungeomiya.com/articles/gakko-sumaho-kinshi.html): 全米約5,000校のポーチ導入を検証したら、授業中の私的利用は61%→13%。それでもテストの点はほとんど動かなかった。
+- [学校でスマホを取り上げると成績は上がるのか — 授業中の使用は61%→13%に減ったが、点数はほぼ動かなかった](https://rentalloungeomiya.com/articles/gakko-sumaho-kinshi.html): 全米約5,000校のポーチ導入を検証したら、授業中の私的利用は61%→13%。それでもテストの点はほとんど動かなかった。
 - [GTOに「ドパガキ」が登場 — 第6話で描かれた"2倍速世代"は誰のことか。言葉の意味と、大人が笑えない理由](https://rentalloungeomiya.com/articles/dopagaki-gto.html): ネットスラングが『GTO』第6話でゴールデンに進出。放送後に検索が急増した言葉の意味と、大人が笑えない理由。
 - [ドパるとは — 意味と使い方・例文。「ドパい」「ドパ舌」など派生語ファミリーも整理](https://rentalloungeomiya.com/articles/doparu.html): 「気づいたら2時間ショート動画見てた。完全にドパってる」——SNSでこんな言い回しを見かけて、意味を確かめに来た人がこの記事の読者だと思います。先に言うと、あなたの推測はほぼ合っています。
 - [全国学力テストが示した「SNS・動画時間と学力」 — 利用時間が長い子ほど学力が低い傾向。93万人調査で一貫](https://rentalloungeomiya.com/articles/gakuryoku-chousa-sumaho.html): 2026年4月23日、小学6年生と中学3年生のほぼ全員を対象にした全国学力・学習状況調査が実施されました。参加したのは小6が約93万人、中3が約86万人。
@@ -171,13 +171,13 @@
 
 ## 生活リズム
 
-- [時差ボケは東と西で治る日数が違う — ハワイは行き5日・帰り3〜4日、ロンドンは行き6日・帰り9日。行き先別の目安と出発前の準備](https://rentalloungeomiya.com/articles/jisaboke-higashi-nishi.html): 体が合うのは西向きで1日1.5時間、東向きで1時間。ヨーロッパは帰りのほうが3日長くかかる。
+- [時差ボケは東と西で治る日数が違う — ハワイは行き5日・帰り3〜4日、ロンドンは行き6日・帰り9日](https://rentalloungeomiya.com/articles/jisaboke-higashi-nishi.html): 体が合うのは西向きで1日1.5時間、東向きで1時間。ヨーロッパは帰りのほうが3日長くかかる。
 - [夕方眠いのに夜眠れないのはなぜ？ — 夕方のうたた寝が寝つきを遅らせる仕組みと、眠気をやり過ごす4つの方法](https://rentalloungeomiya.com/articles/yugata-nemui-yoru-nemurenai.html): 眠気の山は午後と夜の2回、間の20〜22時ごろは眠りにくい。夕方のうたた寝は夜の眠気を先に使ってしまう。
 - [生活リズムを戻すには何日かかる？ — 目安は「ずれた時間×1日」。オールで一気に直すのをすすめない理由](https://rentalloungeomiya.com/articles/seikatsu-rhythm-modosu-nannichi.html): ずれ3時間なら3日前後、昼夜逆転なら1週間前後。オールで直すより、起床を1日1時間ずつ早めるほうが早い。
 - [朝が暗くて起きられない — 起きる時刻別に、暗い朝が始まる日と終わる日を出す（東京）](https://rentalloungeomiya.com/articles/asa-kurai-okirarenai.html): 6時起きなら10月30日から3月9日まで日の出前。10月だけで日の出は26分遅れ、最も遅いのは冬至でなく1月上旬。
 - [冬に向けて眠い・だるくなるのはなぜか — 日の出は1時間33分遅れる。光と体内時計を数字で見る](https://rentalloungeomiya.com/articles/fuyu-nemui-hikari.html): 東京の日の出は9月から冬至までに1時間33分遅れ、昼は3時間11分短くなる。暗さのピークは冬至ではない。
 - [子どものスマホルールは新学期に作り直す — 「取り上げ」が失敗しやすい理由と、守られるルールの3条件](https://rentalloungeomiya.com/articles/kodomo-sumaho-rule.html): 「何時間まで」から入ると失敗する。多くの家のルールが守られずに終わる理由と、守られるルールの3条件。
-- [生活リズムを戻すのに何日かかる？ — 昼夜逆転はズレ幅で決まる。夏休み明け・連休明けの日数別プラン](https://rentalloungeomiya.com/articles/natsuyasumi-chuyagyakuten.html): 気づけば寝るのは朝の4時、起きるのは昼過ぎ。新学期まであと1週間——。この記事は、夏休みで昼夜逆転した生活を始業日までに戻すための具体的な手順だけを扱います。
+- [生活リズムを戻すのに何日かかる？ — 昼夜逆転はズレ幅で決まる。休み明けの日数別プラン](https://rentalloungeomiya.com/articles/natsuyasumi-chuyagyakuten.html): 気づけば寝るのは朝の4時、起きるのは昼過ぎ。新学期まであと1週間——。この記事は、夏休みで昼夜逆転した生活を始業日までに戻すための具体的な手順だけを扱います。
 - [9月病とは — 夏休み明けに心と体が重い理由。休み明けのだるさとの見分け方と、受診の目安](https://rentalloungeomiya.com/articles/kugatsubyou.html): 夏休みが終わって1〜2週間。リズムは戻ったはずなのに、朝がつらい。仕事や学校のことを考えると気分が沈む。楽しみだったことに手が伸びない——。それが「なんとなくだるい」を超えてきたら、この記事の範囲です。
 - [秋バテとは — 9月にだるい・眠いのはなぜか。夏の借金・寒暖差・日照の減少から立て直す](https://rentalloungeomiya.com/articles/akibate-darui.html): 猛暑を乗り切って涼しくなってきたのに、なぜか体が重い。朝起きられない、午後は眠い、やる気が出ない——「夏バテは終わったはずなのに」という時期に来るこの不調が、いわゆる秋バテです。
 - [休み明けがだるくて眠いのはなぜ？ — 連休明けの「擬似時差ぼけ」を最短で直す手順](https://rentalloungeomiya.com/articles/yasumiake-darui.html): お盆休みや連休が終わった初日。体が重い、頭が回らない、午後は眠気との戦い——毎回のことなのに、毎回つらい。あのだるさの正体は、気合い不足でも夏バテでもありません。飛行機に乗っていないのに起きる時差ぼけです。
