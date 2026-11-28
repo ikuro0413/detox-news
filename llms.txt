@@ -6,7 +6,7 @@
 
 ## サイト情報
 
-- [新着記事一覧](https://rentalloungeomiya.com/): 全176本。10件ずつのページャー式
+- [新着記事一覧](https://rentalloungeomiya.com/): 全177本。10件ずつのページャー式
 - [月別アーカイブ](https://rentalloungeomiya.com/archive.html): 公開月ごとの一覧
 - [運営者情報](https://rentalloungeomiya.com/about.html): 運営主体・編集方針・免責
 - [現代を生きる"睡眠力"診断（無料）](https://shindan.rentalloungeomiya.com/): 8領域の設問に答えると夜の行動タイプが判定される自社診断。記事内のCTAはすべてここへ向かう
@@ -60,6 +60,7 @@
 
 ## 睡眠グッズ
 
+- [Amazonブラックフライデーで安い睡眠・あたため寝具 — 11/28時点でセール中を確かめた13点](https://rentalloungeomiya.com/articles/amazon-black-friday-2026.html): 11/28時点でセール表示を確かめた13点。BAKUNEの掛け布団、電気毛布、靴下からスマートリングまで。
 - [ニトリの電気ひざ掛け、いま買えるのはどれ？ — Nウォームは販売終了。いま買えるUSB式2点とコンセント式の代わり](https://rentalloungeomiya.com/articles/nitori-denki-hizakake.html): ニトリのNウォームUSBブランケットは販売終了。いまニトリネットで買える電気ひざ掛けと、コンセント式の代わりを整理した。
 - [ニトリの足元ヒーター、電気代が安いのはどれ？ — 5機種を1時間の電気代で比較。最安はひざ掛け付きのHH01](https://rentalloungeomiya.com/articles/nitori-ashimoto-heater.html): ニトリで買える足元ヒーター5機種を電気代で比べた。最安はひざ掛け付きHH01で1時間約1.3円。用途別の選び方も。
 - [ニトリに「着るこたつ」はある？ — 11月時点でニトリには無い。いま買えるもので代わりにする方法](https://rentalloungeomiya.com/articles/nitori-kiru-kotatsu.html): ニトリネットに着るこたつは見当たらず、昨季のUSB着る毛布も販売終了。いま買えるもので代わりにする方法をまとめる。
